@@ -1,6 +1,8 @@
+import Layout from "../components/layout";
+
 export default function Home() {
   return (
-    <>
+    <Layout>
       <h1>pansou.vip</h1>
       <p>
         一个网盘资源聚合搜索工具，记住域名：<b>盘搜 VIP</b>
@@ -19,6 +21,6 @@ export default function Home() {
           <a href="https://rok.ink/">rok.ink - 临时短链接服务</a>
         </li>
       </ul>
-    </>
+    </Layout>
   );
 }
