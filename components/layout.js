@@ -48,7 +48,8 @@ export default function Layout({ children }) {
         <footer className={styles.footer}>
           <span>网盘聚合搜索站精选导航&nbsp;</span>
           <span>
-            Copyright &copy; 2023 <Link href="https://rok.ink">rok.ink</Link>
+            Copyright &copy; 2023{" "}
+            <Link href="https://rokcso.com">rokcso.com</Link>
             .&nbsp;
           </span>
           <span>All rights reserved.</span>
