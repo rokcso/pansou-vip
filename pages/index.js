@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <CustomHead />
       <Layout>
+        <h1>云盘搜索工具精选</h1>
         <SitesList sites={sitesData}></SitesList>
       </Layout>
     </>
