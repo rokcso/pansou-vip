@@ -21,6 +21,7 @@
 .placeholder {
     width: 19%;
     margin: 10px;
+    padding: 5px;
     visibility: hidden;
   }
 
