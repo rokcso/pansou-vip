@@ -1,6 +1,5 @@
-import Head from "next/head";
-import Link from "next/link";
 import styles from "./layout.module.css";
+import Link from "next/link";
 
 export default function Layout({ children }) {
   const addBookmark = () => {
@@ -26,31 +25,19 @@ export default function Layout({ children }) {
   };
   return (
     <>
-      <Head>
-        <title>网盘聚合搜索站精选导航</title>
-        <meta name="description" content="这里是网站描述。" />
-        <link rel="icon" href="/favicon/icon16x16.png" />
-        <link rel="icon" href="/favicon/icon32x32.png" />
-        <link rel="icon" href="/favicon/icon48x48.png" />
-        <link rel="icon" href="/favicon/icon64x64.png" />
-        <link rel="icon" href="/favicon/icon128x128.png" />
-      </Head>
       <div className={styles.layout}>
         <header className={styles.header}>
-          <div className={styles.headerContent}>
-            <Link href="/" className={styles.logo}>
-              <span>盘搜 VIP</span>
-            </Link>
-            <button onClick={addBookmark}>收藏本站</button>
-          </div>
+          <Link href={`/`} className={styles.logo}>
+            <span>盘搜 VIP</span>
+          </Link>
+          <button onClick={addBookmark}>收藏本站</button>
         </header>
-        <main className={styles.main}>{children}</main>
+        <main>{children}</main>
         <footer className={styles.footer}>
-          <span>网盘聚合搜索站精选导航&nbsp;</span>
+          <span>云盘搜索工具导航站&nbsp;</span>
           <span>
-            Copyright &copy; 2023{" "}
-            <Link href="https://rokcso.com">rokcso.com</Link>
-            .&nbsp;
+            Copyright &copy; 2023 <Link href="https://rokcso.com">rokcso</Link>
+            &nbsp;
           </span>
           <span>All rights reserved.</span>
         </footer>
