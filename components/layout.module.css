@@ -3,17 +3,16 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    max-width: 80%;
+    width: 90%;
 }
 
 .header {
-    /* background-color: #AEBDCA; */
-    padding: 20px;
-    height: 40px;
+    padding: 20px 0;
 }
 
 .logo h1 {
     margin: 0;
+    text-align: center;
 }
 
 .logo:hover {
@@ -21,7 +20,10 @@
 }
 
 .footer {
-    /* background: #AEBDCA; */
     padding: 10px;
     text-align: center;
+}
+
+.footer a {
+    color: #3F72AF;
 }
