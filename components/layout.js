@@ -15,7 +15,7 @@ export default function Layout({ children }) {
             <a href="https://jinshuju.net/f/s590FY">提交收录</a>
           </p>
           <p>💯 亲测满分为 👍👍👍👍👍</p>
-          <p>💫 所有已收录的工具将每月维护更新信息</p>
+          <p>💫 所有已收录的工具将每月维护更新</p>
         </header>
         <main>{children}</main>
         <footer className={styles.footer}>
