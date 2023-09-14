@@ -1,23 +1,19 @@
 .layout {
-    margin: 10px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     height: 100vh;
+    max-width: 80%;
 }
 
 .header {
-    background-color: #bbb;
+    /* background-color: #AEBDCA; */
     padding: 20px;
     height: 40px;
 }
 
-.header button {
-    float: right;
-}
-
-.logo {
-    font-weight: bolder;
-    font-size: larger;
+.logo h1 {
+    margin: 0;
 }
 
 .logo:hover {
@@ -25,7 +21,7 @@
 }
 
 .footer {
-    background: #bbb;
+    /* background: #AEBDCA; */
     padding: 10px;
     text-align: center;
-  }
+}
