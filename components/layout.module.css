@@ -10,9 +10,17 @@
     padding: 20px 0;
 }
 
+.header p {
+    margin: 0;
+}
+
+.formLink a {
+    color: #FF6969;
+}
+
 .logo h1 {
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .logo:hover {
@@ -25,5 +33,5 @@
 }
 
 .footer a {
-    color: #3F72AF;
+    color: #FF6969;
 }
