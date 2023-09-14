@@ -21,8 +21,8 @@ export default function Layout({ children }) {
         <footer className={styles.footer}>
           <span>盘搜 VIP 💖 云盘搜索工具精选导航&nbsp;</span>
           <span>
-            Copyright &copy; 2023{" "}
-            <Link href="https://rokcso.com">🍩 rokcso</Link>
+            Copyright&nbsp;&copy;&nbsp;2023&nbsp;
+            <Link href="https://rokcso.com">rokcso 🍩</Link>
             &nbsp;
           </span>
           <span>All rights reserved.</span>
