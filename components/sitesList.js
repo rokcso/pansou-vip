@@ -10,10 +10,10 @@ export default function SitesList({ sites }) {
             <Link href={site.link} className={styles.cardLink}>
               <h2>{site.name}</h2>
               <div>
-                <span>评级：{site.score}</span>
+                <span>亲测 {site.score}</span>
               </div>
               <div>
-                <span>支持：{site.tags}</span>
+                <span>{site.platform}</span>
               </div>
               <div>
                 <p>{site.briefIntro}</p>
