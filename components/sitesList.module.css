@@ -12,16 +12,24 @@
 .siteCard {
     width: 19%;
     margin: 10px;
-    padding: 5px;
-    background-color: #bbb;
+    padding: 10px;
+    background-color: #E8DFCA;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.siteCard h2 {
+    margin: 0;
+}
+
+.siteCard p {
+    margin: 0;
 }
 
 .placeholder {
     width: 19%;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     visibility: hidden;
   }
 

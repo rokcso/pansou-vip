@@ -11,16 +11,16 @@ export default function SitesList({ sites }) {
             {group.map((site) => (
               <div key={site.id} className={styles.siteCard}>
                 <Link href={site.link} className={styles.cardLink}>
-                    <h2>{site.name}</h2>
-                    <div>
+                  <h2>{site.name}</h2>
+                  <div>
                     <span>评级：{site.score}</span>
-                    </div>
-                    <div>
+                  </div>
+                  <div>
                     <span>支持：{site.tags}</span>
-                    </div>
-                    <div>
+                  </div>
+                  <div>
                     <p>{site.briefIntro}</p>
-                    </div>
+                  </div>
                 </Link>
               </div>
             ))}
