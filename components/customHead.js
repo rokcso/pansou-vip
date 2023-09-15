@@ -19,8 +19,14 @@ export default function CustomHead() {
         <link rel="icon" href="/favicon/icon48x48.png" />
         <link rel="icon" href="/favicon/icon64x64.png" />
         <link rel="icon" href="/favicon/icon128x128.png" />
+        {/* 百度搜索资源平台所有权验证 */}
+        <meta name="baidu-site-verification" content="codeva-UUrg35CVxA" />
         {/* 私有化部署的 umami 统计分析 */}
-        <script async src="https://umami.rokcso.com/script.js" data-website-id="cb83dca9-6660-498d-b734-7fda164d8e43"></script>
+        <script
+          async
+          src="https://umami.rokcso.com/script.js"
+          data-website-id="cb83dca9-6660-498d-b734-7fda164d8e43"
+        ></script>
       </Head>
     </>
   );
