@@ -2,6 +2,12 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
+  const lastUpdateDateString = "2023/10/01";
+  const currentDate = new Date();
+  const lastUpdateDate = new Date(lastUpdateDateString);
+  const daysAgo = Math.floor(
+    (currentDate - lastUpdateDate) / (1000 * 60 * 60 * 24)
+  );
   return (
     <>
       <div className={styles.layout}>
@@ -10,13 +16,19 @@ export default function Layout({ children }) {
             <h1>盘搜 VIP ⛅ 云盘搜索工具精选导航</h1>
           </Link>
           <div className={styles.tipsDiv}>
-          <p>👋 如果对你有所帮助，请收藏本站，本站域名 <a href="https://www.pansou.vip">pansou.vip</a></p>
-          <p>
-            🚀 如果你有好用的云盘搜索工具，欢迎&nbsp;
-            <a href="https://jinshuju.net/f/s590FY">提交收录</a>
-          </p>
-          <p>💯 亲测满分为 👍👍👍👍👍</p>
-          <p>💫 所有已收录的工具将每月维护更新</p>
+            <p>
+              👋 如果对你有所帮助，请收藏本站，本站域名{" "}
+              <a href="https://www.pansou.vip">pansou.vip</a>
+            </p>
+            <p>
+              💫 本站每月维护更新，最近更新时间：{lastUpdateDateString}（
+              {daysAgo} 天前）
+            </p>
+            <p>
+              🚀 如果你有好用的云盘搜索工具，欢迎&nbsp;
+              <a href="https://jinshuju.net/f/s590FY">提交收录</a>
+            </p>
+            <p>💯 亲测满分为 👍👍👍👍👍</p>
           </div>
         </header>
         <main>{children}</main>

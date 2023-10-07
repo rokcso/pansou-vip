@@ -1,13 +1,4 @@
 [
-
-    {
-        "id": "aliso",
-        "name": "阿里搜",
-        "link": "https://aliso.cc/",
-        "score": "👍👍👍👍👍",
-        "platform": "阿里云盘 ✅",
-        "briefIntro": "搜索比较快，服务稳定，资源丰富且新，搜索体验非常好，搜索结果会直接显示文件夹内容，暂未发现广告"
-    },
     {
         "id": "alipansou",
         "name": "猫狸盘搜",
@@ -15,6 +6,14 @@
         "score": "👍👍👍👍👍",
         "platform": "阿里云盘 ✅",
         "briefIntro": "搜索响应速度快，服务稳定，影视资源多，有广告但比较克制"
+    },
+    {
+        "id": "aliso",
+        "name": "阿里搜",
+        "link": "https://aliso.cc/",
+        "score": "👍👍👍👍👍",
+        "platform": "阿里云盘 ✅",
+        "briefIntro": "搜索比较快，服务稳定，资源丰富且新，搜索体验非常好，搜索结果会直接显示文件夹内容，暂未发现广告"
     },
     {
         "id": "aipanso",
