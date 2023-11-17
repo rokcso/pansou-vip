@@ -2,7 +2,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
-  const lastUpdateDateString = "2023/10/01";
+  const lastUpdateDateString = "2023/11/17";
   const currentDate = new Date();
   const lastUpdateDate = new Date(lastUpdateDateString);
   const daysAgo = Math.floor(
@@ -28,7 +28,6 @@ export default function Layout({ children }) {
               🚀 如果你有好用的云盘搜索工具，欢迎&nbsp;
               <a href="https://jinshuju.net/f/s590FY">提交收录</a>
             </p>
-            <p>💯 亲测满分为 👍👍👍👍👍</p>
           </div>
         </header>
         <main>{children}</main>
