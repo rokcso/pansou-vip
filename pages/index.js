@@ -16,7 +16,7 @@ export default function Home() {
         <h2>备用工具</h2>
         <p>
           ⚠️ 以下工具纯属收集、导航，
-          <b>未经过人工亲测，但都测试能正常访问且资源比较新</b>
+          <b>未经过全面人工亲测，但都测试能正常访问且资源比较新</b>
           ，在上述工具不满足需求时可自行选择以下工具使用。
         </p>
         <SitesList sites={noTestSitesData}></SitesList>
