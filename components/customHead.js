@@ -30,18 +30,17 @@ export default function CustomHead() {
           data-website-id="cb83dca9-6660-498d-b734-7fda164d8e43"
         ></script>
 
-        <script>
-          dangerouslySetInnerHTML ={" "}
-          {{
+        <script
+          dangerouslySetInnerHTML={{
             __html: `var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?7b11ad50149dfb60bd4a4bdf67510106";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();`,
+                    (function() {
+                      var hm = document.createElement("script");
+                      hm.src = "https://hm.baidu.com/hm.js?7b11ad50149dfb60bd4a4bdf67510106";
+                      var s = document.getElementsByTagName("script")[0]; 
+                      s.parentNode.insertBefore(hm, s);
+                    })();`,
           }}
-        </script>
+        />
       </Head>
     </>
   );
