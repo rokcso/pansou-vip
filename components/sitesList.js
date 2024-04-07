@@ -22,11 +22,11 @@ export default function SitesList({ sites }) {
                 </div>
               )}
               <div>
-                <p>🧻 {site.platform}</p>
+                <p>🖥️ {site.platform}</p>
               </div>
               {site.briefIntro.length > 0 && (
                 <div>
-                  <p>📝 {site.briefIntro}</p>
+                  <p>🧻 {site.briefIntro}</p>
                 </div>
               )}
             </Link>
