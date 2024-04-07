@@ -40,7 +40,7 @@ export default function About() {
             </p>
             <p>
               🙂 注意：
-              <a href="\">
+              <a href="/">
                 <b>盘搜 VIP</b>
               </a>
               &nbsp;仅收录云盘搜索工具或其他云盘相关服务工具。
