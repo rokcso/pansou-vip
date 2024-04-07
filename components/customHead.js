@@ -29,6 +29,16 @@ export default function CustomHead() {
           src="https://umami.rokcso.com/script.js"
           data-website-id="cb83dca9-6660-498d-b734-7fda164d8e43"
         ></script>
+
+        <script>
+          {`var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7b11ad50149dfb60bd4a4bdf67510106";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`}
+        </script>
       </Head>
     </>
   );
