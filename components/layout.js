@@ -27,7 +27,7 @@ export default function Layout({ children }) {
               </a>
             </p>
             <p>
-              ⛳ 常见问题 & 问题反馈 & 提交收录 👉&nbsp;
+              ⛳ 常见问题 & 建议反馈 & 提交收录 👉&nbsp;
               <a href="/about">去这里</a>
             </p>
           </div>
