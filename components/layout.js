@@ -22,7 +22,7 @@ export default function Layout({ children }) {
             </p>
             <p>
               👋 如果对你有所帮助，请收藏本站，本站域名&nbsp;
-              <a href="\">
+              <a href="/">
                 <b>pansou.vip</b>
               </a>
             </p>

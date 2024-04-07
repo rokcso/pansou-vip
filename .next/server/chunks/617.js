@@ -162,7 +162,7 @@ function Layout({ children }) {
                                     children: [
                                         "\uD83D\uDC4B 如果对你有所帮助，请收藏本站，本站域名\xa0",
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "\\",
+                                            href: "/",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "pansou.vip"
                                             })

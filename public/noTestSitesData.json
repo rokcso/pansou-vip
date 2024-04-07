@@ -8,12 +8,60 @@
         "briefIntro": "来自用户推荐。"
     },
     {
+        "id": "pikaso_top",
+        "name": "皮卡搜索",
+        "link": "https://www.pikaso.top/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 天翼云 ✅ 蓝奏云 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "pansearch_me",
+        "name": "PanSearch",
+        "link": "https://www.pansearch.me/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "niceso_net",
+        "name": "奈斯搜索",
+        "link": "https://www.niceso.net/",
+        "score": "",
+        "platform": "阿里云盘 ✅",
+        "briefIntro": "需要注册/登录才能使用，注册不用验证手机号或邮箱，需要关注公众号获取帐号激活码。"
+    },
+    {
+        "id": "upyunso_com",
+        "name": "UP 云搜",
+        "link": "https://www.upyunso.com/",
+        "score": "",
+        "platform": "阿里云盘 ✅",
+        "briefIntro": "搜索响应速度较快，服务稳定，搜索结果中带伪装广告，搜索结果会显示文件夹内容，缺少影视资源。"
+    },
+    {
+        "id": "tianyiso_com",
+        "name": "天逸搜",
+        "link": "https://www.tianyiso.com/",
+        "score": "",
+        "platform": "天翼云盘 ✅",
+        "briefIntro": "搜索响应速度快，服务稳定，资源丰富程度一般。"
+    },
+    {
+        "id": "xiongdipan_com",
+        "name": "兄弟盘",
+        "link": "https://xiongdipan.com/",
+        "score": "",
+        "platform": "百度云盘 ✅",
+        "briefIntro": "搜索响应速度快，服务稳定，资源少且老。"
+    },
+    {
         "id": "yiso_fun",
         "name": "易搜",
         "link": "https://yiso.fun/",
         "score": "",
         "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
-        "briefIntro": ""
+        "briefIntro": "访问比较慢，需要等待网站安全验证。"
     },
     {
         "id": "sousuopan_com",
@@ -21,6 +69,14 @@
         "link": "https://www.sousuopan.com/",
         "score": "",
         "platform": "阿里云盘 ✅ 百度云盘 ✅ 迅雷网盘 ✅ 天翼云盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "yuneu_com",
+        "name": "云易搜",
+        "link": "https://so.yuneu.com/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
         "briefIntro": ""
     },
     {
@@ -44,7 +100,7 @@
         "name": "小马盘",
         "link": "https://www.xiaomapan.com/#/main/search?restype=1",
         "score": "",
-        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
         "briefIntro": ""
     },
     {
@@ -92,7 +148,7 @@
         "name": "YaPan",
         "link": "https://yapan.io/",
         "score": "",
-        "platform": "阿里云盘 ✅",
+        "platform": "阿里云盘 ✅ 迅雷云盘 ✅",
         "briefIntro": ""
     }
 ]
