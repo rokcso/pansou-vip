@@ -19,6 +19,8 @@ export default function CustomHead() {
         <link rel="icon" href="/favicon/icon48x48.png" />
         <link rel="icon" href="/favicon/icon64x64.png" />
         <link rel="icon" href="/favicon/icon128x128.png" />
+        {/* Bing Webmaster Tools 所有权验证 */}
+        <meta name="msvalidate.01" content="05E9347530EE1BD90989B5CE372F8A34" />
         {/* 百度搜索资源平台所有权验证 */}
         <meta name="baidu-site-verification" content="codeva-UUrg35CVxA" />
         {/* 私有化部署的 umami 统计分析 */}
