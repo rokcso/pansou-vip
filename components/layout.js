@@ -17,20 +17,18 @@ export default function Layout({ children }) {
           </Link>
           <div className={styles.tipsDiv}>
             <p>
-              👋 如果对你有所帮助，请收藏本站，本站域名&nbsp;
-              <a href="https://www.pansou.vip">pansou.vip</a>
-            </p>
-            <p>
               💫 本站每月维护更新，最近更新时间：{lastUpdateDateString}（
               {daysAgo} 天前）
             </p>
             <p>
-              🚀 如果你有好用的云盘搜索工具，欢迎&nbsp;
-              <a href="https://jinshuju.net/f/s590FY">提交收录</a>
+              👋 如果对你有所帮助，请收藏本站，本站域名&nbsp;
+              <a href="\">
+                <b>pansou.vip</b>
+              </a>
             </p>
             <p>
-              💡 关于本站 & 云盘搜索工具使用的常见问题，请查看&nbsp;
-              <a href="/faq">FAQ</a>
+              ⛳ 常见问题 & 问题反馈 & 提交收录 👉&nbsp;
+              <a href="/about">去这里</a>
             </p>
           </div>
         </header>
@@ -38,7 +36,7 @@ export default function Layout({ children }) {
         <footer className={styles.footer}>
           <span>盘搜 VIP 💖 云盘搜索工具精选导航&nbsp;</span>
           <span>
-            Copyright&nbsp;&copy;&nbsp;2023&nbsp;
+            Copyright&nbsp;&copy;&nbsp;2024&nbsp;
             <Link href="https://rokcso.com">rokcso 🍩</Link>
             &nbsp;
           </span>
