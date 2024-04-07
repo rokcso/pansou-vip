@@ -11,7 +11,7 @@ export default function CustomHead() {
         />
         <meta
           name="keywords"
-          content="云盘搜索, 资源搜索, 网盘搜索, 阿里云盘, 百度云盘"
+          content="盘搜, 云盘搜索, 资源搜索, 网盘搜索, 阿里云盘, 百度云盘"
         />
         <link rel="canonical" href="https://www.pansou.vip" />
         <link rel="icon" href="/favicon/icon16x16.png" />
