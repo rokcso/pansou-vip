@@ -16,15 +16,19 @@ export default function SitesList({ sites }) {
           >
             <Link href={site.link} className={styles.cardLink}>
               <h2>{site.name}</h2>
+              {site.score.length > 0 && (
+                <div>
+                  <p>{site.score}</p>
+                </div>
+              )}
               <div>
-                <span>亲测 {site.score}</span>
+                <p>🧻 {site.platform}</p>
               </div>
-              <div>
-                <span>{site.platform}</span>
-              </div>
-              <div>
-                <p>{site.briefIntro}</p>
-              </div>
+              {site.briefIntro.length > 0 && (
+                <div>
+                  <p>📝 {site.briefIntro}</p>
+                </div>
+              )}
             </Link>
           </div>
         ))}

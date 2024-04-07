@@ -42,7 +42,7 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "keywords",
-                    content: "云盘搜索, 资源搜索, 网盘搜索, 阿里云盘, 百度云盘"
+                    content: "盘搜, 云盘搜索, 资源搜索, 网盘搜索, 阿里云盘, 百度云盘"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "canonical",
@@ -124,15 +124,6 @@ function Layout({ children }) {
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     children: [
-                                        "\uD83D\uDC4B 如果对你有所帮助，请收藏本站，本站域名\xa0",
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "https://www.pansou.vip",
-                                            children: "pansou.vip"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    children: [
                                         "\uD83D\uDCAB 本站每月维护更新，最近更新时间：",
                                         lastUpdateDateString,
                                         "（",
@@ -142,19 +133,21 @@ function Layout({ children }) {
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     children: [
-                                        "\uD83D\uDE80 如果你有好用的云盘搜索工具，欢迎\xa0",
+                                        "\uD83D\uDC4B 如果对你有所帮助，请收藏本站，本站域名\xa0",
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "https://jinshuju.net/f/s590FY",
-                                            children: "提交收录"
+                                            href: "\\",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                children: "pansou.vip"
+                                            })
                                         })
                                     ]
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     children: [
-                                        "\uD83D\uDCA1 关于本站 & 云盘搜索工具使用的常见问题，请查看\xa0",
+                                        "⛳ 常见问题 & 问题反馈 & 提交收录 \uD83D\uDC49\xa0",
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "/faq",
-                                            children: "FAQ"
+                                            href: "/about",
+                                            children: "去这里"
                                         })
                                     ]
                                 })
@@ -173,7 +166,7 @@ function Layout({ children }) {
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                             children: [
-                                "Copyright\xa0\xa9\xa02023\xa0",
+                                "Copyright\xa0\xa9\xa02024\xa0",
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     href: "https://rokcso.com",
                                     children: "rokcso \uD83C\uDF69"
