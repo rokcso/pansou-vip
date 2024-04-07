@@ -2,7 +2,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
-  const lastUpdateDateString = "2023/11/17";
+  const lastUpdateDateString = "2024/04/07";
   const currentDate = new Date();
   const lastUpdateDate = new Date(lastUpdateDateString);
   const daysAgo = Math.floor(
@@ -17,7 +17,7 @@ export default function Layout({ children }) {
           </Link>
           <div className={styles.tipsDiv}>
             <p>
-              👋 如果对你有所帮助，请收藏本站，本站域名{" "}
+              👋 如果对你有所帮助，请收藏本站，本站域名&nbsp;
               <a href="https://www.pansou.vip">pansou.vip</a>
             </p>
             <p>
@@ -27,6 +27,10 @@ export default function Layout({ children }) {
             <p>
               🚀 如果你有好用的云盘搜索工具，欢迎&nbsp;
               <a href="https://jinshuju.net/f/s590FY">提交收录</a>
+            </p>
+            <p>
+              💡 关于本站 & 云盘搜索工具使用的常见问题，请查看&nbsp;
+              <a href="/faq">FAQ</a>
             </p>
           </div>
         </header>
