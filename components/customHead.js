@@ -29,7 +29,20 @@ export default function CustomHead() {
           src="https://umami.rokcso.com/script.js"
           data-website-id="cb83dca9-6660-498d-b734-7fda164d8e43"
         ></script>
-
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-X619Y8FDPE"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-X619Y8FDPE');`,
+          }}
+        />
+        {/* 百度统计代码 */}
         <script
           dangerouslySetInnerHTML={{
             __html: `var _hmt = _hmt || [];
