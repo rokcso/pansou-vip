@@ -15,7 +15,7 @@ export default function SitesList({ sites }) {
             onClick={() => clickTrack(site.id)}
           >
             <Link href={site.link} title={site.name} target="_blank" className={styles.cardLink}>
-              <h2>{site.name}</h2>
+              <h3>{site.name}</h3>
               {site.score.length > 0 && (
                 <div>
                   <p>{site.score}</p>
