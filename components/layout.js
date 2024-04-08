@@ -12,7 +12,7 @@ export default function Layout({ children }) {
     <>
       <div className={styles.layout}>
         <header className={styles.header}>
-          <Link href={`/`} className={styles.logo}>
+          <Link href="/" title="盘搜 VIP 首页" className={styles.logo}>
             <h1>盘搜 VIP ⛅ 云盘搜索工具精选导航</h1>
           </Link>
           <div className={styles.tipsDiv}>
@@ -22,13 +22,13 @@ export default function Layout({ children }) {
             </p>
             <p>
               👋 如果对你有所帮助，请收藏本站，本站域名&nbsp;
-              <a href="/">
+              <Link href="/" title="盘搜 VIP 首页">
                 <b>pansou.vip</b>
-              </a>
+              </Link>
             </p>
             <p>
               ⛳ 常见问题 & 建议反馈 & 提交收录 👉&nbsp;
-              <a href="/about">去这里</a>
+              <Link href="/about" title="盘搜 VIP 关于页面">去这里</Link>
             </p>
           </div>
         </header>
@@ -37,7 +37,7 @@ export default function Layout({ children }) {
           <span>盘搜 VIP 💖 云盘搜索工具精选导航&nbsp;</span>
           <span>
             Copyright&nbsp;&copy;&nbsp;2024&nbsp;
-            <Link href="https://rokcso.com">rokcso 🍩</Link>
+            <Link href="https://rokcso.com" title="rokcso 个人网站" target="_blank">rokcso 🍩</Link>
             &nbsp;
           </span>
           <span>All rights reserved.</span>

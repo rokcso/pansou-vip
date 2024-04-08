@@ -140,7 +140,8 @@ function Layout({ children }) {
                     className: (_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().header),
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            href: `/`,
+                            href: "/",
+                            title: "盘搜 VIP 首页",
                             className: (_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().logo),
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                                 children: "盘搜 VIP ⛅ 云盘搜索工具精选导航"
@@ -161,8 +162,9 @@ function Layout({ children }) {
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     children: [
                                         "\uD83D\uDC4B 如果对你有所帮助，请收藏本站，本站域名\xa0",
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             href: "/",
+                                            title: "盘搜 VIP 首页",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "pansou.vip"
                                             })
@@ -172,8 +174,9 @@ function Layout({ children }) {
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     children: [
                                         "⛳ 常见问题 & 建议反馈 & 提交收录 \uD83D\uDC49\xa0",
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             href: "/about",
+                                            title: "盘搜 VIP 关于页面",
                                             children: "去这里"
                                         })
                                     ]
@@ -196,6 +199,8 @@ function Layout({ children }) {
                                 "Copyright\xa0\xa9\xa02024\xa0",
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     href: "https://rokcso.com",
+                                    title: "rokcso 个人网站",
+                                    target: "_blank",
                                     children: "rokcso \uD83C\uDF69"
                                 }),
                                 "\xa0"
