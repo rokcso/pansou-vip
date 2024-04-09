@@ -11,7 +11,7 @@ export default function CustomHead() {
         />
         <meta
           name="keywords"
-          content="盘搜, 云盘搜索, 资源搜索, 网盘搜索, 阿里云盘, 百度云盘"
+          content="网盘搜索, 盘搜搜, 猫狸盘搜, 盘搜, 云盘搜索, 资源搜索"
         />
         <link rel="canonical" href="https://www.pansou.vip" />
         <link rel="icon" href="/favicon/icon16x16.png" />
@@ -19,9 +19,23 @@ export default function CustomHead() {
         <link rel="icon" href="/favicon/icon48x48.png" />
         <link rel="icon" href="/favicon/icon64x64.png" />
         <link rel="icon" href="/favicon/icon128x128.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon/favicon-16x16.png"
+        />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
 
