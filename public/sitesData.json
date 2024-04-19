@@ -1,19 +1,19 @@
 [
     {
-        "id": "cuppaso_com",
-        "name": "咔帕搜索",
-        "link": "https://www.cuppaso.com/",
-        "score": "👍👍👍👍👍",
-        "platform": "阿里云盘 ✅ 夸克云盘 ✅ 迅雷云盘 ✅",
-        "briefIntro": "可以选择精准搜索模式来完全匹配关键词，版权敏感资源基本都能搜索到，无广告，无需验证可直接搜索，速度快，服务稳定，资源丰富且新，搜索体验好。"
-    },
-    {
         "id": "alipansou_com",
         "name": "猫狸盘搜",
         "link": "https://www.alipansou.com/",
         "score": "👍👍👍👍👍",
         "platform": "阿里云盘 ✅",
         "briefIntro": "搜索响应速度快，服务稳定，影视资源多，有广告（较多），注意版权敏感资源需要使用间接关键词。"
+    },
+    {
+        "id": "cuppaso_com",
+        "name": "咔帕搜索",
+        "link": "https://www.cuppaso.com/",
+        "score": "👍👍👍👍👍",
+        "platform": "阿里云盘 ✅ 夸克云盘 ✅ 迅雷云盘 ✅",
+        "briefIntro": "可以选择精准搜索模式来完全匹配关键词，版权敏感资源基本都能搜索到，无广告，无需验证可直接搜索，速度快，服务稳定，资源丰富且新，搜索体验好。"
     },
     {
         "id": "aliso_cc",
@@ -62,5 +62,13 @@
         "score": "👍👍👍",
         "platform": "阿里云盘 ✅",
         "briefIntro": "如网站名，主要资源为学习资料、课程等，影视剧等资源搜索无结果，搜索结果会显示文件夹内容，暂未发现广告。"
+    },
+    {
+        "id": "courses",
+        "name": "Fact Fizz",
+        "link": "/img/factfizz.jpg",
+        "score": "💡💡💡💡💡",
+        "platform": "得到 ✅ 极客时间 ✅ 喜马拉雅 ✅ 混沌大学 ✅ 樊登读书 ✅ 全网知识付费平台 ✅",
+        "briefIntro": "微信：factfizz🫸 知识付费拼车，所有课程正价一折购，均价 12 元，内容实时同步更新。"
     }
 ]
