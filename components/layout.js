@@ -2,7 +2,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
-  const lastUpdateDateString = "2024/04/07";
+  const lastUpdateDateString = "2024/04/21";
   const currentDate = new Date();
   const lastUpdateDate = new Date(lastUpdateDateString);
   const daysAgo = Math.floor(
@@ -28,7 +28,9 @@ export default function Layout({ children }) {
             </p>
             <p>
               ⛳ 常见问题 & 建议反馈 & 提交收录 👉&nbsp;
-              <Link href="/about" title="盘搜 VIP 关于页面">去这里</Link>
+              <Link href="/about" title="盘搜 VIP 关于页面">
+                去这里
+              </Link>
             </p>
           </div>
         </header>
@@ -37,7 +39,13 @@ export default function Layout({ children }) {
           <span>盘搜 VIP 💖 云盘搜索工具精选导航&nbsp;</span>
           <span>
             Copyright&nbsp;&copy;&nbsp;2024&nbsp;
-            <Link href="https://rokcso.com" title="rokcso 个人网站" target="_blank">rokcso 🍩</Link>
+            <Link
+              href="https://rokcso.com"
+              title="rokcso 个人网站"
+              target="_blank"
+            >
+              rokcso 🍩
+            </Link>
             &nbsp;
           </span>
           <span>All rights reserved.</span>

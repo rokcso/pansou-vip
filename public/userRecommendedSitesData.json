@@ -1,0 +1,34 @@
+[
+    {
+        "id": "yunso_net",
+        "name": "小云搜索",
+        "link": "https://www.yunso.net/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 天翼云 ✅ 彩和云 ✅ 迅雷网盘 ✅ 蓝奏云 ✅ UC 网盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "51yunpan_com",
+        "name": "无忧盘搜",
+        "link": "https://51yunpan.com/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克云盘 ✅ 迅雷云盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "ed3000_com",
+        "name": "ED3000",
+        "link": "https://www.ed3000.com/",
+        "score": "",
+        "platform": "阿里云盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "qkpanso_com",
+        "name": "夸克盘搜",
+        "link": "https://qkpanso.com/",
+        "score": "",
+        "platform": "夸克网盘 ✅",
+        "briefIntro": "来自用户推荐。"
+    }
+]
