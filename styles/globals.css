@@ -14,6 +14,10 @@ a:hover {
     text-decoration: underline;
 }
 
+p a {
+    color: #FF6969;
+}
+
 h2 {
     margin: 0;
 }

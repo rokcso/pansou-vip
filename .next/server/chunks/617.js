@@ -153,7 +153,7 @@ function CustomHead() {
 
 
 function Layout({ children }) {
-    const lastUpdateDateString = "2024/04/07";
+    const lastUpdateDateString = "2024/04/21";
     const currentDate = new Date();
     const lastUpdateDate = new Date(lastUpdateDateString);
     const daysAgo = Math.floor((currentDate - lastUpdateDate) / (1000 * 60 * 60 * 24));
