@@ -22,7 +22,11 @@ export default function About() {
             <h2>问题反馈</h2>
             <p>
               如果你有任何问题咨询、建议反馈、点赞支持都可以 👉{" "}
-              <a href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnHckduwGEEFk2Y3yR04K3Ic" title="留言问卷链接" target="_blank">
+              <a
+                href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnHckduwGEEFk2Y3yR04K3Ic"
+                title="留言问卷链接"
+                target="_blank"
+              >
                 点击这里
               </a>{" "}
               👈 给我留言。
@@ -32,8 +36,12 @@ export default function About() {
           <div>
             <h2>提交收录</h2>
             <p>
-              如果你也有好用的云盘搜索工具，欢迎 👉{" "}
-              <a href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc" title="提交收录问卷链接" target="_blank">
+              如果你也有好用的网盘搜索工具，欢迎 👉{" "}
+              <a
+                href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
+                title="提交收录问卷链接"
+                target="_blank"
+              >
                 提交收录
               </a>{" "}
               👈 ，我会在测试通过之后进行收录。
@@ -43,7 +51,7 @@ export default function About() {
               <a href="/" title="盘搜 VIP 首页">
                 <b>盘搜 VIP</b>
               </a>
-              &nbsp;仅收录云盘搜索工具或其他云盘相关服务工具。
+              &nbsp;仅收录网盘搜索工具或其他网盘相关服务工具。
             </p>
           </div>
           <br />
