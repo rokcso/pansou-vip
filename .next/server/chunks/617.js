@@ -34,11 +34,11 @@ function CustomHead() {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                    children: "盘搜 VIP - 云盘搜索工具精选导航 - pansou.vip"
+                    children: "盘搜 VIP - 网盘搜索工具精选导航 - pansou.vip"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "description",
-                    content: "盘搜 VIP，精选各大人工亲测好用的云盘搜索工具，提供云盘搜索工具一站式导航，给你 VIP 的体验"
+                    content: "盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，给你 VIP 的体验"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "keywords",
@@ -169,7 +169,7 @@ function Layout({ children }) {
                             title: "盘搜 VIP 首页",
                             className: (_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().logo),
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                children: "盘搜 VIP ⛅ 云盘搜索工具精选导航"
+                                children: "盘搜 VIP ⛅ 网盘搜索工具精选导航"
                             })
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -217,7 +217,7 @@ function Layout({ children }) {
                     className: (_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default().footer),
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                            children: "盘搜 VIP \uD83D\uDC96 云盘搜索工具精选导航\xa0"
+                            children: "盘搜 VIP \uD83D\uDC96 网盘搜索工具精选导航\xa0"
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                             children: [

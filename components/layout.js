@@ -2,7 +2,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
-  const lastUpdateDateString = "2024/04/21";
+  const lastUpdateDateString = "2024/04/25";
   const currentDate = new Date();
   const lastUpdateDate = new Date(lastUpdateDateString);
   const daysAgo = Math.floor(
@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       <div className={styles.layout}>
         <header className={styles.header}>
           <Link href="/" title="盘搜 VIP 首页" className={styles.logo}>
-            <h1>盘搜 VIP ⛅ 云盘搜索工具精选导航</h1>
+            <h1>盘搜 VIP ⛅ 网盘搜索工具精选导航</h1>
           </Link>
           <div className={styles.tipsDiv}>
             <p>
@@ -36,7 +36,7 @@ export default function Layout({ children }) {
         </header>
         <main>{children}</main>
         <footer className={styles.footer}>
-          <span>盘搜 VIP 💖 云盘搜索工具精选导航&nbsp;</span>
+          <span>盘搜 VIP 💖 网盘搜索工具精选导航&nbsp;</span>
           <span>
             Copyright&nbsp;&copy;&nbsp;2024&nbsp;
             <Link
