@@ -4,10 +4,10 @@ export default function CustomHead() {
   return (
     <>
       <Head>
-        <title>盘搜 VIP - 云盘搜索工具精选导航 - pansou.vip</title>
+        <title>盘搜 VIP - 网盘搜索工具精选导航 - pansou.vip</title>
         <meta
           name="description"
-          content="盘搜 VIP，精选各大人工亲测好用的云盘搜索工具，提供云盘搜索工具一站式导航，给你 VIP 的体验"
+          content="盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，给你 VIP 的体验"
         />
         <meta
           name="keywords"
