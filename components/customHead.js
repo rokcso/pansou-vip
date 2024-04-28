@@ -7,11 +7,11 @@ export default function CustomHead() {
         <title>盘搜 VIP - 网盘搜索工具精选导航 - pansou.vip</title>
         <meta
           name="description"
-          content="盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，给你 VIP 的体验"
+          content="盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验"
         />
         <meta
           name="keywords"
-          content="网盘搜索, 盘搜搜, 猫狸盘搜, 盘搜, 云盘搜索, 资源搜索"
+          content="盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
         />
         <link rel="canonical" href="https://www.pansou.vip" />
         <link rel="icon" href="/favicon/icon16x16.png" />

@@ -34,15 +34,15 @@ export default function About() {
           </div>
           <br />
           <div>
-            <h2>提交收录</h2>
+            <h2>工具投稿</h2>
             <p>
               如果你也有好用的网盘搜索工具，欢迎 👉{" "}
               <a
                 href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
-                title="提交收录问卷链接"
+                title="网盘搜索工具投稿问卷链接"
                 target="_blank"
               >
-                提交收录
+                投稿
               </a>{" "}
               👈 ，我会在测试通过之后进行收录。
             </p>
@@ -51,7 +51,7 @@ export default function About() {
               <a href="/" title="盘搜 VIP 首页">
                 <b>盘搜 VIP</b>
               </a>
-              &nbsp;仅收录网盘搜索工具或其他网盘相关服务工具。
+              &nbsp;仅收录网盘搜索工具或其他网盘相关工具。
             </p>
           </div>
           <br />
