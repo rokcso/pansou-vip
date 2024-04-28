@@ -2,7 +2,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 
 export default function Layout({ children }) {
-  const lastUpdateDateString = "2024/04/25";
+  const lastUpdateDateString = "2024/04/28";
   const currentDate = new Date();
   const lastUpdateDate = new Date(lastUpdateDateString);
   const daysAgo = Math.floor(
@@ -27,7 +27,7 @@ export default function Layout({ children }) {
               </Link>
             </p>
             <p>
-              ⛳ 常见问题 & 建议反馈 & 提交收录 👉&nbsp;
+              ⛳ 常见问题 & 建议反馈 & 工具投稿 👉&nbsp;
               <Link href="/about" title="盘搜 VIP 关于页面">
                 去这里
               </Link>
