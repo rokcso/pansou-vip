@@ -2,7 +2,7 @@
 
 网盘搜索引擎聚合导航站。
 
-# Dev
+## Dev
 
 Run `npm i` to install the project's packages.
 
@@ -14,4 +14,12 @@ Run `npm run dev` to start the development server.
 
 ```bash
 npm run dev
+```
+
+## Build
+
+Run `npm run build` to render the website files.
+
+```bash
+npm run build
 ```

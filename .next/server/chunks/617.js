@@ -38,11 +38,11 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "description",
-                    content: "盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，给你 VIP 的体验"
+                    content: "盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "keywords",
-                    content: "网盘搜索, 盘搜搜, 猫狸盘搜, 盘搜, 云盘搜索, 资源搜索"
+                    content: "盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "canonical",
@@ -153,7 +153,7 @@ function CustomHead() {
 
 
 function Layout({ children }) {
-    const lastUpdateDateString = "2024/04/21";
+    const lastUpdateDateString = "2024/04/28";
     const currentDate = new Date();
     const lastUpdateDate = new Date(lastUpdateDateString);
     const daysAgo = Math.floor((currentDate - lastUpdateDate) / (1000 * 60 * 60 * 24));
@@ -198,7 +198,7 @@ function Layout({ children }) {
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     children: [
-                                        "⛳ 常见问题 & 建议反馈 & 提交收录 \uD83D\uDC49\xa0",
+                                        "⛳ 常见问题 & 建议反馈 & 工具投稿 \uD83D\uDC49\xa0",
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             href: "/about",
                                             title: "盘搜 VIP 关于页面",
