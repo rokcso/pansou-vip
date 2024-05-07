@@ -13,7 +13,6 @@ export default function CustomHead() {
           name="keywords"
           content="盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
         />
-        <meta http-equiv="Content-Language" content="zh-CN" />
         <link rel="canonical" href="https://www.pansou.vip" />
         <link rel="icon" href="/favicon/icon16x16.png" />
         <link rel="icon" href="/favicon/icon32x32.png" />
