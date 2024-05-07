@@ -44,6 +44,10 @@ function CustomHead() {
                     name: "keywords",
                     content: "盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
                 }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    "http-equiv": "Content-Language",
+                    content: "zh-CN"
+                }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "canonical",
                     href: "https://www.pansou.vip"
