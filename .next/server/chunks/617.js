@@ -44,10 +44,6 @@ function CustomHead() {
                     name: "keywords",
                     content: "盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                    "http-equiv": "Content-Language",
-                    content: "zh-CN"
-                }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "canonical",
                     href: "https://www.pansou.vip"
@@ -157,7 +153,7 @@ function CustomHead() {
 
 
 function Layout({ children }) {
-    const lastUpdateDateString = "2024/04/28";
+    const lastUpdateDateString = "2024/05/07";
     const currentDate = new Date();
     const lastUpdateDate = new Date(lastUpdateDateString);
     const daysAgo = Math.floor((currentDate - lastUpdateDate) / (1000 * 60 * 60 * 24));
@@ -257,11 +253,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ App)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6764);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6764);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 function App({ Component, pageProps }) {
+    // 使用 useEffect 钩子在组件加载后设置 HTML 标签的语言
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        document.documentElement.lang = "zh"; // 将 'zh' 替换为您需要的语言代码
+    }, []); // 空依赖数组确保这个效果仅在组件挂载时运行一次
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
         ...pageProps
     });
