@@ -1,3 +1,4 @@
+"use strict";
 (() => {
 var exports = {};
 exports.id = 888;
@@ -5,9 +6,9 @@ exports.ids = [888,660];
 exports.modules = {
 
 /***/ 6793:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   config: () => (/* binding */ config),
@@ -30,6 +31,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2940);
 /* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6004);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__]);
+private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 // @ts-ignore this need to be imported from next/dist to be external
 
 
@@ -75,49 +78,14 @@ const routeModule = new PagesRouteModule({
 });
 
 //# sourceMappingURL=pages.js.map
-
-/***/ }),
-
-/***/ 6004:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ App)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6764);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-function App({ Component, pageProps }) {
-    // 使用 useEffect 钩子在组件加载后设置 HTML 标签的语言
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
-        document.documentElement.lang = "zh"; // 将 'zh' 替换为您需要的语言代码
-    }, []); // 空依赖数组确保这个效果仅在组件挂载时运行一次
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
-        ...pageProps
-    });
-}
-
-
-/***/ }),
-
-/***/ 6764:
-/***/ (() => {
-
-
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
 /***/ 3076:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/future/route-modules/route-module.js");
 
 /***/ }),
@@ -125,7 +93,6 @@ module.exports = require("next/dist/server/future/route-modules/route-module.js"
 /***/ 4140:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
@@ -133,7 +100,6 @@ module.exports = require("next/dist/server/get-page-files.js");
 /***/ 9716:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/htmlescape.js");
 
 /***/ }),
@@ -141,7 +107,6 @@ module.exports = require("next/dist/server/htmlescape.js");
 /***/ 3100:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/render.js");
 
 /***/ }),
@@ -149,7 +114,6 @@ module.exports = require("next/dist/server/render.js");
 /***/ 6368:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
@@ -157,7 +121,6 @@ module.exports = require("next/dist/server/utils.js");
 /***/ 6724:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
@@ -165,7 +128,6 @@ module.exports = require("next/dist/shared/lib/constants.js");
 /***/ 8743:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/html-context.js");
 
 /***/ }),
@@ -173,7 +135,6 @@ module.exports = require("next/dist/shared/lib/html-context.js");
 /***/ 8524:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
@@ -181,8 +142,14 @@ module.exports = require("next/dist/shared/lib/is-plain-object.js");
 /***/ 6689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
+
+/***/ }),
+
+/***/ 7451:
+/***/ ((module) => {
+
+module.exports = import("@vercel/speed-insights/next");;
 
 /***/ })
 
@@ -193,7 +160,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [940,815], () => (__webpack_exec__(6793)));
+var __webpack_exports__ = __webpack_require__.X(0, [940,815,4], () => (__webpack_exec__(6793)));
 module.exports = __webpack_exports__;
 
 })();
