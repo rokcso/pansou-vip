@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CustomHead from "../components/customHead";
 import Layout from "../components/layout";
 import styles from "./about.module.css";
@@ -8,6 +9,11 @@ export default function About() {
       <CustomHead />
       <Layout>
         <div className={styles.main}>
+          <p>
+            🔴 <b>注意事项：</b>
+            本站是网盘搜索工具<b>导航网站</b>，本身并不提供网盘资源搜索服务。
+          </p>
+          <br />
           <div>
             <h2>常见问题</h2>
             <div>
@@ -60,6 +66,15 @@ export default function About() {
             <p>
               本站主要为个人自用，顺手将自己使用的工具整理发布，承诺所有工具绝对没有付费收录或推荐。
             </p>
+            <br />
+            <p>你还可以关注我的公众号，会不定期分享更多实用资源。👇</p>
+            <br />
+            <Image
+              src="/img/wxgzh.jpg"
+              alt="空字节 微信公众号 二维码"
+              width={400}
+              height={150}
+            />
           </div>
         </div>
         <br />
