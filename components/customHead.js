@@ -13,6 +13,34 @@ export default function CustomHead() {
           name="keywords"
           content="盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
         />
+        <meta
+          property="og:title"
+          content="盘搜 VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
+        />
+        <meta
+          property="og:description"
+          content="精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.pansou.vip/" />
+        <meta
+          property="og:image"
+          content="https://www.pansou.vip/img/preview.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@rokcso" />
+        <meta
+          name="twitter:title"
+          content="盘搜 VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
+        />
+        <meta
+          name="twitter:description"
+          content="精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.pansou.vip/img/preview.jpg"
+        />
         <link rel="canonical" href="https://www.pansou.vip" />
         <link rel="icon" href="/favicon/icon16x16.png" />
         <link rel="icon" href="/favicon/icon32x32.png" />
@@ -44,11 +72,11 @@ export default function CustomHead() {
         {/* 百度搜索资源平台所有权验证 */}
         <meta name="baidu-site-verification" content="codeva-UUrg35CVxA" />
         {/* 私有化部署的 umami 统计分析 */}
-        <script
+        {/* <script
           async
           src="https://umami.rokcso.com/script.js"
           data-website-id="cb83dca9-6660-498d-b734-7fda164d8e43"
-        ></script>
+        ></script> */}
         {/* <!-- Google tag (gtag.js) --> */}
         <script
           async
