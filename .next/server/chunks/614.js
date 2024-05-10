@@ -44,6 +44,46 @@ function CustomHead() {
                     name: "keywords",
                     content: "盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
                 }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    property: "og:title",
+                    content: "盘搜 VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    property: "og:description",
+                    content: "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    property: "og:type",
+                    content: "website"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    property: "og:url",
+                    content: "https://www.pansou.vip/"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    property: "og:image",
+                    content: "https://www.pansou.vip/img/preview.jpg"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    name: "twitter:card",
+                    content: "summary_large_image"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    name: "twitter:site",
+                    content: "@rokcso"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    name: "twitter:title",
+                    content: "盘搜 VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    name: "twitter:description",
+                    content: "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    name: "twitter:image",
+                    content: "https://www.pansou.vip/img/preview.jpg"
+                }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "canonical",
                     href: "https://www.pansou.vip"
@@ -103,11 +143,6 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
                     async: true,
-                    src: "https://umami.rokcso.com/script.js",
-                    "data-website-id": "cb83dca9-6660-498d-b734-7fda164d8e43"
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
-                    async: true,
                     src: "https://www.googletagmanager.com/gtag/js?id=G-X619Y8FDPE"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
@@ -153,7 +188,7 @@ function CustomHead() {
 
 
 function Layout({ children }) {
-    const lastUpdateDateString = "2024/05/07";
+    const lastUpdateDateString = "2024/05/09";
     const currentDate = new Date();
     const lastUpdateDate = new Date(lastUpdateDateString);
     const daysAgo = Math.floor((currentDate - lastUpdateDate) / (1000 * 60 * 60 * 24));
