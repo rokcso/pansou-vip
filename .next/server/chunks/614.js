@@ -42,7 +42,7 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "keywords",
-                    content: "盘搜, 盘搜搜, pansou, 网盘搜索, 云盘搜索, 猫狸盘搜"
+                    content: "盘搜搜, 盘搜, 网盘搜索, pansou, 云盘搜索, 猫狸盘搜"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     property: "og:title",
