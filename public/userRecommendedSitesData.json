@@ -38,5 +38,13 @@
         "score": "",
         "platform": "夸克网盘 ✅",
         "briefIntro": ""
+    },
+    {
+        "id": "kpanso_com",
+        "name": "快盘搜",
+        "link": "https://www.kpanso.com/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
+        "briefIntro": ""
     }
 ]
