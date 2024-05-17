@@ -46,5 +46,13 @@
         "score": "",
         "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
         "briefIntro": ""
+    },
+    {
+        "id": "yiso_fun",
+        "name": "易搜",
+        "link": "https://yiso.fun/",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
+        "briefIntro": "如果地址失效可访问 https://yiso.eu.org/"
     }
 ]
