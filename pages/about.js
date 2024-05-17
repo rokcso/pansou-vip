@@ -54,8 +54,8 @@ export default function About() {
             </p>
             <p>
               🙂 注意：
-              <a href="/" title="盘搜 VIP 首页">
-                <b>盘搜 VIP</b>
+              <a href="/" title="盘搜VIP 首页">
+                <b>盘搜VIP</b>
               </a>
               &nbsp;仅收录网盘搜索工具或其他网盘相关工具。
             </p>

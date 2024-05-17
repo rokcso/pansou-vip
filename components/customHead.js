@@ -4,18 +4,18 @@ export default function CustomHead() {
   return (
     <>
       <Head>
-        <title>盘搜 VIP - 网盘搜索工具精选导航 - pansou.vip</title>
+        <title>盘搜VIP - 网盘搜索工具精选导航 - pansou.vip</title>
         <meta
           name="description"
-          content="盘搜 VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验"
+          content="盘搜VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验"
         />
         <meta
           name="keywords"
-          content="盘搜搜, 盘搜, 网盘搜索, pansou, 云盘搜索, 猫狸盘搜"
+          content="盘搜搜, 盘搜, 盘搜VIP, 网盘搜索, pansou, 云盘搜索, 猫狸盘搜"
         />
         <meta
           property="og:title"
-          content="盘搜 VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
+          content="盘搜VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
         />
         <meta
           property="og:description"
@@ -31,7 +31,7 @@ export default function CustomHead() {
         <meta name="twitter:site" content="@rokcso" />
         <meta
           name="twitter:title"
-          content="盘搜 VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
+          content="盘搜VIP - 网盘搜索工具精选导航，资源丰富，人工亲测"
         />
         <meta
           name="twitter:description"
