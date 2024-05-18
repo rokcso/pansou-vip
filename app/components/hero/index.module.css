@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    text-align: center; /* 文本居中 */
+    min-height: 30vh; /* 至少为视口高度，确保有足够的空间 */
+    padding: 2rem; /* 一些内边距 */
+    /* background-color: #f9f9f9; 浅灰色背景 */
+  }
+
+  .hero button {
+    padding: 0.75rem 1.5rem; /* 按钮的内边距 */
+    font-size: 1rem; /* 按钮字体大小 */
+    background-color: #007bff; /* 蓝色背景 */
+    color: #fff; /* 白色文本 */
+    border: none; /* 移除边框 */
+    border-radius: 0.3rem; /* 圆角 */
+    cursor: pointer; /* 鼠标悬停时显示手形图标 */
+    transition: background-color 0.3s; /* 背景颜色变化的过渡效果 */
+  }
+  
+  .hero button:hover {
+    background-color: #0056b3; /* 鼠标悬停时颜色变深 */
+  }
