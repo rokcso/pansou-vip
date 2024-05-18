@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid #eaeaea; /* 轻微的边框 */
+    border-radius: 8px; /* 圆角边框 */
+    overflow: hidden; /* 隐藏溢出内容 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+    transition: box-shadow 0.3s ease; /* 平滑的阴影过渡效果 */
+    background-color: #fff; /* 白色背景 */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* 鼠标悬浮时更深的阴影 */
+  }
+  
+  .card > div {
+    padding: 16px; /* 内边距 */
+  }
+  
+  .card h2 {
+    margin: 0 0 8px 0; /* 标题的外边距 */
+    font-size: 1.5rem; /* 字体大小 */
+    color: #333; /* 字体颜色 */
+  }
+  
+  .card p {
+    margin: 0 0 8px 0; /* 段落的外边距 */
+    font-size: 1rem; /* 字体大小 */
+    color: #666; /* 字体颜色 */
+  }
+  
+  .card button {
+    background: none; /* 按钮背景透明 */
+    border: none; /* 无边框 */
+    padding: 0; /* 无内边距 */
+    cursor: pointer; /* 鼠标悬停时显示手形图标 */
+    outline: none; /* 点击时不显示轮廓 */
+  }

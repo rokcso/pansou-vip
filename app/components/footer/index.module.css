@@ -1,0 +1,31 @@
+.footer {
+    color: #666;
+    padding: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none; /* 移除下划线 */
+    color: #666; /* 更淡的黑灰色 */
+    transition: color 0.3s; /* 颜色变化的过渡效果 */
+  }
+  
+  .footer a:hover {
+    color: #000;
+  }
+  
+  .footerItem {
+    display: flex;
+    justify-content: space-between; /* 水平平均分布 */
+    align-items: flex-start; /* 垂直对齐顶部 */
+    padding: 20px 0; /* 上下边距 */
+  }
+  
+  .footerItem div p:first-child {
+    color: #000;
+    font-weight: bold; /* 加粗 */
+  }
+  
+  .footerCopy {
+    font-size: smaller;
+  }
+  

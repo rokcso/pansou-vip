@@ -1,0 +1,43 @@
+.header {
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center; /* 确保子元素垂直居中 */
+  }
+  
+  .homeTab {
+    margin-right: auto; /* 自动填充右边距，使其靠左 */
+  }
+  
+  .homeTab a {
+    text-decoration: none; /* 移除下划线 */
+    color: #000; /* 文字颜色 */
+    transition: color 0.3s; /* 颜色变化的过渡效果 */
+    display: flex;
+    align-items: center; /* 确保图标和文本垂直居中 */
+    font-size: larger;
+    font-weight: bolder; /* 加粗字体 */
+  }
+  
+  .icon {
+    font-size: xx-large;
+  }
+  
+  .headerLink {
+    display: flex; /* 使 .headerLink 成为一个 flex 容器 */
+    justify-content: flex-end; /* 使链接靠右 */
+  }
+  
+  .headerLink a {
+    margin-left: 1rem; /* 链接之间的间距 */
+    text-decoration: none; /* 移除下划线 */
+    color: #666; /* 文字颜色 */
+    transition: color 0.3s; /* 颜色变化的过渡效果 */
+  }
+  
+  .headerLink a:hover {
+    color: #000; /* 文字颜色 */
+  }
+  

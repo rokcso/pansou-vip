@@ -1,0 +1,22 @@
+/* PlatformTag 组件的样式 */
+.tag {
+  display: inline-block; /* 使标签呈行内块级元素显示 */
+  padding: 4px 12px; /* 设置内边距 */
+  font-size: 14px; /* 设置字体大小 */
+  color: #fff; /* 设置字体颜色 */
+  background-color: #007bff; /* 设置背景颜色 */
+  border-radius: 20px; /* 设置圆角 */
+  text-transform: uppercase; /* 将文本转换为大写 */
+  letter-spacing: 0.5px; /* 设置字母间距 */
+  border: 1px solid transparent; /* 设置边框，初始为透明 */
+  transition: all 0.3s ease; /* 设置过渡效果 */
+  margin-right: 5px;
+}
+
+/* 鼠标悬浮时的样式变化 */
+.tag:hover {
+  background-color: #0069d9; /* 鼠标悬浮时背景颜色变深 */
+  border-color: #0062cc; /* 鼠标悬浮时边框颜色 */
+  transform: translateY(-2px); /* 轻微上移效果 */
+}
+

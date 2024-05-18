@@ -1,95 +1,62 @@
-import Image from "next/image";
+"use client";
+
+import Hero from "./components/hero";
+import Card from "./components/card";
 import styles from "./page.module.css";
 
 export default function Home() {
+  // 模拟数据
+  const siteList = [
+    {
+      id: "search_engine_1",
+      title: "云盘搜索大师",
+      url: "https://search.clouddrive.com/",
+      description: "一站式云盘资源搜索平台",
+      score: 4,
+      platform: ["ali", "baidu", "quark"],
+    },
+    {
+      id: "search_engine_2",
+      title: "网盘猎人",
+      url: "https://www.diskhunter.net/",
+      description: "专业的网盘资源搜索服务",
+      score: 5,
+      platform: ["xunlei", "lanzou", "uc"],
+    },
+    {
+      id: "search_engine_3",
+      title: "资源探索者",
+      url: "https://www.resourceexplorer.com/",
+      description: "发现最新的网盘共享资源",
+      score: 3,
+      platform: ["tianyi", "yidong", "ali"],
+    },
+    {
+      id: "search_engine_4",
+      title: "云盘宝库",
+      url: "https://www.cloudtreasure.net/",
+      description: "海量云盘资源，一键搜索",
+      score: 4,
+      platform: ["baidu", "quark", "xunlei"],
+    },
+    {
+      id: "search_engine_5",
+      title: "快搜网盘",
+      url: "https://www.quicksearchdisk.com/",
+      description: "快速搜索你的网盘资源",
+      score: 5,
+      platform: ["lanzou", "uc", "tianyi"],
+    },
+  ];
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div>
+      <Hero />
+      <div className={styles.container}>
+        {siteList.map((cardInfo, index) => (
+          <Card key={index} cardInfo={cardInfo} />
+        ))}
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
