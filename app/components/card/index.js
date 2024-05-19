@@ -10,7 +10,7 @@ export default function ({ cardInfo }) {
     url: "https://www.pansou.vip/",
     description: "人工甄选的网盘搜索工具导航",
     score: 5,
-    platform: [
+    platforms: [
       "ali",
       "baidu",
       "quark",
@@ -25,10 +25,21 @@ export default function ({ cardInfo }) {
   const info = cardInfo || defaultCardInfo;
 
   // 根据 cardInfo 中的 score 来生成对应的 Emoji 字符串
-  const scoreSymbols = Array.from({ length: cardInfo.score }, () => "⭐").join(
+  const scoreSymbols = Array.from({ length: cardInfo.score }, () => "👍").join(
     ""
   );
 
+  // 指定 platform 的显示顺序
+  const platformOrder = [
+    "ali",
+    "baidu",
+    "quark",
+    "xunlei",
+    "lanzou",
+    "uc",
+    "tianyi",
+    "yidong",
+  ];
   // 将 platform 映射到对应的中文名称
   const platformTranslation = {
     ali: "阿里云盘",
@@ -36,11 +47,14 @@ export default function ({ cardInfo }) {
     quark: "夸克网盘",
     xunlei: "迅雷网盘",
     lanzou: "蓝奏云",
-    uc: "UC网盘",
+    uc: "UC 网盘",
     tianyi: "天翼云盘",
     yidong: "移动云盘",
   };
-  const translatedPlatforms = info.platform.map(platform => platformTranslation[platform]);
+  // 将传入的 platform 按照上面定义的顺序排序并且翻译成对应的中文名称
+  const translatedSortedPlatforms = platformOrder
+    .filter((platform) => info.platforms.includes(platform))
+    .map((platform) => platformTranslation[platform]);
 
   // 复制链接到用户系统剪贴板
   const copyToClipboard = async () => {
@@ -55,31 +69,29 @@ export default function ({ cardInfo }) {
 
   return (
     <div className={styles.card}>
-      <div>
-        <div>
+      <div className={styles.cardTitleAndAction}>
+        <div className={styles.cardTitle}>
           <a href={info.url} target="_blank">
             <h2>{info.title}</h2>
           </a>
         </div>
-        <div>
-          <button onClick={copyToClipboard}>
-            <Copy theme="outline" size="16" fill="#fff" />
+        <div className={styles.cardAction}>
+          <button onClick={copyToClipboard} className={styles.copyBtn}>
+          <Copy theme="outline" size="24" fill="#fff"/>
           </button>
-          <a href={info.url} target="_blank">
-            <Share theme="outline" size="16" fill="#fff" />
+          <a href={info.url} target="_blank" className={styles.linkBtn}>
+            <Share theme="outline" size="24" fill="#fff" />
           </a>
         </div>
       </div>
-      <div>
-        <p>{scoreSymbols}</p>
-        <p>{info.description}</p>
+      <div className={styles.cardScoreAndDesc}>
+        <p className={styles.cardScore}>{scoreSymbols}</p>
+        <p className={styles.cardDesc}>{info.description}</p>
       </div>
-      <div>
-        <div>
-          {translatedPlatforms.map((name, index) => (
+      <div className={styles.cardPlatform}>
+          {translatedSortedPlatforms.map((name, index) => (
             <PlatformTag key={index} platformName={name} />
           ))}
-        </div>
       </div>
     </div>
   );

@@ -1,36 +1,82 @@
+/* 基础样式 */
 .card {
-    border: 1px solid #eaeaea; /* 轻微的边框 */
-    border-radius: 8px; /* 圆角边框 */
-    overflow: hidden; /* 隐藏溢出内容 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
-    transition: box-shadow 0.3s ease; /* 平滑的阴影过渡效果 */
-    background-color: #fff; /* 白色背景 */
-  }
+  width: 100%; /* 或者设置为固定的宽度，例如 width: 300px; */
+  /* padding-bottom: 33%; */
+  position: relative; /* 为了绝对定位子元素 */
+  background-color: #a1ccd1; /* 卡片背景色 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  border-radius: 8px; /* 圆角边框 */
+  overflow: hidden; /* 隐藏超出部分 */
+  transition: box-shadow 0.3s ease-in-out; /* 鼠标悬浮时的阴影过渡效果 */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 鼠标悬浮时更深的阴影 */
+}
+
+/* cardTitleAndAction 样式 */
+.cardTitleAndAction {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 16px 16px 0px 16px;
+}
+
+.cardTitle a {
+  text-decoration: none;  /* 移除下划线 */
+  color: inherit; /* 继承父元素颜色 */
+}
+
+.cardTitle h2 {
+  margin: 0;
+  font-size: 1.5em; /* 标题字体大小 */
   
-  .card:hover {
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* 鼠标悬浮时更深的阴影 */
-  }
-  
-  .card > div {
-    padding: 16px; /* 内边距 */
-  }
-  
-  .card h2 {
-    margin: 0 0 8px 0; /* 标题的外边距 */
-    font-size: 1.5rem; /* 字体大小 */
-    color: #333; /* 字体颜色 */
-  }
-  
-  .card p {
-    margin: 0 0 8px 0; /* 段落的外边距 */
-    font-size: 1rem; /* 字体大小 */
-    color: #666; /* 字体颜色 */
-  }
-  
-  .card button {
-    background: none; /* 按钮背景透明 */
-    border: none; /* 无边框 */
-    padding: 0; /* 无内边距 */
-    cursor: pointer; /* 鼠标悬停时显示手形图标 */
-    outline: none; /* 点击时不显示轮廓 */
-  }
+  cursor: pointer; /* 鼠标悬停时显示指针手势 */
+}
+
+.cardAction {
+  opacity: 0; /* 初始隐藏按钮 */
+  transition: opacity 0.3s ease-in-out; /* 过渡效果 */
+}
+
+.card:hover .cardAction {
+  opacity: 1; /* 鼠标悬浮时显示按钮 */
+}
+
+.copyBtn, .linkBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin: 0 4px;
+}
+
+.copyBtn svg, .linkBtn svg {
+  fill: #333; /* 图标颜色 */
+}
+
+/* cardScoreAndDesc 样式 */
+.cardScoreAndDesc {
+  padding: 0 16px;
+  /* text-align: center; 文本居中 */
+}
+
+.cardScore {
+  /* margin: 16px 0;  */
+}
+
+.cardDesc {
+  color: #333; /* 描述文本颜色 */
+  font-size: 1em; /* 描述字体大小 */
+}
+
+/* cardPlatform 样式 */
+.cardPlatform {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.PlatformTag {
+  margin-right: 8px; /* 标签之间的间距 */
+}

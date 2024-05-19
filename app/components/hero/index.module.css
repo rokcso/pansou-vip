@@ -9,7 +9,12 @@
     /* background-color: #f9f9f9; 浅灰色背景 */
   }
 
+  .hero p {
+    margin: 0;
+  }
+
   .hero button {
+    margin: 20px 0px;
     padding: 0.75rem 1.5rem; /* 按钮的内边距 */
     font-size: 1rem; /* 按钮字体大小 */
     background-color: #007bff; /* 蓝色背景 */

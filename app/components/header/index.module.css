@@ -9,6 +9,8 @@
   
   .homeTab {
     margin-right: auto; /* 自动填充右边距，使其靠左 */
+    font-size: xx-large;
+    font-weight: bolder; /* 加粗字体 */
   }
   
   .homeTab a {
@@ -17,8 +19,6 @@
     transition: color 0.3s; /* 颜色变化的过渡效果 */
     display: flex;
     align-items: center; /* 确保图标和文本垂直居中 */
-    font-size: larger;
-    font-weight: bolder; /* 加粗字体 */
   }
   
   .icon {

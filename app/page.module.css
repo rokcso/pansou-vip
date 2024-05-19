@@ -15,18 +15,18 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
-    grid-template-columns: repeat(2, 1fr); /* 平板：2列 */
+    grid-template-columns: repeat(1, 1fr); /* 平板：2列 */
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1299px) {
   .container {
-    grid-template-columns: repeat(3, 1fr); /* 小桌面：3列 */
+    grid-template-columns: repeat(1, 1fr); /* 小桌面：3列 */
   }
 }
 
 @media (min-width: 1300px) {
   .container {
-    grid-template-columns: repeat(4, 1fr); /* 大桌面：4列 */
+    grid-template-columns: repeat(1, 1fr); /* 大桌面：4列 */
   }
 }
