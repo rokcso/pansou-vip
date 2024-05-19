@@ -39,6 +39,7 @@ export default function () {
         <div></div>
         <div></div>
       </div>
+      <hr className={styles.footerDivider}  />
       <p className={styles.footerCopy}>
         Copyright &copy; 2024 <a href="https://rokcso.com">rokcso.com<LinkArrow /></a> All
         rights reserved.

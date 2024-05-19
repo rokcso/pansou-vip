@@ -24,6 +24,13 @@
     color: #000;
     font-weight: bold; /* 加粗 */
   }
+
+  .footerDivider {
+    border: 0;
+    height: 1px; /* 横线的粗细 */
+    background-color: #999; /* 横线的颜色 */
+    margin: 20px 0; /* 横线与上下内容的间距 */
+  }
   
   .footerCopy {
     font-size: smaller;

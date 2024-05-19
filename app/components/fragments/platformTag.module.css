@@ -17,6 +17,5 @@
 .tag:hover {
   background-color: #0069d9; /* 鼠标悬浮时背景颜色变深 */
   border-color: #0062cc; /* 鼠标悬浮时边框颜色 */
-  transform: translateY(-2px); /* 轻微上移效果 */
 }
 
