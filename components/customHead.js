@@ -102,6 +102,12 @@ export default function CustomHead() {
                     })();`,
           }}
         />
+        {/* Google Adsence */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2984496936924659"
+          crossorigin="anonymous"
+        ></script>
       </Head>
     </>
   );
