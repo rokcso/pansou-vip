@@ -38,7 +38,7 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "description",
-                    content: "盘搜VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验"
+                    content: "盘搜VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "keywords",
@@ -50,7 +50,7 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     property: "og:description",
-                    content: "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+                    content: "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     property: "og:type",
@@ -78,7 +78,7 @@ function CustomHead() {
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "twitter:description",
-                    content: "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+                    content: "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                     name: "twitter:image",
@@ -193,7 +193,7 @@ function CustomHead() {
 
 
 function Layout({ children }) {
-    const lastUpdateDateString = "2024/05/17";
+    const lastUpdateDateString = "2024/05/22";
     const currentDate = new Date();
     const lastUpdateDate = new Date(lastUpdateDateString);
     const daysAgo = Math.floor((currentDate - lastUpdateDate) / (1000 * 60 * 60 * 24));
@@ -248,6 +248,17 @@ function Layout({ children }) {
                                             href: "/about",
                                             title: "盘搜VIP 关于页面",
                                             children: "去这里"
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                    children: [
+                                        "\uD83C\uDF89 精选资源人工整理、实时更新 \uD83D\uDC49\xa0",
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                            href: "https://www.alipan.com/s/jtgrs7CXLCn",
+                                            title: "庆余年网盘资源",
+                                            target: "_blank",
+                                            children: "庆余年全系列（阿里云盘）"
                                         })
                                     ]
                                 })
