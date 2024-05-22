@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CustomHead from "../components/customHead";
-import Layout from "../components/layout";
+import CustomHead from "../../components/customHead";
+import Layout from "../../components/layout";
 
 export default function About() {
   return (
