@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/build-personal-theater": "pages/build-personal-theater.js",
-  "/about": "pages/about.js"
+  "/posts/build-personal-theater": "pages/posts/build-personal-theater.js"
 }
