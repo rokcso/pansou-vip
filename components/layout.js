@@ -43,6 +43,15 @@ export default function Layout({ children }) {
                 庆余年全系列（阿里云盘）
               </Link>
             </p>
+            {/* <p>
+              🎦{" "}
+              <Link
+                href="/build-personal-theater"
+                title="【教程】打造个人影院，畅享全网影视资源"
+              >
+                【教程】打造个人影院，畅享全网影视资源
+              </Link>
+            </p> */}
           </div>
         </header>
         <main>{children}</main>
