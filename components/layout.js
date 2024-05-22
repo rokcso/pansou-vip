@@ -33,6 +33,16 @@ export default function Layout({ children }) {
                 去这里
               </Link>
             </p>
+            <p>
+              🎉 精选资源人工整理、实时更新（提取码: oy00）👉&nbsp;
+              <Link
+                href="https://www.alipan.com/s/tCU6bPN1NZF"
+                title="庆余年网盘资源"
+                target="_blank"
+              >
+                庆余年全系列（阿里云盘）
+              </Link>
+            </p>
           </div>
         </header>
         <main>{children}</main>
