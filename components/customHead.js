@@ -7,7 +7,7 @@ export default function CustomHead() {
         <title>盘搜VIP - 网盘搜索工具精选导航 - pansou.vip</title>
         <meta
           name="description"
-          content="盘搜VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验"
+          content="盘搜VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验"
         />
         <meta
           name="keywords"
@@ -19,7 +19,7 @@ export default function CustomHead() {
         />
         <meta
           property="og:description"
-          content="精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+          content="精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.pansou.vip/" />
@@ -35,7 +35,7 @@ export default function CustomHead() {
         />
         <meta
           name="twitter:description"
-          content="精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、无广告、免费，长期维护更新，给你 VIP 一样的体验。"
+          content="精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。"
         />
         <meta
           name="twitter:image"

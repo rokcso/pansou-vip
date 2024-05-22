@@ -56,11 +56,27 @@
         "briefIntro": ""
     },
     {
+        "id": "miaosou_fun",
+        "name": "秒搜",
+        "link": "https://miaosou.fun/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
+        "briefIntro": ""
+    },
+    {
         "id": "yuneu_com",
         "name": "云易搜",
         "link": "https://so.yuneu.com/?utm_source=pansou.vip",
         "score": "",
         "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "panyq_com",
+        "name": "盘友圈",
+        "link": "https://panyq.com/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅",
         "briefIntro": ""
     },
     {
@@ -96,6 +112,22 @@
         "briefIntro": ""
     },
     {
+        "id": "roubuyaoqian_com",
+        "name": "肉不要钱",
+        "link": "https://roubuyaoqian.com/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "quarkfinder_top",
+        "name": "云迹寻宝",
+        "link": "https://www.quarkfinder.top/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "夸克网盘 ✅",
+        "briefIntro": ""
+    },
+    {
         "id": "bifangpu_com",
         "name": "资源精灵",
         "link": "https://www.bifangpu.com/?utm_source=pansou.vip",
@@ -109,6 +141,30 @@
         "link": "https://www.codelicence.cn/?utm_source=pansou.vip",
         "score": "",
         "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "fastsoso_cc",
+        "name": "fastsoso",
+        "link": "https://www.fastsoso.cc/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "百度云盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "yapan_io",
+        "name": "YaPan",
+        "link": "https://yapan.io/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "阿里云盘 ✅",
+        "briefIntro": ""
+    },
+    {
+        "id": "duanjuso_com",
+        "name": "短剧搜",
+        "link": "https://www.duanjuso.com/?utm_source=pansou.vip",
+        "score": "",
+        "platform": "阿里云盘 ✅ 百度云盘 ✅ 夸克网盘 ✅ 迅雷网盘 ✅",
         "briefIntro": ""
     }
 ]
