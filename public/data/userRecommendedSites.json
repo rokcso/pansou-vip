@@ -1,0 +1,58 @@
+[
+    {
+        "id": "yunso_net",
+        "title": "小云搜索",
+        "url": "https://www.yunso.net/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei", "lanzou", "uc", "tianyi", "yidong"]
+    },
+    {
+        "id": "ed3000_com",
+        "title": "ED3000",
+        "url": "https://www.ed3000.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali"]
+    },
+    {
+        "id": "quark_so",
+        "title": "夸克搜",
+        "url": "https://www.quark.so/",
+        "description": "资源丰富有分类，专注于夸克搜索。",
+        "score": 0,
+        "platforms": ["quark"]
+    },
+    {
+        "id": "kpanso_com",
+        "title": "快盘搜",
+        "url": "https://www.kpanso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "yiso_fun",
+        "title": "易搜",
+        "url": "https://yiso.fun/",
+        "description": "如果地址失效可访问 https://yiso.eu.org",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "alipanso_cc",
+        "title": "阿里搜搜",
+        "url": "https://www.alipanso.cc/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "qkpanso_com",
+        "title": "夸克盘搜",
+        "url": "https://qkpanso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["quark"]
+    }
+]

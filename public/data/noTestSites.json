@@ -1,0 +1,170 @@
+[
+    {
+        "id": "pikaso_top",
+        "title": "皮卡搜索",
+        "url": "https://www.pikaso.top/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "lanzou", "tianyi"]
+    },
+    {
+        "id": "pansearch_me",
+        "title": "PanSearch",
+        "url": "https://www.pansearch.me/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "niceso_net",
+        "title": "奈斯搜索",
+        "url": "https://www.niceso.net/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali"]
+    },
+    {
+        "id": "upyunso_com",
+        "title": "UP 云搜",
+        "url": "https://www.upyunso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali"]
+    },
+    {
+        "id": "tianyiso_com",
+        "title": "天逸搜",
+        "url": "https://www.tianyiso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["tianyi"]
+    },
+    {
+        "id": "xiongdipan_com",
+        "title": "兄弟盘",
+        "url": "https://xiongdipan.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["baidu"]
+    },
+    {
+        "id": "sousuopan_com",
+        "title": "搜索盘",
+        "url": "https://www.sousuopan.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "xunlei", "tianyi"]
+    },
+    {
+        "id": "miaosou_fun",
+        "title": "秒搜",
+        "url": "https://miaosou.fun/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "yuneu_com",
+        "title": "云易搜",
+        "url": "https://so.yuneu.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "panyq_com",
+        "title": "盘友圈",
+        "url": "https://panyq.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark"]
+    },
+    {
+        "id": "iizhi_cn",
+        "title": "毕方铺",
+        "url": "https://www.iizhi.cn/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark"]
+    },
+    {
+        "id": "feizhupan_com",
+        "title": "飞猪盘",
+        "url": "https://www.feizhupan.com/#/main/search",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark"]
+    },
+    {
+        "id": "xiaomapan_com",
+        "title": "小马盘",
+        "url": "https://www.xiaomapan.com/#/main/search",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "panmeme_com",
+        "title": "盘么么",
+        "url": "http://www.panmeme.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["baidu"]
+    },
+    {
+        "id": "roubuyaoqian_com",
+        "title": "肉不要钱",
+        "url": "https://roubuyaoqian.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    },
+    {
+        "id": "quarkfinder_top",
+        "title": "云迹寻宝",
+        "url": "https://www.quarkfinder.top/",
+        "description": "",
+        "score": 0,
+        "platforms": ["quark"]
+    },
+    {
+        "id": "bifangpu_com",
+        "title": "资源精灵",
+        "url": "https://www.bifangpu.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark"]
+    },
+    {
+        "id": "codelicence_cn",
+        "title": "云盘 4K",
+        "url": "https://www.codelicence.cn/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark"]
+    },
+    {
+        "id": "fastsoso_cc",
+        "title": "fastsoso",
+        "url": "https://www.fastsoso.cc/",
+        "description": "",
+        "score": 0,
+        "platforms": ["baidu"]
+    },
+    {
+        "id": "yapan_io",
+        "title": "YaPan",
+        "url": "https://yapan.io/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali"]
+    },
+    {
+        "id": "duanjuso_com",
+        "title": "短剧搜",
+        "url": "https://www.duanjuso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": ["ali", "baidu", "quark", "xunlei"]
+    }
+]
