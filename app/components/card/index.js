@@ -19,6 +19,8 @@ export default function ({ cardInfo }) {
       "uc",
       "tianyi",
       "yidong",
+      "weiyun",
+      "115",
     ],
   };
   // 如果 cardInfo 无则使用 defaultCardInfo 作为 info
@@ -39,6 +41,8 @@ export default function ({ cardInfo }) {
     "uc",
     "tianyi",
     "yidong",
+    "weiyun",
+    "115",
   ];
   // 将 platform 映射到对应的中文名称
   const platformTranslation = {
@@ -50,6 +54,8 @@ export default function ({ cardInfo }) {
     uc: "UC 网盘",
     tianyi: "天翼云盘",
     yidong: "移动云盘",
+    weiyun: "腾讯微云",
+    115: "115网盘"
   };
   // 将传入的 platform 按照上面定义的顺序排序并且翻译成对应的中文名称
   const translatedSortedPlatforms = platformOrder
@@ -69,30 +75,30 @@ export default function ({ cardInfo }) {
 
   return (
     <div className={styles.card}>
-      <div className={styles.cardTitleAndAction}>
-        <div className={styles.cardTitle}>
-          <a href={info.url} target="_blank">
+      <a href= {`${info.url}?utm_source=pansou.vip/`} target="_blank">
+        <div className={styles.cardTitleAndAction}>
+          <div className={styles.cardTitle}>
             <h2>{info.title}</h2>
-          </a>
-        </div>
-        <div className={styles.cardAction}>
+          </div>
+          {/* <div className={styles.cardAction}>
           <button onClick={copyToClipboard} className={styles.copyBtn}>
           <Copy theme="outline" size="24" fill="#fff"/>
           </button>
           <a href={info.url} target="_blank" className={styles.linkBtn}>
             <Share theme="outline" size="24" fill="#fff" />
           </a>
+        </div> */}
         </div>
-      </div>
-      <div className={styles.cardScoreAndDesc}>
-        <p className={styles.cardScore}>{scoreSymbols}</p>
-        <p className={styles.cardDesc}>{info.description}</p>
-      </div>
-      <div className={styles.cardPlatform}>
+        <div className={styles.cardScoreAndDesc}>
+          <p className={styles.cardScore}>{scoreSymbols}</p>
+          <p className={styles.cardDesc}>{info.description}</p>
+        </div>
+        <div className={styles.cardPlatform}>
           {translatedSortedPlatforms.map((name, index) => (
             <PlatformTag key={index} platformName={name} />
           ))}
-      </div>
+        </div>
+      </a>
     </div>
   );
 }
