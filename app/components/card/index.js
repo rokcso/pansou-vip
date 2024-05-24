@@ -27,9 +27,7 @@ export default function ({ cardInfo }) {
   const info = cardInfo || defaultCardInfo;
 
   // 根据 cardInfo 中的 score 来生成对应的 Emoji 字符串
-  const scoreSymbols = Array.from({ length: cardInfo.score }, () => "👍").join(
-    ""
-  );
+  const scoreSymbols = Array.from({ length: info.score }, () => "👍").join("");
 
   // 指定 platform 的显示顺序
   const platformOrder = [
@@ -55,7 +53,7 @@ export default function ({ cardInfo }) {
     tianyi: "天翼云盘",
     yidong: "移动云盘",
     weiyun: "腾讯微云",
-    115: "115网盘"
+    115: "115网盘",
   };
   // 将传入的 platform 按照上面定义的顺序排序并且翻译成对应的中文名称
   const translatedSortedPlatforms = platformOrder
@@ -75,10 +73,10 @@ export default function ({ cardInfo }) {
 
   return (
     <div className={styles.card}>
-      <a href= {`${info.url}?utm_source=pansou.vip/`} target="_blank">
+      <a href={`${info.url}?utm_source=pansou.vip/`} target="_blank">
         <div className={styles.cardTitleAndAction}>
           <div className={styles.cardTitle}>
-            <h2>{info.title}</h2>
+            <h3>{info.title}</h3>
           </div>
           {/* <div className={styles.cardAction}>
           <button onClick={copyToClipboard} className={styles.copyBtn}>
@@ -90,8 +88,10 @@ export default function ({ cardInfo }) {
         </div> */}
         </div>
         <div className={styles.cardScoreAndDesc}>
-          <p className={styles.cardScore}>{scoreSymbols}</p>
-          <p className={styles.cardDesc}>{info.description}</p>
+          {info.score > 0 && <p className={styles.cardScore}>{scoreSymbols}</p>}
+          {info.description.length > 0 && (
+            <p className={styles.cardDesc}>🧻 {info.description}</p>
+          )}
         </div>
         <div className={styles.cardPlatform}>
           {translatedSortedPlatforms.map((name, index) => (

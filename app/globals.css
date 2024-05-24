@@ -1,6 +1,8 @@
-body {
-  padding: 0px 120px;
-  background-color: #f4f2de;
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #F4F2DE;
+  color: #102C57;
 }
 
 main {
@@ -12,6 +14,6 @@ p {
 }
 
 a {
-  color: #000;
+  color: #FF6969;
   text-decoration: none;
 }

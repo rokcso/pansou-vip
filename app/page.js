@@ -9,7 +9,7 @@ import noTestSites from "../public/data/noTestSites.json";
 
 export default function Home() {
   // 全局常量
-  const lastUpdateDateStr = "2024-05-17";
+  const lastUpdateDateStr = "2024-05-24";
 
   // 模拟数据
   // const siteList = [
@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} />
-      <div>
+      <div className={styles.main}>
         <div>
           <h2>精选工具</h2>
           <p>

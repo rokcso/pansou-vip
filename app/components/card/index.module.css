@@ -22,12 +22,12 @@
   padding: 16px 16px 0px 16px;
 }
 
-.cardTitle a {
+.card a {
   text-decoration: none;  /* 移除下划线 */
-  color: inherit; /* 继承父元素颜色 */
+  color: #102C57;
 }
 
-.cardTitle h2 {
+.cardTitle h3 {
   margin: 0;
   font-size: 1.5em; /* 标题字体大小 */
   
@@ -61,10 +61,6 @@
   /* text-align: center; 文本居中 */
 }
 
-.cardScore {
-  /* margin: 16px 0;  */
-}
-
 .cardDesc {
   color: #333; /* 描述文本颜色 */
   font-size: 1em; /* 描述字体大小 */
@@ -73,6 +69,7 @@
 /* cardPlatform 样式 */
 .cardPlatform {
   display: flex;
+  flex-wrap: wrap; /* 允许换行 */
   align-items: center;
   padding: 16px;
 }

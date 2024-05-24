@@ -11,11 +11,13 @@ export default function () {
           </a>
         </div>
         <div className={styles.headerLink}>
-            <a href="/changelog">
+          {/* <a href="/changelog">
                 <span>Changelog</span>
-            </a>
+            </a> */}
           <a href="/about">
-            <span>About</span>
+            <span>
+              <b>常见问题</b>
+            </span>
           </a>
         </div>
       </nav>

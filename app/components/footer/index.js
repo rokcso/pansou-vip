@@ -9,17 +9,29 @@ export default function () {
           <p>⛅ 盘搜VIP</p>
           <p>网盘搜索工具精选</p>
           <div>
-            <a href="https://x.com/rokcso/" target="_blank">
+            <a
+              href="https://x.com/rokcso/"
+              title="rokcso 的社交媒体：Twitter"
+              target="_blank"
+            >
               X
               <LinkArrow />
             </a>
             &nbsp;&nbsp;
-            <a href="https://okjk.co/RqK5zW" target="_blank">
+            <a
+              href="https://okjk.co/RqK5zW"
+              title="rokcso 的社交媒体：即刻"
+              target="_blank"
+            >
               Jike
               <LinkArrow />
             </a>
             &nbsp;&nbsp;
-            <a href="https://github.com/rokcso/" target="_blank">
+            <a
+              href="https://github.com/rokcso/"
+              title="rokcso 的 GitHub 主页"
+              target="_blank"
+            >
               GitHub
               <LinkArrow />
             </a>
@@ -27,7 +39,11 @@ export default function () {
         </div>
         <div>
           <p>其他作品</p>
-          <a href="https://www.urlxcode.com/">
+          <a
+            href="https://www.urlxcode.com/"
+            title="URLxcode 网址"
+            target="_blank"
+          >
             URL xcode
             <LinkArrow />
           </a>
@@ -39,10 +55,14 @@ export default function () {
         <div></div>
         <div></div>
       </div>
-      <hr className={styles.footerDivider}  />
+      <hr className={styles.footerDivider} />
       <p className={styles.footerCopy}>
-        Copyright &copy; 2024 <a href="https://rokcso.com">rokcso.com<LinkArrow /></a> All
-        rights reserved.
+        盘搜VIP 💖 网盘搜索工具精选导航 Copyright &copy; 2023-2024{" "}
+        <a href="https://rokcso.com" title="rokcso 的个人网站" target="_blank">
+          rokcso.com
+          <LinkArrow />
+        </a>{" "}
+        All rights reserved.
       </p>
     </div>
   );
