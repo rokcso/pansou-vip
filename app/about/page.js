@@ -82,6 +82,8 @@ export default function Home() {
         </p>
         <Image src="/img/wxzsm.jpg" alt="赞赏码" width={300} height={300} />
       </div>
+      <br />
+      <br />
       <div>
         <p>
           🔴 <b>声明</b>

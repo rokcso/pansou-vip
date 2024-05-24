@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 32px; /* 网格项之间的间距 */
-  padding: 20px; /* 容器的内边距 */
-  margin: -20px; /* 抵消第一个和最后一个项目与容器边缘的间距 */
+  padding: 20px 0px; /* 容器的内边距 */
 }
 
 /* 根据视口宽度调整网格的列数 */
@@ -11,16 +10,11 @@
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 移动设备：1列 */
   }
-  .main {
-    padding: 0px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 平板：2列 */
-  }.main {
-    padding: 0px 40px;
   }
 }
 
@@ -28,16 +22,10 @@
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 小桌面：3列 */
   }
-  .main {
-    padding: 0px 80px;
-  }
 }
 
 @media (min-width: 1300px) {
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 大桌面：4列 */
-  }
-  .main {
-    padding: 0px 120px;
   }
 }
