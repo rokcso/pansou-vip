@@ -11,12 +11,14 @@ export default function () {
           </a>
         </div>
         <div className={styles.headerLink}>
-          {/* <a href="/changelog">
-                <span>Changelog</span>
-            </a> */}
-          <a href="/about" title="盘搜VIP的关于页面">
+          <a href="/faq" title="盘搜VIP的常见问题页面">
             <span>
               <b>常见问题</b>
+            </span>
+          </a>
+          <a href="/about" title="盘搜VIP的关于页面">
+            <span>
+              <b>关于</b>
             </span>
           </a>
         </div>
