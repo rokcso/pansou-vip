@@ -9,7 +9,7 @@
   
   .homeTab {
     margin-right: auto; /* 自动填充右边距，使其靠左 */
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bolder; /* 加粗字体 */
   }
   
@@ -22,7 +22,7 @@
   }
   
   .icon {
-    font-size: xx-large;
+    font-size: x-large;
   }
   
   .headerLink {
