@@ -73,7 +73,11 @@ export default function ({ cardInfo }) {
 
   return (
     <div className={styles.card}>
-      <a href={`${info.url}?utm_source=pansou.vip/`} target="_blank">
+      <a
+        href={`${info.url}?utm_source=pansou.vip/`}
+        title={info.title}
+        target="_blank"
+      >
         <div className={styles.cardTitleAndAction}>
           <div className={styles.cardTitle}>
             <h3>{info.title}</h3>

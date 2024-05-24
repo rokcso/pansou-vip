@@ -5,7 +5,7 @@ export default function () {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.homeTab}>
-          <a href="/">
+          <a href="/" title="盘搜VIP的首页">
             <span className={styles.icon}>⛅</span>&nbsp;
             <span>盘搜VIP</span>
           </a>
@@ -14,7 +14,7 @@ export default function () {
           {/* <a href="/changelog">
                 <span>Changelog</span>
             </a> */}
-          <a href="/about">
+          <a href="/about" title="盘搜VIP的关于页面">
             <span>
               <b>常见问题</b>
             </span>
