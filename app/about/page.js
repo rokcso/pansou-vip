@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
+  title: "什么是盘搜VIP？ - 网盘搜索工具精选导航",
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/about",
