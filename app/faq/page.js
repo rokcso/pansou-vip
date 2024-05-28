@@ -11,6 +11,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
+      <h1>盘搜VIP 使用指南</h1>
       <div>
         <h2>常见问题</h2>
         <div>
@@ -44,7 +45,7 @@ export default function Home() {
         </p>
       </div>
       <div>
-        <h2>问题反馈</h2>
+        <h2>留言反馈</h2>
         <p>
           如果你有任何问题咨询、建议反馈、点赞支持都可以 👉{" "}
           <a
