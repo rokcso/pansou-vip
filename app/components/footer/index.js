@@ -49,12 +49,13 @@ export default function () {
             <LinkArrow />
           </a>
         </div>
-        {/* <div>
-          <p>Follow Me</p>
-          <img src="/img/wxzsm.jpg" width={120} />
-        </div> */}
-        <div></div>
-        <div></div>
+        <div>
+          <p>友情链接</p>
+          <a href="https://www.ubrand.com/" title="uBrand 官网" target="_blank">
+            uBrand
+            <LinkArrow />
+          </a>
+        </div>
       </div>
       <hr className={styles.footerDivider} />
       <p className={styles.footerCopy}>
