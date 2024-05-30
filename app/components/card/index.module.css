@@ -71,9 +71,10 @@
   display: flex;
   flex-wrap: wrap; /* 允许换行 */
   align-items: center;
-  padding: 16px;
+  padding: 0px 16px 16px 16px;
 }
 
 .PlatformTag {
   margin-right: 8px; /* 标签之间的间距 */
+  padding: 0px;
 }

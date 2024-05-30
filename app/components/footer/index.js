@@ -7,7 +7,7 @@ export default function () {
       <div className={styles.footerItem}>
         <div>
           <p>⛅ 盘搜VIP</p>
-          <p>网盘搜索工具精选</p>
+          <p>人工亲测的网盘搜索工具精选导航</p>
           <br />
           <div>
             <a
@@ -40,6 +40,7 @@ export default function () {
         </div>
         <div>
           <p>其他作品</p>
+          <br />
           <a
             href="https://www.urlxcode.com/"
             title="URLxcode 网址"
@@ -51,6 +52,7 @@ export default function () {
         </div>
         <div>
           <p>友情链接</p>
+          <br />
           <a href="https://www.ubrand.com/" title="uBrand 官网" target="_blank">
             uBrand
             <LinkArrow />
@@ -59,7 +61,7 @@ export default function () {
       </div>
       <hr className={styles.footerDivider} />
       <p className={styles.footerCopy}>
-        盘搜VIP 💖 网盘搜索工具精选导航 Copyright &copy; 2023-2024{" "}
+        盘搜VIP 💖 人工亲测的网盘搜索工具精选导航 Copyright &copy; 2023-2024{" "}
         <a href="https://rokcso.com" title="rokcso 的个人网站" target="_blank">
           rokcso.com
           <LinkArrow />
