@@ -5,7 +5,9 @@
         "url": "https://www.alipansou.com/",
         "description": "激活码：1024，搜索响应速度快，服务稳定，但是有出现在某些网络环境下无法访问的问题，直接换一个就好，影视资源多，注意版权敏感资源需要使用间接关键词。",
         "score": 5,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
     },
     {
         "id": "cuppaso_com",
@@ -13,7 +15,11 @@
         "url": "https://www.cuppaso.com/",
         "description": "可以选择精准搜索模式来完全匹配关键词，版权敏感资源基本都能搜索到，无需验证可直接搜索，速度快，服务稳定，资源丰富且新，搜索体验好。",
         "score": 5,
-        "platforms": ["ali", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "quark",
+            "xunlei"
+        ]
     },
     {
         "id": "aliso_cc",
@@ -21,7 +27,9 @@
         "url": "https://aliso.cc/",
         "description": "搜索比较快，服务稳定，资源丰富且新，搜索体验非常好，搜索结果会直接显示文件夹内容，版权管理比较严格，换关键词也不一定能搜索到版权敏感资源。",
         "score": 5,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
     },
     {
         "id": "aipanso_com",
@@ -29,7 +37,9 @@
         "url": "https://aipanso.com/",
         "description": "搜索响应速度快，服务稳定，资源多且新。",
         "score": 4,
-        "platforms": ["quark"]
+        "platforms": [
+            "quark"
+        ]
     },
     {
         "id": "pansoso_com",
@@ -37,7 +47,9 @@
         "url": "https://www.pansoso.com/",
         "description": "搜索响应速度快，服务稳定，资源少感觉没怎么更新了。",
         "score": 3,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
     },
     {
         "id": "dashengpan_com",
@@ -45,7 +57,11 @@
         "url": "https://www.dashengpan.com/",
         "description": "搜索响应速度快，服务稳定，搜索支持多种条件筛选，搜索结果会显示文件夹内容，但是网站会主动屏蔽一些关键词（比如近期热播影视资源）。",
         "score": 3,
-        "platforms": ["ali", "baidu", "quark"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark"
+        ]
     },
     {
         "id": "qianfan_app",
@@ -53,7 +69,14 @@
         "url": "https://pan.qianfan.app/",
         "description": "需要注册/登录才能使用，注册不用验证手机号或邮箱，需要关注公众号获取帐号激活码，能直接聚合搜索多个云盘，搜索体验不错。",
         "score": 3,
-        "platforms": ["ali", "baidu", "quark", "xunlei", "lanzou", "tianyi"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei",
+            "lanzou",
+            "tianyi"
+        ]
     },
     {
         "id": "xuebapan_com",
@@ -61,6 +84,16 @@
         "url": "https://www.xuebapan.com/",
         "description": "如网站名，主要资源为学习资料、课程等，影视剧等资源搜索无结果，搜索结果会显示文件夹内容。",
         "score": 3,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
+    },
+    {
+        "id": "z-lib_one",
+        "title": "Z-Lib One",
+        "url": "https://z-lib.one/",
+        "description": "汇集了 Z-Library 最新官方网站和镜像站，部分需要科学上网。",
+        "score": 5,
+        "platforms": []
     }
 ]
