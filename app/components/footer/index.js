@@ -41,11 +41,6 @@ export default function () {
         <div>
           <p>其他作品</p>
           <br />
-          <a href="https://z-lib.one/" title="Z-Lib One" target="_blank">
-            Z-Lib One
-            <LinkArrow />
-          </a>
-          &nbsp;&nbsp;
           <a
             href="https://www.urlxcode.com/"
             title="URLxcode 网址"

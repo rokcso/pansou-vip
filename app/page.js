@@ -9,7 +9,7 @@ import noTestSites from "../public/data/noTestSites.json";
 
 export default function Home() {
   // 全局常量
-  const lastUpdateDateStr = "2024-05-30";
+  const lastUpdateDateStr = "2024-06-08";
 
   // 模拟数据
   // const siteList = [
@@ -26,6 +26,13 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} />
+      <a href="https://lizhi.shop/site/discount/id/618?cid=y39pjk8l"  className={styles.noteLink}>
+        <div  className={styles.note}>
+          站长推荐：
+          <b>正版软件 618 限时大促！</b>
+          Windows/macOS/iOS/Android 全平台，上百款正版软件均有优惠。
+        </div>
+      </a>
       <div className={styles.main}>
         <div>
           <h2>精选工具</h2>

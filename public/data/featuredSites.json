@@ -87,13 +87,5 @@
         "platforms": [
             "ali"
         ]
-    },
-    {
-        "id": "z-lib_one",
-        "title": "Z-Lib One",
-        "url": "https://z-lib.one/",
-        "description": "汇集了 Z-Library 最新官方网站和镜像站，部分需要科学上网。",
-        "score": 5,
-        "platforms": []
     }
 ]
