@@ -5,6 +5,20 @@
   padding: 20px 0px; /* 容器的内边距 */
 }
 
+.note {
+  background-color: #F9D7DA;
+  padding: 20px 10px;
+  border-radius: 6px;
+}
+
+.note b {
+  color: red;
+}
+
+.noteLink {
+  color: #102C57;
+}
+
 /* 根据视口宽度调整网格的列数 */
 @media (max-width: 767px) {
   .siteList {
