@@ -10,7 +10,7 @@ import noTestSites from "../public/data/noTestSites.json";
 
 export default function Home() {
   // 全局常量
-  const lastUpdateDateStr = "2024-06-08";
+  const lastUpdateDateStr = "2024-06-10";
 
   // 模拟数据
   // const siteList = [
