@@ -94,5 +94,15 @@
         "platforms": [
             "quark"
         ]
+    },
+    {
+        "id": "esoua_com",
+        "title": "爱搜",
+        "url": "https://www.esoua.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu", "quark", "ali", "xunlei", "uc"
+        ]
     }
 ]
