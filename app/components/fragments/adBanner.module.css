@@ -1,0 +1,13 @@
+.note {
+    background-color: #F9D7DA;
+    padding: 20px 10px;
+    border-radius: 6px;
+  }
+  
+  .note b {
+    color: red;
+  }
+  
+  .noteLink {
+    color: #333;
+  }
