@@ -24,7 +24,7 @@
 
 .card a {
   text-decoration: none;  /* 移除下划线 */
-  color: #102C57;
+  color: #333;
 }
 
 .cardTitle h3 {
@@ -52,7 +52,7 @@
 }
 
 .copyBtn svg, .linkBtn svg {
-  fill: #102C57; /* 图标颜色 */
+  fill: #333; /* 图标颜色 */
 }
 
 /* cardScoreAndDesc 样式 */
@@ -62,7 +62,7 @@
 }
 
 .cardDesc {
-  color: #102C57; /* 描述文本颜色 */
+  color: #333; /* 描述文本颜色 */
   font-size: 1em; /* 描述字体大小 */
 }
 

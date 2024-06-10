@@ -15,16 +15,16 @@
 
   .hero button {
     margin: 20px 0px;
-    padding: 0.75rem 1.5rem; /* 按钮的内边距 */
-    font-size: 1rem; /* 按钮字体大小 */
-    background-color: #007bff; /* 蓝色背景 */
-    color: #fff; /* 白色文本 */
-    border: none; /* 移除边框 */
-    border-radius: 0.3rem; /* 圆角 */
+    padding: 10px 24px;
+    font-size: medium;
+    background-color: #4AAFD1;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* 圆角 */
     cursor: pointer; /* 鼠标悬停时显示手形图标 */
     transition: background-color 0.3s; /* 背景颜色变化的过渡效果 */
-  }
-  
-  .hero button:hover {
-    background-color: #0056b3; /* 鼠标悬停时颜色变深 */
+}
+
+.hero button:hover {
+    background-color: #8ECE51; /* 鼠标悬停时颜色变深 */
   }

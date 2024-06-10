@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AdBanner from "../components/fragments/adBanner";
 
 export const metadata = {
   title: "盘搜VIP 使用指南 - 网盘搜索工具精选导航",
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <div>
       <h1>盘搜VIP 使用指南</h1>
+      <AdBanner />
       <div>
         <h2>常见问题</h2>
         <div>

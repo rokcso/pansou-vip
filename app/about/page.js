@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AdBanner from "../components/fragments/adBanner";
 
 export const metadata = {
   title: "什么是盘搜VIP？ - 网盘搜索工具精选导航",
@@ -34,6 +35,8 @@ export default function Home() {
           ，其次你还可以选择赞赏一下，赞赏收入将用于域名、服务器续费。
         </p>
         <Image src="/img/wxzsm.jpg" alt="赞赏码" width={300} height={300} />
+        <p>或者点击这里（👇）选购你需要的正版软件吧！</p>
+        <AdBanner />
       </div>
       <div>
         <h2>投稿</h2>

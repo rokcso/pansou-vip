@@ -2,6 +2,7 @@
 
 import Hero from "./components/hero";
 import Card from "./components/card";
+import AdBanner from "./components/fragments/adBanner";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
 import userRecommendedSites from "../public/data/userRecommendedSites.json";
@@ -26,13 +27,7 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} />
-      <a href="https://lizhi.shop/site/discount/id/618?cid=y39pjk8l"  className={styles.noteLink}>
-        <div  className={styles.note}>
-          站长推荐：
-          <b>正版软件 618 限时大促！</b>
-          Windows/macOS/iOS/Android 全平台，上百款正版软件均有优惠。
-        </div>
-      </a>
+      <AdBanner />
       <div className={styles.main}>
         <div>
           <h2>精选工具</h2>
@@ -83,6 +78,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+        <AdBanner />
     </div>
   );
 }

@@ -7,12 +7,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "盘搜VIP - 网盘搜索工具精选导航 - pansou.vip",
+  title: "盘搜VIP - 人工亲测精选的网盘搜索工具导航 - pansou.vip",
   description:
     "盘搜VIP，精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。",
   keywords: [
-    "盘搜搜",
     "网盘搜索",
+    "盘搜搜",
     "盘搜",
     "盘搜VIP",
     "网盘搜索工具",

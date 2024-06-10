@@ -3,8 +3,8 @@
   display: inline-flex; /* 使标签呈行内块级元素显示 */
   padding: 5px 10px; /* 设置内边距 */
   font-size: 14px; /* 设置字体大小 */
-  color: #102C57; /* 设置字体颜色 */
-  background-color: #FFCF96; /* 设置背景颜色 */
+  color: #333; /* 设置字体颜色 */
+  background-color: #8ECE51; /* 设置背景颜色 */
   border-radius: 20px; /* 设置圆角 */
   text-transform: uppercase; /* 将文本转换为大写 */
   letter-spacing: 0.5px; /* 设置字母间距 */
