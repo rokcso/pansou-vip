@@ -11,6 +11,11 @@ export default function () {
           </a>
         </div>
         <div className={styles.headerLink}>
+          <a href="/forum" title="网盘资源分享论坛导航">
+            <span>
+              <b>资源论坛</b>
+            </span>
+          </a>
           <a href="/faq" title="盘搜VIP的常见问题页面">
             <span>
               <b>常见问题</b>
