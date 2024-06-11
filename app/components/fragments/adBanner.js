@@ -1,15 +1,15 @@
 import styles from "./adBanner.module.css";
 
-
 export default function AdBanner() {
-    return (
-
-        <a href="https://lizhi.shop/site/discount/id/618?cid=y39pjk8l"  className={styles.noteLink}>
-        <div  className={styles.note}>
-          站长推荐：
-          <b>正版软件 618 限时大促！</b>
-          Windows/macOS/iOS/Android 全平台，上百款正版软件均有优惠。
-        </div>
-      </a>
-    );
+  return (
+    <a
+      href="https://rydnl.yhzu.cn/"
+      title="淘宝优惠商城"
+      className={styles.noteLink}
+    >
+      <div className={styles.note}>
+        💰 <b>淘宝隐藏优惠券</b>：薅羊毛精选，每日严选大盘，1 折起购好物！
+      </div>
+    </a>
+  );
 }
