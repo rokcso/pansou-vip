@@ -3,6 +3,7 @@
 import Hero from "./components/hero";
 import Card from "./components/card";
 import AdBanner from "./components/fragments/adBanner";
+import { useState } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
 import userRecommendedSites from "../public/data/userRecommendedSites.json";
@@ -12,23 +13,35 @@ export default function Home() {
   // 全局常量
   const lastUpdateDateStr = "2024-06-11";
 
-  // 模拟数据
-  // const siteList = [
-  //   {
-  //     id: "pikaso_top",
-  //     title: "皮卡搜索",
-  //     url: "https://www.pikaso.top/",
-  //     description: "",
-  //     score: 0,
-  //     platforms: ["ali", "baidu", "quark", "tianyi", "lanzou"],
-  // }
-  // ];
+  const [selectedPlatform, setSelectedPlatform] = useState("all");
+  const platforms = new Set(featuredSites.flatMap((site) => site.platforms));
+  const filteredSites =
+    selectedPlatform === "all"
+      ? featuredSites
+      : featuredSites.filter((site) =>
+          site.platforms.includes(selectedPlatform)
+        );
 
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} />
       <AdBanner />
       <div className={styles.main}>
+        <div className={styles.filterDiv}>
+          <span>平台 👉 </span>
+          <select
+            value={selectedPlatform}
+            onChange={(e) => setSelectedPlatform(e.target.value)}
+          >
+            <option value={"all"}>全部</option>
+            {[...platforms].map((platform) => (
+              <option key={platform} value={platform}>
+                {platform}
+              </option>
+            ))}
+          </select>
+          <p>当前仅支持筛选「精选工具」，所有筛选稍后支持。</p>
+        </div>
         <div>
           <h2>精选工具</h2>
           <p>
@@ -38,7 +51,7 @@ export default function Home() {
           <br />
         </div>
         <div className={styles.siteList}>
-          {featuredSites.map((cardInfo, index) => (
+          {filteredSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>

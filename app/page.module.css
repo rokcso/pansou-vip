@@ -5,6 +5,25 @@
   padding: 20px 0px; /* 容器的内边距 */
 }
 
+.filterDiv {
+  margin-top: 20px;
+}
+
+.filterDiv select {
+  /* 下拉菜单样式 */
+  padding: 6px 12px;
+  margin: 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #F4F2DE;
+}
+
+.filterDiv select:focus {
+  /* 下拉菜单聚焦时的样式 */
+  outline: none;
+  border-color: #a1ccd1;
+}
+
 /* 根据视口宽度调整网格的列数 */
 @media (max-width: 767px) {
   .siteList {
