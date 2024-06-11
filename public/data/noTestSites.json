@@ -5,7 +5,13 @@
         "url": "https://www.pikaso.top/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "lanzou", "tianyi"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "lanzou",
+            "tianyi"
+        ]
     },
     {
         "id": "pansearch_me",
@@ -13,7 +19,12 @@
         "url": "https://www.pansearch.me/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
     },
     {
         "id": "niceso_net",
@@ -21,15 +32,19 @@
         "url": "https://www.niceso.net/",
         "description": "",
         "score": 0,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
     },
     {
         "id": "upyunso_com",
         "title": "UP 云搜",
         "url": "https://www.upyunso.com/",
-        "description": "",
+        "description": "如果地址失效可访问 https://www.upso7.com/",
         "score": 0,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
     },
     {
         "id": "tianyiso_com",
@@ -37,7 +52,9 @@
         "url": "https://www.tianyiso.com/",
         "description": "",
         "score": 0,
-        "platforms": ["tianyi"]
+        "platforms": [
+            "tianyi"
+        ]
     },
     {
         "id": "xiongdipan_com",
@@ -45,7 +62,9 @@
         "url": "https://xiongdipan.com/",
         "description": "",
         "score": 0,
-        "platforms": ["baidu"]
+        "platforms": [
+            "baidu"
+        ]
     },
     {
         "id": "sousuopan_com",
@@ -53,7 +72,12 @@
         "url": "https://www.sousuopan.com/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "xunlei", "tianyi"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "xunlei",
+            "tianyi"
+        ]
     },
     {
         "id": "miaosou_fun",
@@ -61,7 +85,12 @@
         "url": "https://miaosou.fun/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
     },
     {
         "id": "yuneu_com",
@@ -69,7 +98,12 @@
         "url": "https://so.yuneu.com/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
     },
     {
         "id": "panyq_com",
@@ -77,7 +111,11 @@
         "url": "https://panyq.com/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark"
+        ]
     },
     {
         "id": "iizhi_cn",
@@ -85,7 +123,11 @@
         "url": "https://www.iizhi.cn/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark"
+        ]
     },
     {
         "id": "feizhupan_com",
@@ -93,7 +135,11 @@
         "url": "https://www.feizhupan.com/#/main/search",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark"
+        ]
     },
     {
         "id": "xiaomapan_com",
@@ -101,7 +147,12 @@
         "url": "https://www.xiaomapan.com/#/main/search",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
     },
     {
         "id": "panmeme_com",
@@ -109,7 +160,9 @@
         "url": "http://www.panmeme.com/",
         "description": "",
         "score": 0,
-        "platforms": ["baidu"]
+        "platforms": [
+            "baidu"
+        ]
     },
     {
         "id": "roubuyaoqian_com",
@@ -117,7 +170,12 @@
         "url": "https://roubuyaoqian.com/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
     },
     {
         "id": "quarkfinder_top",
@@ -125,7 +183,9 @@
         "url": "https://www.quarkfinder.top/",
         "description": "",
         "score": 0,
-        "platforms": ["quark"]
+        "platforms": [
+            "quark"
+        ]
     },
     {
         "id": "bifangpu_com",
@@ -133,7 +193,11 @@
         "url": "https://www.bifangpu.com/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark"
+        ]
     },
     {
         "id": "codelicence_cn",
@@ -141,7 +205,11 @@
         "url": "https://www.codelicence.cn/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark"
+        ]
     },
     {
         "id": "fastsoso_cc",
@@ -149,7 +217,9 @@
         "url": "https://www.fastsoso.cc/",
         "description": "",
         "score": 0,
-        "platforms": ["baidu"]
+        "platforms": [
+            "baidu"
+        ]
     },
     {
         "id": "yapan_io",
@@ -157,7 +227,9 @@
         "url": "https://yapan.io/",
         "description": "",
         "score": 0,
-        "platforms": ["ali"]
+        "platforms": [
+            "ali"
+        ]
     },
     {
         "id": "duanjuso_com",
@@ -165,6 +237,143 @@
         "url": "https://www.duanjuso.com/",
         "description": "",
         "score": 0,
-        "platforms": ["ali", "baidu", "quark", "xunlei"]
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
+    },
+    {
+        "id": "xunjiso_com",
+        "title": "迅极搜",
+        "url": "https://xunjiso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "xunlei",
+            "quark",
+            "ali",
+            "baidu",
+            "tianyi"
+        ]
+    },
+    {
+        "id": "maoliyun_com",
+        "title": "猫狸云搜索",
+        "url": "https://www.maoliyun.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "xunlei",
+            "quark",
+            "ali",
+            "baidu",
+            "tianyi"
+        ]
+    },
+    {
+        "id": "hunhepan_com",
+        "title": "混合盘",
+        "url": "https://hunhepan.com/search",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "quark",
+            "baidu",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "lzpanx_com",
+        "title": "懒盘搜索",
+        "url": "https://www.lzpanx.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "alipanx_com",
+        "title": "阿里盘搜",
+        "url": "https://www.alipanx.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "xlpanso_com",
+        "title": "迅雷盘搜",
+        "url": "https://xlpanso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "jupanso_com",
+        "title": "剧盘搜",
+        "url": "https://www.jupanso.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "dapanso_com",
+        "title": "大盘搜",
+        "url": "https://dapanso.com/search",
+        "description": "不用注册登录就能搜索，但是需要注册登录才能访问搜索到的资源",
+        "score": 0,
+        "platforms": [
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei"
+        ]
+    },
+    {
+        "id": "souyisou_top",
+        "title": "数据搜索",
+        "url": "https://ysxjjkl.souyisou.top/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu"
+        ]
+    },
+    {
+        "id": "xuesousou_net",
+        "title": "学搜搜",
+        "url": "https://www.xuesousou.net/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "baidu",
+            "ali"
+        ]
     }
 ]
