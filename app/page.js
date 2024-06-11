@@ -40,38 +40,43 @@ export default function Home() {
     "weiyun",
     "115",
   ];
-  const translatedSortedPlatforms = platformOrder
-    .filter((platform) => platforms.includes(platform))
-    .map((platform) => platformTranslation[platform]);
+  const sortedPlatforms = platformOrder
+    .filter((platform) => platforms.includes(platform));
   const filteredSites =
     selectedPlatform === "all"
       ? featuredSites
       : featuredSites.filter((site) =>
           site.platforms.includes(selectedPlatform)
         );
+  console.log(sortedPlatforms)
+  console.log(selectedPlatform)
 
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} />
       <AdBanner />
       <div className={styles.main}>
-        <div className={styles.filterDiv}>
+        
+        <div>
+          <h2>精选工具</h2>
+          <div className={styles.filterDiv}>
           <span>平台 👉 </span>
           <select
             value={selectedPlatform}
             onChange={(e) => setSelectedPlatform(e.target.value)}
           >
             <option value={"all"}>全部</option>
-            {[...translatedSortedPlatforms].map((platform) => (
-              <option key={platform} value={platform}>
-                {platformTranslation[platform] || platform}
-              </option>
-            ))}
+            {sortedPlatforms.map((platformKey) => {
+              const platformName = platformTranslation[platformKey] || platformKey;
+              return (
+                <option key={platformKey} value={platformKey}>
+                 {platformName} 
+                </option>
+              );
+            })}
           </select>
           <p>当前仅支持筛选「精选工具」，所有筛选稍后支持。</p>
         </div>
-        <div>
-          <h2>精选工具</h2>
           <p>
             💯 以下工具均经过全面人工测试可用且好用，推荐使用（<b>非广告</b>
             ），推荐值 👍👍👍👍👍 为满分。
@@ -85,6 +90,7 @@ export default function Home() {
         </div>
         <div>
           <h2>用户推荐</h2>
+          
           <p>
             🥳
             以下工具均来自用户推荐，且经过一定程度的人工测试筛选，较为好用。如果你也有好用的网盘搜索工具，欢迎
