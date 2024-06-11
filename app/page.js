@@ -10,11 +10,39 @@ import userRecommendedSites from "../public/data/userRecommendedSites.json";
 import noTestSites from "../public/data/noTestSites.json";
 
 export default function Home() {
-  // 全局常量
+  // 全局常量，数据最新更新时间（字符串格式）
   const lastUpdateDateStr = "2024-06-11";
 
+  // 平台筛选，用户选择的平台
   const [selectedPlatform, setSelectedPlatform] = useState("all");
-  const platforms = new Set(featuredSites.flatMap((site) => site.platforms));
+  const platforms = Array.from(new Set(featuredSites.flatMap((site) => site.platforms)));
+  const platformTranslation = {
+    ali: "阿里云盘",
+    baidu: "百度网盘",
+    quark: "夸克网盘",
+    xunlei: "迅雷网盘",
+    lanzou: "蓝奏云",
+    uc: "UC 网盘",
+    tianyi: "天翼云盘",
+    yidong: "移动云盘",
+    weiyun: "腾讯微云",
+    115: "115网盘",
+  };
+  const platformOrder = [
+    "ali",
+    "baidu",
+    "quark",
+    "xunlei",
+    "lanzou",
+    "uc",
+    "tianyi",
+    "yidong",
+    "weiyun",
+    "115",
+  ];
+  const translatedSortedPlatforms = platformOrder
+    .filter((platform) => platforms.includes(platform))
+    .map((platform) => platformTranslation[platform]);
   const filteredSites =
     selectedPlatform === "all"
       ? featuredSites
@@ -34,9 +62,9 @@ export default function Home() {
             onChange={(e) => setSelectedPlatform(e.target.value)}
           >
             <option value={"all"}>全部</option>
-            {[...platforms].map((platform) => (
+            {[...translatedSortedPlatforms].map((platform) => (
               <option key={platform} value={platform}>
-                {platform}
+                {platformTranslation[platform] || platform}
               </option>
             ))}
           </select>
