@@ -2,17 +2,22 @@
 <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
 <loc>https://www.pansou.vip/</loc>
-<lastmod>2024-05-24T10:59:51+00:00</lastmod>
+<lastmod>2024-06-11T06:46:07+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
+<loc>https://www.pansou.vip/forum</loc>
+<lastmod>2024-06-11T06:46:07+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
 <loc>https://www.pansou.vip/faq</loc>
-<lastmod>2024-05-24T10:59:51+00:00</lastmod>
+<lastmod>2024-06-11T06:46:07+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 <loc>https://www.pansou.vip/about</loc>
-<lastmod>2024-05-24T10:59:51+00:00</lastmod>
+<lastmod>2024-06-11T06:46:07+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 </urlset>
