@@ -3,7 +3,7 @@
 import Hero from "./components/hero";
 import Card from "./components/card";
 import AdBanner from "./components/fragments/adBanner";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
 import userRecommendedSites from "../public/data/userRecommendedSites.json";
@@ -97,6 +97,15 @@ export default function Home() {
       : noTestSites.filter((site) =>
           site.platforms.includes(noTestSelectedPlatform)
         );
+
+  // 滚动到页面顶部的方法
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
 
   return (
     <div>
@@ -212,6 +221,13 @@ export default function Home() {
         </div>
       </div>
       <AdBanner />
+      <button
+        className={styles.backToTopBtn}
+        title="回到顶部"
+        onClick={scrollToTop}
+      >
+        ⬆️
+      </button>
     </div>
   );
 }

@@ -24,10 +24,37 @@
   border-color: #a1ccd1;
 }
 
+.backToTopBtn {
+  position: fixed; /* 固定定位 */
+  bottom: 60px;
+  right: 40px;
+  z-index: 99; /* 确保按钮在页面内容之上 */
+  border: none; /* 无边框 */
+  outline: none; /* 点击时无轮廓 */
+  background-color: #4AAFD1;
+  opacity: 0.5; /* 初始透明度 */
+  color: white; /* 文字颜色 */
+  cursor: pointer; /* 鼠标悬停时显示指针 */
+  padding: 8px 12px; /* 内边距 */
+  border-radius: 30px; /* 圆角 */
+  font-size: 30px; /* 字体大小 */
+  transition: opacity 0.5s, background-color 0.5s; /* 过渡效果 */
+}
+
+.backToTopBtn:hover {
+  background-color: #8ECE51; /* 鼠标悬停时背景颜色变深 */
+  opacity: 1;
+}
+
 /* 根据视口宽度调整网格的列数 */
 @media (max-width: 767px) {
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 移动设备：1列 */
+  }
+
+  .backToTopBtn {
+    bottom: 60px;
+    right: 10px;
   }
 }
 
@@ -35,16 +62,31 @@
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 平板：2列 */
   }
+
+  .backToTopBtn {
+    bottom: 60px;
+    right: 20px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1299px) {
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 小桌面：3列 */
   }
+
+  .backToTopBtn {
+    bottom: 60px;
+    right: 30px;
+  }
 }
 
 @media (min-width: 1300px) {
   .siteList {
     grid-template-columns: repeat(1, 1fr); /* 大桌面：4列 */
+  }
+
+  .backToTopBtn {
+    bottom: 60px;
+    right: 40px;
   }
 }
