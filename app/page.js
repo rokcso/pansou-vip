@@ -110,7 +110,7 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} siteCount={allSiteCount} />
-      <AdBanner />
+      {/* <AdBanner /> */}
       <div className={styles.main}>
         <div>
           <h2>精选工具</h2>
@@ -220,7 +220,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <AdBanner />
+      {/* <AdBanner /> */}
       <button
         className={styles.backToTopBtn}
         title="回到顶部"
