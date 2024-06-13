@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <h1>网盘资源分享论坛</h1>
-      <AdBanner />
+      {/* <AdBanner /> */}
       <div className={styles.siteList}>
         {forumSites.map((cardInfo, index) => (
           <Card key={index} cardInfo={cardInfo} />

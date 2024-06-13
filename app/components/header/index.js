@@ -13,9 +13,9 @@ export default function () {
         <div className={styles.headerLink}>
           {/* <a href="https://rydnl.yhzu.cn/" title="淘宝优惠商城">
             <span>
-              <b>💸 淘宝隐藏优惠券</b>
+              <b>淘宝隐藏优惠券 💸</b>
             </span>
-          </a> */}
+          </a>
           <a
             href="https://lizhi.shop/site/discount/id/618?cid=y39pjk8l"
             title="数码荔枝商城页"
@@ -23,7 +23,7 @@ export default function () {
             <span>
               <b>正版软件促销 🎉</b>
             </span>
-          </a>
+          </a> */}
           <a href="/forum" title="网盘资源分享论坛导航">
             <span>
               <b>资源论坛</b>
