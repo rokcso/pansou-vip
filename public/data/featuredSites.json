@@ -10,6 +10,17 @@
         ]
     },
     {
+        "id": "qileso_com",
+        "title": "奇乐搜",
+        "url": "https://www.qileso.com/",
+        "description": "搜索速度比较稳定，资源比较新，主要是影视类资源比较多。",
+        "score": 5,
+        "platforms": [
+            "ali",
+            "quark"
+        ]
+    },
+    {
         "id": "cuppaso_com",
         "title": "咔帕搜索",
         "url": "https://www.cuppaso.com/",
