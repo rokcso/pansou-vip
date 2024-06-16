@@ -12,15 +12,18 @@ import forumSites from "../public/data/forum.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-06-11";
+  const lastUpdateDateStr = "2024-06-16";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
   const userRecommendedSiteCount = userRecommendedSites.length;
   const noTestSiteCount = noTestSites.length;
   const forumSiteCount = forumSites.length;
-  const allSiteCount = featuredSiteCount + userRecommendedSiteCount + noTestSiteCount + forumSiteCount;
-
+  const allSiteCount =
+    featuredSiteCount +
+    userRecommendedSiteCount +
+    noTestSiteCount +
+    forumSiteCount;
 
   // 平台筛选，用户选择的平台的值，默认 all
   const [selectedPlatform, setSelectedPlatform] = useState("all");
@@ -77,7 +80,7 @@ export default function Home() {
   const noTestSortedPlatformOptions = platformOrder.filter((platform) =>
     noTestSitePlatformOptions.includes(platform)
   );
-  
+
   // 根据用户选择的平台过滤要显示的 Site 数据
   const filteredSites =
     selectedPlatform === "all"
@@ -105,7 +108,6 @@ export default function Home() {
       behavior: "smooth",
     });
   };
-
 
   return (
     <div>
