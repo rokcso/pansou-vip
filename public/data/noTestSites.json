@@ -118,6 +118,16 @@
         ]
     },
     {
+        "id": "pan_funletu_com",
+        "title": "趣盘搜",
+        "url": "https://pan.funletu.com/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "quark"
+        ]
+    },
+    {
         "id": "iizhi_cn",
         "title": "毕方铺",
         "url": "https://www.iizhi.cn/",
