@@ -24,6 +24,11 @@ export default function () {
               <b>正版软件促销 🎉</b>
             </span>
           </a> */}
+          <a href="/rubric" title="盘搜VIP的网盘搜索工具评分标准">
+            <span>
+              <b>🧾《评分标准》</b>
+            </span>
+          </a>
           <a href="/forum" title="网盘资源分享论坛导航">
             <span>
               <b>资源论坛</b>
