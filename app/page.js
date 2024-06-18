@@ -12,7 +12,7 @@ import forumSites from "../public/data/forum.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-06-16";
+  const lastUpdateDateStr = "2024-06-18";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
@@ -88,18 +88,21 @@ export default function Home() {
       : featuredSites.filter((site) =>
           site.platforms.includes(selectedPlatform)
         );
+  const filteredSortedSites = filteredSites.sort((a, b) => b.score - a.score);
   const userRecommendedFilteredSites =
     userRecommendedSelectedPlatform === "all"
       ? userRecommendedSites
       : userRecommendedSites.filter((site) =>
           site.platforms.includes(userRecommendedSelectedPlatform)
         );
+  const userRecommendedFilteredSortedSites = userRecommendedFilteredSites.sort((a, b) => b.score - a.score);
   const noTestFilteredSites =
     noTestSelectedPlatform === "all"
       ? noTestSites
       : noTestSites.filter((site) =>
           site.platforms.includes(noTestSelectedPlatform)
         );
+  const noTestFilteredSortedSites = noTestFilteredSites.sort((a, b) => b.score - a.score);
 
   // 滚动到页面顶部的方法
   const scrollToTop = () => {
@@ -142,7 +145,7 @@ export default function Home() {
           <br />
         </div>
         <div className={styles.siteList}>
-          {filteredSites.map((cardInfo, index) => (
+          {filteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>
@@ -185,7 +188,7 @@ export default function Home() {
           <br />
         </div>
         <div className={styles.siteList}>
-          {userRecommendedFilteredSites.map((cardInfo, index) => (
+          {userRecommendedFilteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>
@@ -217,7 +220,7 @@ export default function Home() {
           <br />
         </div>
         <div className={styles.siteList}>
-          {noTestFilteredSites.map((cardInfo, index) => (
+          {noTestFilteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>
