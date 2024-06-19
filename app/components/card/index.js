@@ -100,8 +100,8 @@ export default function ({ cardInfo }) {
               {scoreSymbols}（{info.score} 分）
             </p>
           )}
-          <p>🌟 优点：{info.advantages}</p>
-          <p>🚫 缺点：{info.disadvantages}</p>
+          {info.advantages.length > 0 && (<p>🌟 优点：{info.advantages}</p>)}
+          {info.disadvantages.length > 0 && (<p>🚫 缺点：{info.disadvantages}</p>)}
           {info.description.length > 0 && (
             <p className={styles.cardDesc}>🧻 评论：{info.description}</p>
           )}
