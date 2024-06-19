@@ -6,40 +6,49 @@ import AdBanner from "./components/fragments/adBanner";
 import { useState, useEffect, useRef } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
-import userRecommendedSites from "../public/data/userRecommendedSites.json";
-import noTestSites from "../public/data/noTestSites.json";
+import userSubmittedSites from "../public/data/userSubmittedSites.json";
+import noFeaturedSites from "../public/data/noFeaturedSites.json";
+import blackSites from "../public/data/blackSites.json";
 import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-06-18";
+  const lastUpdateDateStr = "2024-06-19";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
-  const userRecommendedSiteCount = userRecommendedSites.length;
-  const noTestSiteCount = noTestSites.length;
+  const userSubmittedSiteCount = userSubmittedSites.length;
+  const noFeaturedSiteCount = noFeaturedSites.length;
+  const blackSiteCount = blackSites.length;
   const forumSiteCount = forumSites.length;
   const allSiteCount =
     featuredSiteCount +
-    userRecommendedSiteCount +
-    noTestSiteCount +
+    userSubmittedSiteCount +
+    noFeaturedSiteCount +
+    blackSiteCount +
     forumSiteCount;
 
   // 平台筛选，用户选择的平台的值，默认 all
-  const [selectedPlatform, setSelectedPlatform] = useState("all");
-  const [userRecommendedSelectedPlatform, setUserRecommendedSelectedPlatform] =
+  const [featuredSelectedPlatform, setFeaturedSelectedPlatform] =
     useState("all");
-  const [noTestSelectedPlatform, setNoTestSelectedPlatform] = useState("all");
+  const [userSubmittedSelectedPlatform, setUserSubmittedSelectedPlatform] =
+    useState("all");
+  const [noFeaturedSelectedPlatform, setNoFeaturedSelectedPlatform] =
+    useState("all");
+  const [blackSelectedPlatform, setBlackSelectedPlatform] = useState("all");
 
   // 用户可用来筛选平台的选项，从 Site 数据中获取 platforms 数据，将其声明为 Set 对象可以直接去重，再转换为数组
-  const platformOptions = Array.from(
+  const featuredPlatformOptions = Array.from(
     new Set(featuredSites.flatMap((site) => site.platforms))
   );
-  const userRecommendedSitePlatformOptions = Array.from(
-    new Set(userRecommendedSites.flatMap((site) => site.platforms))
+  const userSubmittedSitePlatformOptions = Array.from(
+    new Set(userSubmittedSites.flatMap((site) => site.platforms))
   );
-  const noTestSitePlatformOptions = Array.from(
-    new Set(noTestSites.flatMap((site) => site.platforms))
+  const noFeaturedSitePlatformOptions = Array.from(
+    new Set(noFeaturedSites.flatMap((site) => site.platforms))
+  );
+  const blackSitePlatformOptions = Array.from(
+    new Set(blackSites.flatMap((site) => site.platforms))
   );
 
   // 平台原始值标识对应的中文值
@@ -71,40 +80,54 @@ export default function Home() {
   ];
 
   // 排序之后的平台选项
-  const sortedPlatformOptions = platformOrder.filter((platform) =>
-    platformOptions.includes(platform)
+  const featuredSortedPlatformOptions = platformOrder.filter((platform) =>
+    featuredPlatformOptions.includes(platform)
   );
-  const userRecommendedSortedPlatformOptions = platformOrder.filter(
-    (platform) => userRecommendedSitePlatformOptions.includes(platform)
+  const userSubmittedSortedPlatformOptions = platformOrder.filter((platform) =>
+    userSubmittedSitePlatformOptions.includes(platform)
   );
-  const noTestSortedPlatformOptions = platformOrder.filter((platform) =>
-    noTestSitePlatformOptions.includes(platform)
+  const noFeaturedSortedPlatformOptions = platformOrder.filter((platform) =>
+    noFeaturedSitePlatformOptions.includes(platform)
+  );
+  const blackSortedPlatformOptions = platformOrder.filter((platform) =>
+    blackSitePlatformOptions.includes(platform)
   );
 
   // 根据用户选择的平台过滤要显示的 Site 数据
-  const filteredSites =
-    selectedPlatform === "all"
+  const featuredFilteredSites =
+    featuredSelectedPlatform === "all"
       ? featuredSites
       : featuredSites.filter((site) =>
-          site.platforms.includes(selectedPlatform)
+          site.platforms.includes(featuredSelectedPlatform)
         );
-  const filteredSortedSites = filteredSites.sort((a, b) => b.score - a.score);
-  const userRecommendedFilteredSites =
-    userRecommendedSelectedPlatform === "all"
-      ? userRecommendedSites
-      : userRecommendedSites.filter((site) =>
-          site.platforms.includes(userRecommendedSelectedPlatform)
-        );
-  const userRecommendedFilteredSortedSites = userRecommendedFilteredSites.sort(
+  const featuredFilteredSortedSites = featuredFilteredSites.sort(
     (a, b) => b.score - a.score
   );
-  const noTestFilteredSites =
-    noTestSelectedPlatform === "all"
-      ? noTestSites
-      : noTestSites.filter((site) =>
-          site.platforms.includes(noTestSelectedPlatform)
+  const userSubmittedFilteredSites =
+    userSubmittedSelectedPlatform === "all"
+      ? userSubmittedSites
+      : userSubmittedSites.filter((site) =>
+          site.platforms.includes(userSubmittedSelectedPlatform)
         );
-  const noTestFilteredSortedSites = noTestFilteredSites.sort(
+  const userSubmittedFilteredSortedSites = userSubmittedFilteredSites.sort(
+    (a, b) => b.score - a.score
+  );
+  const noFeaturedFilteredSites =
+    noFeaturedSelectedPlatform === "all"
+      ? noFeaturedSites
+      : noFeaturedSites.filter((site) =>
+          site.platforms.includes(noFeaturedSelectedPlatform)
+        );
+  const noFeaturedFilteredSortedSites = noFeaturedFilteredSites.sort(
+    (a, b) => b.score - a.score
+  );
+  const blackFilteredSites =
+    blackSelectedPlatform === "all"
+      ? blackSites
+      : blackSites.filter((site) =>
+          site.platforms.includes(blackSelectedPlatform)
+        );
+  const blackFilteredSortedSites = blackFilteredSites.sort(
     (a, b) => b.score - a.score
   );
 
@@ -127,11 +150,11 @@ export default function Home() {
           <div className={styles.filterDiv}>
             <span>平台筛选 👉 </span>
             <select
-              value={selectedPlatform}
-              onChange={(e) => setSelectedPlatform(e.target.value)}
+              value={featuredSelectedPlatform}
+              onChange={(e) => setFeaturedSelectedPlatform(e.target.value)}
             >
               <option value={"all"}>全部</option>
-              {sortedPlatformOptions.map((platformKey) => {
+              {featuredSortedPlatformOptions.map((platformKey) => {
                 const platformName =
                   platformTranslation[platformKey] || platformKey;
                 return (
@@ -143,13 +166,12 @@ export default function Home() {
             </select>
           </div>
           <p>
-            💯 以下工具均经过全面人工测试可用且好用，推荐使用（<b>非广告</b>
-            ），推荐值 👍👍👍👍👍 为满分。
+            💯 以下工具均已完成全面人工测试，且得分（满分 5 分）较高，特别推荐！
           </p>
           <br />
         </div>
         <div className={styles.siteList}>
-          {filteredSortedSites.map((cardInfo, index) => (
+          {featuredFilteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>
@@ -159,13 +181,11 @@ export default function Home() {
           <div className={styles.filterDiv}>
             <span>平台筛选 👉 </span>
             <select
-              value={userRecommendedSelectedPlatform}
-              onChange={(e) =>
-                setUserRecommendedSelectedPlatform(e.target.value)
-              }
+              value={userSubmittedSelectedPlatform}
+              onChange={(e) => setUserSubmittedSelectedPlatform(e.target.value)}
             >
               <option value={"all"}>全部</option>
-              {userRecommendedSortedPlatformOptions.map((platformKey) => {
+              {userSubmittedSortedPlatformOptions.map((platformKey) => {
                 const platformName =
                   platformTranslation[platformKey] || platformKey;
                 return (
@@ -192,7 +212,7 @@ export default function Home() {
           <br />
         </div>
         <div className={styles.siteList}>
-          {userRecommendedFilteredSortedSites.map((cardInfo, index) => (
+          {userSubmittedFilteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>
@@ -202,11 +222,11 @@ export default function Home() {
           <div className={styles.filterDiv}>
             <span>平台筛选 👉 </span>
             <select
-              value={noTestSelectedPlatform}
-              onChange={(e) => setNoTestSelectedPlatform(e.target.value)}
+              value={noFeaturedSelectedPlatform}
+              onChange={(e) => setNoFeaturedSelectedPlatform(e.target.value)}
             >
               <option value={"all"}>全部</option>
-              {noTestSortedPlatformOptions.map((platformKey) => {
+              {noFeaturedSortedPlatformOptions.map((platformKey) => {
                 const platformName =
                   platformTranslation[platformKey] || platformKey;
                 return (
@@ -224,7 +244,38 @@ export default function Home() {
           <br />
         </div>
         <div className={styles.siteList}>
-          {noTestFilteredSortedSites.map((cardInfo, index) => (
+          {noFeaturedFilteredSortedSites.map((cardInfo, index) => (
+            <Card key={index} cardInfo={cardInfo} />
+          ))}
+        </div>
+        <div>
+          <h2>黑名单工具</h2>
+          {/* 筛选组件 */}
+          <div className={styles.filterDiv}>
+            <span>平台筛选 👉 </span>
+            <select
+              value={blackSelectedPlatform}
+              onChange={(e) => setBlackSelectedPlatform(e.target.value)}
+            >
+              <option value={"all"}>全部</option>
+              {blackSortedPlatformOptions.map((platformKey) => {
+                const platformName =
+                  platformTranslation[platformKey] || platformKey;
+                return (
+                  <option key={platformKey} value={platformKey}>
+                    {platformName}
+                  </option>
+                );
+              })}
+            </select>
+          </div>
+          <p>
+            🤮 <b>以下工具经过人工测试难用至极，请酌情使用。</b>
+          </p>
+          <br />
+        </div>
+        <div className={styles.siteList}>
+          {blackFilteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>

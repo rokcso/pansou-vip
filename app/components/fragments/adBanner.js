@@ -17,7 +17,8 @@ export default function AdBanner() {
       className={styles.noteLink}
     >
       <div className={styles.note}>
-      <b>《盘搜VIP 网盘搜索工具评分标准》上线啦！</b>🎉
+        <b>《盘搜VIP 网盘搜索工具评分标准》上线啦！</b>🎉
+        平台收录的所有工具都将按照本评分标准进行人工测试，预计一周内完成。
       </div>
     </a>
   );
