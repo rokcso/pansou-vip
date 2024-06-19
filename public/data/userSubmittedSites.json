@@ -102,7 +102,25 @@
         "description": "",
         "score": 0,
         "platforms": [
-            "baidu", "quark", "ali", "xunlei", "uc"
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "ecur_cn",
+        "title": "酷云盘搜",
+        "url": "https://www.ecur.cn/",
+        "description": "",
+        "score": 0,
+        "platforms": [
+            "ali",
+            "quark",
+            "uc",
+            "xunlei",
+            "baidu"
         ]
     }
 ]
