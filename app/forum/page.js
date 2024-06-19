@@ -1,6 +1,6 @@
 import AdBanner from "../components/fragments/adBanner";
 import Card from "../components/card";
-import forumSites from "../../public/data/forum.json";
+import forumSites from "../../public/data/forumSites.json";
 import styles from "./page.module.css";
 
 export const metadata = {

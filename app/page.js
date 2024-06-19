@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
 import userRecommendedSites from "../public/data/userRecommendedSites.json";
 import noTestSites from "../public/data/noTestSites.json";
-import forumSites from "../public/data/forum.json";
+import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
@@ -95,14 +95,18 @@ export default function Home() {
       : userRecommendedSites.filter((site) =>
           site.platforms.includes(userRecommendedSelectedPlatform)
         );
-  const userRecommendedFilteredSortedSites = userRecommendedFilteredSites.sort((a, b) => b.score - a.score);
+  const userRecommendedFilteredSortedSites = userRecommendedFilteredSites.sort(
+    (a, b) => b.score - a.score
+  );
   const noTestFilteredSites =
     noTestSelectedPlatform === "all"
       ? noTestSites
       : noTestSites.filter((site) =>
           site.platforms.includes(noTestSelectedPlatform)
         );
-  const noTestFilteredSortedSites = noTestFilteredSites.sort((a, b) => b.score - a.score);
+  const noTestFilteredSortedSites = noTestFilteredSites.sort(
+    (a, b) => b.score - a.score
+  );
 
   // 滚动到页面顶部的方法
   const scrollToTop = () => {
