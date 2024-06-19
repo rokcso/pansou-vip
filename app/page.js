@@ -9,6 +9,7 @@ import featuredSites from "../public/data/featuredSites.json";
 import userSubmittedSites from "../public/data/userSubmittedSites.json";
 import noFeaturedSites from "../public/data/noFeaturedSites.json";
 import blackSites from "../public/data/blackSites.json";
+import wastedSites from "../public/data/wastedSites.json";
 import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
@@ -20,12 +21,14 @@ export default function Home() {
   const userSubmittedSiteCount = userSubmittedSites.length;
   const noFeaturedSiteCount = noFeaturedSites.length;
   const blackSiteCount = blackSites.length;
+  const wastedSiteCount = wastedSites.length;
   const forumSiteCount = forumSites.length;
   const allSiteCount =
     featuredSiteCount +
     userSubmittedSiteCount +
     noFeaturedSiteCount +
     blackSiteCount +
+    wastedSiteCount +
     forumSiteCount;
 
   // 平台筛选，用户选择的平台的值，默认 all
@@ -36,6 +39,7 @@ export default function Home() {
   const [noFeaturedSelectedPlatform, setNoFeaturedSelectedPlatform] =
     useState("all");
   const [blackSelectedPlatform, setBlackSelectedPlatform] = useState("all");
+  const [wastedSelectedPlatform, setWastedSelectedPlatform] = useState("all");
 
   // 用户可用来筛选平台的选项，从 Site 数据中获取 platforms 数据，将其声明为 Set 对象可以直接去重，再转换为数组
   const featuredPlatformOptions = Array.from(
@@ -49,6 +53,9 @@ export default function Home() {
   );
   const blackSitePlatformOptions = Array.from(
     new Set(blackSites.flatMap((site) => site.platforms))
+  );
+  const wastedSitePlatformOptions = Array.from(
+    new Set(wastedSites.flatMap((site) => site.platforms))
   );
 
   // 平台原始值标识对应的中文值
@@ -92,6 +99,9 @@ export default function Home() {
   const blackSortedPlatformOptions = platformOrder.filter((platform) =>
     blackSitePlatformOptions.includes(platform)
   );
+  const wastedSortedPlatformOptions = platformOrder.filter((platform) =>
+    wastedSitePlatformOptions.includes(platform)
+  );
 
   // 根据用户选择的平台过滤要显示的 Site 数据
   const featuredFilteredSites =
@@ -128,6 +138,15 @@ export default function Home() {
           site.platforms.includes(blackSelectedPlatform)
         );
   const blackFilteredSortedSites = blackFilteredSites.sort(
+    (a, b) => b.score - a.score
+  );
+  const wastedFilteredSites =
+    wastedSelectedPlatform === "all"
+      ? wastedSites
+      : wastedSites.filter((site) =>
+          site.platforms.includes(wastedSelectedPlatform)
+        );
+  const wastedFilteredSortedSites = wastedFilteredSites.sort(
     (a, b) => b.score - a.score
   );
 
@@ -276,6 +295,37 @@ export default function Home() {
         </div>
         <div className={styles.siteList}>
           {blackFilteredSortedSites.map((cardInfo, index) => (
+            <Card key={index} cardInfo={cardInfo} />
+          ))}
+        </div>
+        <div>
+          <h2>废弃工具</h2>
+          {/* 筛选组件 */}
+          <div className={styles.filterDiv}>
+            <span>平台筛选 👉 </span>
+            <select
+              value={wastedSelectedPlatform}
+              onChange={(e) => setWastedSelectedPlatform(e.target.value)}
+            >
+              <option value={"all"}>全部</option>
+              {wastedSortedPlatformOptions.map((platformKey) => {
+                const platformName =
+                  platformTranslation[platformKey] || platformKey;
+                return (
+                  <option key={platformKey} value={platformKey}>
+                    {platformName}
+                  </option>
+                );
+              })}
+            </select>
+          </div>
+          <p>
+          🗑️ 以下工具已经不可用，暂存于此，万一恢复后添加回上面正常分类。
+          </p>
+          <br />
+        </div>
+        <div className={styles.siteList}>
+          {wastedFilteredSortedSites.map((cardInfo, index) => (
             <Card key={index} cardInfo={cardInfo} />
           ))}
         </div>
