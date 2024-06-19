@@ -3,7 +3,7 @@
 import Hero from "./components/hero";
 import Card from "./components/card";
 import AdBanner from "./components/fragments/adBanner";
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
 import userSubmittedSites from "../public/data/userSubmittedSites.json";
@@ -163,6 +163,7 @@ export default function Home() {
       <Hero lastUpdateDateStr={lastUpdateDateStr} siteCount={allSiteCount} />
       <AdBanner />
       <div className={styles.main}>
+        {/* 精选工具 Start */}
         <div>
           <h2>精选工具</h2>
           {/* 筛选组件 */}
@@ -187,13 +188,14 @@ export default function Home() {
           <p>
             💯 以下工具均已完成全面人工测试，且得分（满分 5 分）较高，特别推荐！
           </p>
-          <br />
+          <div className={styles.siteList}>
+            {featuredFilteredSortedSites.map((cardInfo, index) => (
+              <Card key={index} cardInfo={cardInfo} />
+            ))}
+          </div>
         </div>
-        <div className={styles.siteList}>
-          {featuredFilteredSortedSites.map((cardInfo, index) => (
-            <Card key={index} cardInfo={cardInfo} />
-          ))}
-        </div>
+        {/* 精选工具 End */}
+        {/* 用户推荐 Start */}
         <div>
           <h2>用户推荐</h2>
           {/* 筛选组件 */}
@@ -228,13 +230,14 @@ export default function Home() {
             </a>
             。
           </p>
-          <br />
+          <div className={styles.siteList}>
+            {userSubmittedFilteredSortedSites.map((cardInfo, index) => (
+              <Card key={index} cardInfo={cardInfo} />
+            ))}
+          </div>
         </div>
-        <div className={styles.siteList}>
-          {userSubmittedFilteredSortedSites.map((cardInfo, index) => (
-            <Card key={index} cardInfo={cardInfo} />
-          ))}
-        </div>
+        {/* 用户推荐 End */}
+        {/* 备用工具 Start */}
         <div>
           <h2>备用工具</h2>
           {/* 筛选组件 */}
@@ -257,16 +260,17 @@ export default function Home() {
             </select>
           </div>
           <p>
-            💢 以下工具均未经过全面人工测试，<b>仅保证能正常访问</b>
-            ，在精选工具不满足需求时可自行选择以下工具作为备用。
+            💢
+            以下工具经过人工测试得分较低，不作推荐，但在精选工具不满足需求时可自行选择使用。
           </p>
-          <br />
+          <div className={styles.siteList}>
+            {noFeaturedFilteredSortedSites.map((cardInfo, index) => (
+              <Card key={index} cardInfo={cardInfo} />
+            ))}
+          </div>
         </div>
-        <div className={styles.siteList}>
-          {noFeaturedFilteredSortedSites.map((cardInfo, index) => (
-            <Card key={index} cardInfo={cardInfo} />
-          ))}
-        </div>
+        {/* 备用工具 End */}
+        {/* 黑名单工具 Start */}
         <div>
           <h2>黑名单工具</h2>
           {/* 筛选组件 */}
@@ -291,13 +295,14 @@ export default function Home() {
           <p>
             🤮 <b>以下工具经过人工测试难用至极，请酌情使用。</b>
           </p>
-          <br />
+          <div className={styles.siteList}>
+            {blackFilteredSortedSites.map((cardInfo, index) => (
+              <Card key={index} cardInfo={cardInfo} />
+            ))}
+          </div>
         </div>
-        <div className={styles.siteList}>
-          {blackFilteredSortedSites.map((cardInfo, index) => (
-            <Card key={index} cardInfo={cardInfo} />
-          ))}
-        </div>
+        {/* 黑名单工具 End */}
+        {/* 废弃工具 Start */}
         <div>
           <h2>废弃工具</h2>
           {/* 筛选组件 */}
@@ -320,15 +325,16 @@ export default function Home() {
             </select>
           </div>
           <p>
-          🗑️ 以下工具已经不可用，暂存于此，万一恢复后添加回上面正常分类。
+            🗑️
+            以下工具曾经收录，但最新测试已经不可用，暂存于此，万一恢复后再添加回上面正常分类。
           </p>
-          <br />
+          <div className={styles.siteList}>
+            {wastedFilteredSortedSites.map((cardInfo, index) => (
+              <Card key={index} cardInfo={cardInfo} />
+            ))}
+          </div>
         </div>
-        <div className={styles.siteList}>
-          {wastedFilteredSortedSites.map((cardInfo, index) => (
-            <Card key={index} cardInfo={cardInfo} />
-          ))}
-        </div>
+        {/* 废弃工具 End */}
       </div>
       {/* <AdBanner /> */}
       <button
