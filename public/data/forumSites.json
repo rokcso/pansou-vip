@@ -98,5 +98,36 @@
         "description": "",
         "score": 0,
         "platforms": []
+    },
+    {
+        "id": "wpxz_top",
+        "title": "网盘小站",
+        "url": "https://wpxz.top/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "platforms": []
+    },
+    {
+        "id": "877855_xyz",
+        "title": "友盘吧",
+        "url": "https://www.877855.xyz/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "platforms": []
+    }
+    ,
+    {
+        "id": "yangtuo88_top",
+        "title": "羊驼小站",
+        "url": "https://yangtuo88.top/#/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "platforms": []
     }
 ]

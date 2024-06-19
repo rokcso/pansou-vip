@@ -1734,5 +1734,105 @@
             "baidu",
             "ali"
         ]
+    },
+    {
+        "id": "51yunpan_com",
+        "title": "无忧盘搜",
+        "url": "https://51yunpan.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu",
+            "ali"
+        ]
+    },
+    {
+        "id": "xiaotusoso_com",
+        "title": "小兔搜搜",
+        "url": "https://xiaotusoso.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu",
+            "ali"
+        ]
     }
 ]
