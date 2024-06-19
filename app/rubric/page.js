@@ -24,18 +24,18 @@ export default function Home() {
       </div>
 
       <p>
-          如果你有任何问题咨询、建议反馈、点赞支持都可以 👉{" "}
-          <a
-            href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnHckduwGEEFk2Y3yR04K3Ic"
-            title="留言问卷链接"
-            target="_blank"
-          >
-            点击这里
-          </a>{" "}
-          👈 给我留言。
-        </p>
+        如果你有任何问题咨询、建议反馈、点赞支持都可以 👉{" "}
+        <a
+          href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnHckduwGEEFk2Y3yR04K3Ic"
+          title="留言问卷链接"
+          target="_blank"
+        >
+          点击这里
+        </a>{" "}
+        👈 给我留言。
+      </p>
 
-      <h2>机器测试（权重 30%）</h2>
+      <h2>机器测试（权重 20%）</h2>
 
       <h3>网络拨测（权重 50%）</h3>
 
@@ -130,7 +130,7 @@ export default function Home() {
               <li>
                 此网址
                 <ul>
-                  <li>非通过</li>
+                  <li>通过</li>
                 </ul>
               </li>
               <li>
@@ -146,9 +146,9 @@ export default function Home() {
         <p>最终该项得分：(0 + 5 + 5 + 5) / 4 = 3.75 分。</p>
       </div>
 
-      <h2>人工测试（权重 70%）</h2>
+      <h2>人工测试（权重 80%）</h2>
 
-      <h3>资源丰富程度（权重 50%）</h3>
+      <h3>资源丰富程度（权重 45%）</h3>
       <div>
         <p>
           影视资源丰富度：在{" "}
@@ -180,7 +180,7 @@ export default function Home() {
         <p>其他类目资源的测试用例待补充。</p>
       </div>
 
-      <h3>广告密度（权重 20%）</h3>
+      <h3>广告密度（权重 25%）</h3>
       <div>
         <p>
           网站添加广告并不应该成为网站不被推荐的理由，但是过载的广告以至于影响用户的使用体验是不被推荐的。
