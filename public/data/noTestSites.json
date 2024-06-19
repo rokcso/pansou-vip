@@ -1,5 +1,106 @@
 [
     {
+        "id": "dashengpan_com",
+        "title": "大圣盘",
+        "url": "https://www.dashengpan.com/",
+        "advantages": "搜索模式丰富，速度较快",
+        "disadvantages": "需要注册/登录，免费用户限制搜索次数，查看资源链接需要付费（最低 29.9 元）。",
+        "description": "资源丰富度一般，如果实在有其他工具搜索不到的资源可以用一下，可以使用临时邮箱注册使用免费次数看看能不能找到目标资源，但是资源可用性不可知，不太推荐。",
+        "score": 3.3,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 1,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
+    },
+    {
+        "id": "xuebapan_com",
+        "title": "学霸盘",
+        "url": "https://www.xuebapan.com/",
+        "advantages": "无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度很低。",
+        "description": "基本没有影视资源，虽然主打学习资料搜索，但是搜索结果基本为 21 年左右的。",
+        "score": 1.94,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 4,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 5,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 2,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 1,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu"
+        ]
+    },
+    {
         "id": "pikaso_top",
         "title": "皮卡搜索",
         "url": "https://www.pikaso.top/",

@@ -1,0 +1,51 @@
+[
+    {
+        "id": "pansoso_com",
+        "title": "盘搜搜",
+        "url": "https://www.pansoso.com/",
+        "advantages": "无。",
+        "disadvantages": "看描述。",
+        "description": "网站几乎已经不更新资源了，通过网站引导到公众号搜索，公众号搜索需要关注公众号，然后需要使用搜索码，领取搜索码需要看公众号文章然后打开小程序，搜索码不定期更新而且比较复杂，要复制搜索码必须看 30s 视频广告，然后回到公众号使用搜索码，搜索结果和网站却差不多，基本没有新资源。",
+        "score": 1.44,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 3,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 5,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali"
+        ]
+    }
+]

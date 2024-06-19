@@ -93,8 +93,10 @@ export default function ({ cardInfo }) {
         </div>
         <div className={styles.cardScoreAndDesc}>
           {info.score > 0 && <p className={styles.cardScore}>{scoreSymbols}</p>}
+          <p>🌟 优点：{info.advantages}</p>
+          <p>🚫 缺点：{info.disadvantages}</p>
           {info.description.length > 0 && (
-            <p className={styles.cardDesc}>🧻 {info.description}</p>
+            <p className={styles.cardDesc}>🧻 评论：{info.description}</p>
           )}
         </div>
         <div className={styles.cardPlatform}>
