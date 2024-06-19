@@ -8,8 +8,11 @@ export default function ({ cardInfo }) {
     id: "pansou_vip",
     title: "盘搜VIP",
     url: "https://www.pansou.vip/",
+    advantages: "默认优势。",
+    disadvantages: "默认劣势",
     description: "人工甄选的网盘搜索工具导航",
     score: 5,
+    factors: {},
     platforms: [
       "ali",
       "baidu",
