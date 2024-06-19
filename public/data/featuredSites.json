@@ -6,15 +6,40 @@
         "description": "激活码：1024，搜索响应速度快，服务稳定，但是有出现在某些网络环境下无法访问的问题，直接换一个就好，影视资源多，注意版权敏感资源需要使用间接关键词。",
         "score": 5,
         "factors": {
-            "networkMonitoring": {
-                "type": "machineTesting",
+            "networkDetect": {
+                "type": "machineTest",
                 "score": 4,
-                "weight": 0.15
+                "weight": 0.10
             },
-            "resourceAbundance": {
-                "type": "ManualTesting",
+            "googlePageSpeed": {
+                "type": "machineTest",
                 "score": 4,
-                "weight": 0.15
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.36
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.20
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
             }
         },
         "platforms": [
