@@ -211,14 +211,14 @@
         "id": "yiso_fun",
         "title": "易搜",
         "url": "https://yiso.fun/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "如果地址失效可访问 https://yiso.eu.org",
-        "score": 0,
+        "advantages": "无。",
+        "disadvantages": "响应速度比较慢，偶尔报错，资源丰富度一般，有使用门槛限制。",
+        "description": "反爬措施比较严格，国内访问稳定性较差，如果地址失效可访问 https://yiso.eu.org，不注册/登录有搜索次数限制，需要注册/登录或者关注公众号获取激活码，版权敏感词无法搜索。",
+        "score": 2.14,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
@@ -228,17 +228,17 @@
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
@@ -248,7 +248,7 @@
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             }
         },
@@ -270,7 +270,7 @@
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.10
             },
             "googlePageSpeed": {
