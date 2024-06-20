@@ -3,10 +3,10 @@
         "id": "yunso_net",
         "title": "小云搜索",
         "url": "https://www.yunso.net/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持的平台多，资源丰富度高，无使用门槛限制。",
+        "disadvantages": "偶尔响应较慢，移动端交互体验一般。",
+        "description": "有账户系统，有预留付费访问资源能力（当前完全免费），有少量广告。",
+        "score": 3.85,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -15,32 +15,32 @@
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             }
         },
@@ -59,59 +59,60 @@
         "id": "ed3000_com",
         "title": "ED3000",
         "url": "https://www.ed3000.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，无使用门槛限制，有人工维护资源。",
+        "disadvantages": "偶尔访问较慢，资源丰富度一般。",
+        "description": "有人工维护更新的热门影视资源（一般只提供夸克网盘）。",
+        "score": 3.48,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
         "platforms": [
-            "ali"
+            "ali",
+            "quark"
         ]
     },
     {
         "id": "quark_so",
         "title": "夸克搜",
         "url": "https://www.quark.so/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "资源丰富有分类，专注于夸克搜索。",
-        "score": 0,
+        "advantages": "搜索响应速度较快，无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度一般。",
+        "description": "主要提供夸克网盘资源，但是也有少量 UC 网盘资源。",
+        "score": 2.57,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -120,81 +121,82 @@
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
         "platforms": [
-            "quark"
+            "quark",
+            "uc"
         ]
     },
     {
         "id": "kpanso_com",
         "title": "快盘搜",
         "url": "https://www.kpanso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "搜索响应速度较快，无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度一般。",
+        "description": "虽然支持多个平台，但是还是夸克网盘资源较多。",
+        "score": 3.53,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
