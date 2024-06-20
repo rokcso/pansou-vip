@@ -2,6 +2,8 @@ import AdBanner from "../components/fragments/adBanner";
 
 export const metadata = {
   title: "盘搜VIP 网盘搜索工具评分标准 - 网盘搜索工具精选导航",
+  description:
+    "盘搜VIP 首创的网盘搜索工具评分标准细则，对网盘搜索工具量化打分，提供更客观的标准定义是否好用。",
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/rubric",

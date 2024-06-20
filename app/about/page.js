@@ -3,6 +3,8 @@ import AdBanner from "../components/fragments/adBanner";
 
 export const metadata = {
   title: "什么是盘搜VIP？ - 网盘搜索工具精选导航",
+  description:
+    "盘搜VIP 旨在帮助用户发现更好用的网盘搜索工具，更方便的搜索网盘资源，汇集了近百个网盘搜索工具和网盘资源论坛，并且人工亲测打分。",
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/about",
