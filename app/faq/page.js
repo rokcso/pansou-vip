@@ -3,6 +3,8 @@ import AdBanner from "../components/fragments/adBanner";
 
 export const metadata = {
   title: "盘搜VIP 使用指南 - 网盘搜索工具精选导航",
+  description:
+    "关于盘搜VIP 使用过程中的一些常见问题和答案，以及欢迎任何反馈，我们都会及时处理。",
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/faq",

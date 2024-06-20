@@ -4,7 +4,9 @@ import forumSites from "../../public/data/forumSites.json";
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "网盘资源分享论坛 - 盘搜VIP - 盘搜搜 - 网盘搜索工具精选导航",
+  title: "网盘资源分享论坛 - 盘搜VIP - 网盘搜索工具精选导航",
+  description:
+    "整理了一些实用的网盘资源分享论坛，都经过人工测试筛选，比如网盘小站、网盘资源共享站等等。",
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/forum",
@@ -15,6 +17,9 @@ export default function Home() {
   return (
     <div>
       <h1>网盘资源分享论坛</h1>
+      <p>
+        整理了一些实用的网盘资源分享论坛，都经过人工测试筛选，但是尚没有针对资源论坛的评分标准，仅保证其能正常访问，暂时收录于此。
+      </p>
       {/* <AdBanner /> */}
       <div className={styles.siteList}>
         {forumSites.map((cardInfo, index) => (
