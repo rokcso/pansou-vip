@@ -53,6 +53,12 @@ export default function () {
         <div>
           <p>友情链接</p>
           <br />
+          <a href="https://lunarye.com/" title="Lunarye 网址" target="_blank">
+            Lunarye™ Nails
+            <LinkArrow />
+          </a>
+          <br />
+          <br />
           <a href="https://www.ubrand.com/" title="uBrand 官网" target="_blank">
             uBrand
             <LinkArrow />
