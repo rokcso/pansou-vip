@@ -336,7 +336,7 @@ export default function Home() {
         </div>
         {/* 废弃工具 End */}
       </div>
-      {/* <AdBanner /> */}
+      <AdBanner />
       <button
         className={styles.backToTopBtn}
         title="回到顶部"

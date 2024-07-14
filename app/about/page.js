@@ -37,6 +37,9 @@ export default function Home() {
           ，其次你还可以选择赞赏一下，赞赏收入将用于域名、服务器续费。👇
         </p>
         <Image src="/img/wxzsm.jpg" alt="赞赏码" width={300} height={300} />
+        <br />
+        <br />
+        <AdBanner />
       </div>
       <div>
         <h2>投稿</h2>
