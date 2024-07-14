@@ -11,24 +11,24 @@ export default function AdBanner() {
     //     💰 <b>淘宝隐藏优惠券</b>：薅羊毛精选，每日严选大牌，1 折起购好物！
     //   </div>
     // </a>
-    // <a
-    //   href="/rubric"
-    //   title="盘搜VIP的网盘搜索工具评分标准"
-    //   className={styles.noteLink}
-    // >
-    //   <div className={styles.note}>
-    //     <b>《盘搜VIP 网盘搜索工具评分标准》上线啦！</b>🎉
-    //     平台收录的所有工具都将按照本评分标准进行人工测试，预计一周内完成。
-    //   </div>
-    // </a>
     <a
-      href="https://www.xiaohongshu.com/user/profile/667a2a340000000007006fef?xhsshare=CopyLink&appuid=6046e26e00000000010085fe&apptime=1719310040"
-      title="Lunarye 美甲分享的小红书主页"
+      href="/rubric"
+      title="盘搜VIP的网盘搜索工具评分标准"
       className={styles.noteLink}
     >
       <div className={styles.note}>
-        <b>AD: </b>Lunarye™ Studio，手工穿戴甲寻宝 💝
+        <b>《盘搜VIP 网盘搜索工具评分标准》上线啦！</b>🎉
+        平台收录的所有工具都将按照本评分标准进行人工测试，预计一周内完成。
       </div>
     </a>
+    // <a
+    //   href="https://www.xiaohongshu.com/user/profile/667a2a340000000007006fef?xhsshare=CopyLink&appuid=6046e26e00000000010085fe&apptime=1719310040"
+    //   title="Lunarye 美甲分享的小红书主页"
+    //   className={styles.noteLink}
+    // >
+    //   <div className={styles.note}>
+    //     <b>AD: </b>Lunarye™ Studio，手工穿戴甲寻宝 💝
+    //   </div>
+    // </a>
   );
 }
