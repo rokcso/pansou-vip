@@ -1,61 +1,5 @@
 [
     {
-        "id": "yunso_net",
-        "title": "小云搜索",
-        "url": "https://www.yunso.net/",
-        "advantages": "支持的平台多，资源丰富度高，无使用门槛限制。",
-        "disadvantages": "偶尔响应较慢，移动端交互体验一般。",
-        "description": "有账户系统，有预留付费访问资源能力（当前完全免费），有少量广告。",
-        "score": 3.85,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 0,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 2.5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 2,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 4,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 4,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali",
-            "baidu",
-            "quark",
-            "xunlei",
-            "lanzou",
-            "uc",
-            "tianyi",
-            "yidong"
-        ]
-    },
-    {
         "id": "ed3000_com",
         "title": "ED3000",
         "url": "https://www.ed3000.com/",
@@ -153,58 +97,6 @@
         "platforms": [
             "quark",
             "uc"
-        ]
-    },
-    {
-        "id": "kpanso_com",
-        "title": "快盘搜",
-        "url": "https://www.kpanso.com/",
-        "advantages": "搜索响应速度较快，无广告，无使用门槛限制。",
-        "disadvantages": "资源丰富度一般。",
-        "description": "虽然支持多个平台，但是还是夸克网盘资源较多。",
-        "score": 3.53,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 4,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 2.5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 3,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 3,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali",
-            "baidu",
-            "quark",
-            "xunlei"
         ]
     },
     {
@@ -513,6 +405,60 @@
             "uc",
             "xunlei",
             "baidu"
+        ]
+    },
+    {
+        "id": "pan_qianfan_app",
+        "title": "干帆搜索",
+        "url": "https://pan.qianfan.app/",
+        "advantages": "服务响应速度快，支持聚合多个云盘搜索，无广告。",
+        "disadvantages": "资源丰富度一般，需要关注公众号获取激活码。",
+        "description": "激活码通常为 666888，不定期更新，如果已经失效可反馈我更新。",
+        "score": 3.46,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 4,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 5,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 2,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei",
+            "lanzou",
+            "tianyi"
         ]
     }
 ]
