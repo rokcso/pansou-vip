@@ -25,6 +25,12 @@ export default function Home() {
             如果存在网站无法测试某项，该项不参与计分，该项权重默认转移给资源丰富程度。
           </li>
         </ul>
+        <p>关于推荐：</p>
+        <ul>
+          <li>
+            人工测试总分 <b>≥3.5</b> 将被归类到「精选工具」，并在本站获得 <a href="https://blog.rokcso.com/posts/dofollow-and-nofollow/" title="dofollow & nofollow" target="_blank">dofollow</a> 链接。
+          </li>
+        </ul>
       </div>
 
       <p>
