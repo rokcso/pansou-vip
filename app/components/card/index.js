@@ -11,6 +11,7 @@ export default function ({ cardInfo }) {
     advantages: "默认优势。",
     disadvantages: "默认劣势",
     description: "人工甄选的网盘搜索工具导航",
+    nofollow: true,
     score: 5,
     factors: {},
     platforms: [
@@ -80,6 +81,7 @@ export default function ({ cardInfo }) {
         href={`${info.url}?utm_source=pansou.vip/`}
         title={info.title}
         target="_blank"
+        rel={info.nofollow ? "nofollow" : ""}
       >
         <div className={styles.cardTitleAndAction}>
           <div className={styles.cardTitle}>
@@ -100,8 +102,10 @@ export default function ({ cardInfo }) {
               {scoreSymbols}（{info.score} 分）
             </p>
           )}
-          {info.advantages.length > 0 && (<p>🌟 优点：{info.advantages}</p>)}
-          {info.disadvantages.length > 0 && (<p>🚫 缺点：{info.disadvantages}</p>)}
+          {info.advantages.length > 0 && <p>🌟 优点：{info.advantages}</p>}
+          {info.disadvantages.length > 0 && (
+            <p>🚫 缺点：{info.disadvantages}</p>
+          )}
           {info.description.length > 0 && (
             <p className={styles.cardDesc}>🧻 评论：{info.description}</p>
           )}

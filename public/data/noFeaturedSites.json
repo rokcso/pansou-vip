@@ -7,6 +7,7 @@
         "disadvantages": "需要注册/登录，免费用户限制搜索次数，查看资源链接需要付费（最低 29.9 元）。",
         "description": "资源丰富度一般，如果实在有其他工具搜索不到的资源可以用一下，可以使用临时邮箱注册使用免费次数看看能不能找到目标资源，但是资源可用性不可知，不太推荐。能得到 3.3 分主要是因为资源丰富度测试下来还不错。",
         "score": 3.3,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -59,6 +60,7 @@
         "disadvantages": "资源丰富度很低。",
         "description": "基本没有影视资源，虽然主打学习资料搜索，但是搜索结果基本为 21 年左右的。",
         "score": 1.94,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -108,6 +110,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -161,6 +164,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -213,6 +217,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -262,6 +267,7 @@
         "disadvantages": "",
         "description": "如果地址失效可访问 https://www.upso7.com/",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -311,6 +317,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -360,6 +367,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -409,6 +417,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -461,6 +470,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -513,6 +523,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -565,6 +576,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -616,6 +628,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -665,6 +678,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -716,6 +730,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -767,6 +782,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -819,6 +835,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -868,6 +885,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -920,6 +938,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -969,6 +988,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1020,6 +1040,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1071,6 +1092,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1120,6 +1142,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1169,6 +1192,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1221,6 +1245,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1274,6 +1299,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1327,6 +1353,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1380,6 +1407,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1433,6 +1461,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1486,6 +1515,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1539,6 +1569,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1592,6 +1623,7 @@
         "disadvantages": "",
         "description": "不用注册登录就能搜索，但是需要注册登录才能访问搜索到的资源",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1644,6 +1676,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1693,6 +1726,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1743,6 +1777,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -1793,6 +1828,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",

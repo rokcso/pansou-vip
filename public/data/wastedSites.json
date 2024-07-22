@@ -7,6 +7,7 @@
         "disadvantages": "",
         "description": "于 2024-06-19 17:13 测试不可用。",
         "score": 0,
+        "nofollow": true,
         "platforms": [
             "ali",
             "quark"
