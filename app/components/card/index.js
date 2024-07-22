@@ -81,7 +81,7 @@ export default function ({ cardInfo }) {
         href={`${info.url}?utm_source=pansou.vip/`}
         title={info.title}
         target="_blank"
-        rel={info.nofollow ? "nofollow" : ""}
+        {...(info.nofollow && { rel: "nofollow" })}
       >
         <div className={styles.cardTitleAndAction}>
           <div className={styles.cardTitle}>
