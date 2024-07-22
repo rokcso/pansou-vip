@@ -7,6 +7,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -17,6 +18,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -27,6 +29,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -37,6 +40,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -47,6 +51,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -57,6 +62,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -67,6 +73,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -77,6 +84,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -87,6 +95,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -97,6 +106,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -107,6 +117,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     },
     {
@@ -117,9 +128,9 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
-    }
-    ,
+    },
     {
         "id": "yangtuo88_top",
         "title": "羊驼小站",
@@ -128,6 +139,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "platforms": []
     }
 ]

@@ -7,6 +7,7 @@
         "disadvantages": "广告较多，需要关注公众号获取激活码。",
         "description": "激活码通常为 1024，服务比较稳定，影视资源较多，比较好用，注意版权敏感资源需要使用间接关键词。广告越来越多了，还有一些反爬虫措施，都说明这个网站发展不错。还有几个同源换皮网站。",
         "score": 4.235,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -56,6 +57,7 @@
         "disadvantages": "搜索准确度较低，建议使用精准搜索。",
         "description": "整体质量不错，移动端交互体验一般。",
         "score": 4.92,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -107,6 +109,7 @@
         "disadvantages": "无明显劣势。",
         "description": "搜索体验非常好，搜索结果会直接显示文件夹内容，版权管理比较严格，换关键词也不一定能搜索到版权敏感资源（取决于版权方力度）。",
         "score": 4.9,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -156,6 +159,7 @@
         "disadvantages": "需要关注公众号获取激活码。",
         "description": "激活码通常为 1314，有一定广告（适中），还有几个同源换皮网站。",
         "score": 4.27,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -205,6 +209,7 @@
         "disadvantages": "暂无。",
         "description": "整体使用体验不错，资源丰富且更新迅速，搜索响应快且搜索筛选项目比较实用，搜索结果页中还有推荐相关资源。",
         "score": 4.17,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -258,6 +263,7 @@
         "disadvantages": "偶尔响应较慢，移动端交互体验一般。",
         "description": "有账户系统，有预留付费访问资源能力（当前完全免费），有少量广告。",
         "score": 3.85,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -314,6 +320,7 @@
         "disadvantages": "资源丰富度一般。",
         "description": "虽然支持多个平台，但是还是夸克网盘资源较多。",
         "score": 3.53,
+        "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",

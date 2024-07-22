@@ -7,6 +7,7 @@
         "disadvantages": "偶尔访问较慢，资源丰富度一般。",
         "description": "有人工维护更新的热门影视资源（一般只提供夸克网盘）。",
         "score": 3.48,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -57,6 +58,7 @@
         "disadvantages": "资源丰富度一般。",
         "description": "主要提供夸克网盘资源，但是也有少量 UC 网盘资源。",
         "score": 2.57,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -107,6 +109,7 @@
         "disadvantages": "响应速度比较慢，偶尔报错，资源丰富度一般，有使用门槛限制。",
         "description": "反爬措施比较严格，国内访问稳定性较差，如果地址失效可访问 https://yiso.eu.org，不注册/登录有搜索次数限制，需要注册/登录或者关注公众号获取激活码，版权敏感词无法搜索。",
         "score": 2.14,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -159,6 +162,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -211,6 +215,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -260,6 +265,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -309,6 +315,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -362,6 +369,7 @@
         "disadvantages": "",
         "description": "",
         "score": 0,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
@@ -415,6 +423,7 @@
         "disadvantages": "资源丰富度一般，需要关注公众号获取激活码。",
         "description": "激活码通常为 666888，不定期更新，如果已经失效可反馈我更新。",
         "score": 3.46,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
