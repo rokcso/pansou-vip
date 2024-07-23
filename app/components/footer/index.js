@@ -59,7 +59,12 @@ export default function () {
           </a>
           <br />
           <br />
-          <a href="https://www.ubrand.com/" title="uBrand 官网" target="_blank">
+          <a
+            href="https://www.ubrand.com/"
+            title="uBrand 官网"
+            target="_blank"
+            rel="nofollow"
+          >
             uBrand
             <LinkArrow />
           </a>

@@ -1,27 +1,27 @@
 [
     {
-        "id": "dashengpan_com",
-        "title": "大圣盘",
-        "url": "https://www.dashengpan.com/",
-        "advantages": "搜索模式丰富，速度较快",
-        "disadvantages": "需要注册/登录，免费用户限制搜索次数，查看资源链接需要付费（最低 29.9 元）。",
-        "description": "资源丰富度一般，如果实在有其他工具搜索不到的资源可以用一下，可以使用临时邮箱注册使用免费次数看看能不能找到目标资源，但是资源可用性不可知，不太推荐。能得到 3.3 分主要是因为资源丰富度测试下来还不错。",
-        "score": 3.3,
+        "id": "quark_so",
+        "title": "夸克搜",
+        "url": "https://www.quark.so/",
+        "advantages": "搜索响应速度较快，无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度一般。",
+        "description": "主要提供夸克网盘资源，但是也有少量 UC 网盘资源。",
+        "score": 2.57,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 1,
+                "score": 0,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 5,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
@@ -31,7 +31,7 @@
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
@@ -41,15 +41,13 @@
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
         "platforms": [
-            "ali",
-            "baidu",
             "quark",
-            "xunlei"
+            "uc"
         ]
     },
     {
@@ -100,60 +98,6 @@
         },
         "platforms": [
             "baidu"
-        ]
-    },
-    {
-        "id": "pikaso_top",
-        "title": "皮卡搜索",
-        "url": "https://www.pikaso.top/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
-        "nofollow": true,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 0,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 0,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 0,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 0,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 0,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 0,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 0,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali",
-            "baidu",
-            "quark",
-            "lanzou",
-            "tianyi"
         ]
     },
     {
@@ -1869,6 +1813,320 @@
         "platforms": [
             "baidu",
             "ali"
+        ]
+    },
+    {
+        "id": "yiso_fun",
+        "title": "易搜",
+        "url": "https://yiso.fun/",
+        "advantages": "无。",
+        "disadvantages": "响应速度比较慢，偶尔报错，资源丰富度一般，有使用门槛限制。",
+        "description": "反爬措施比较严格，国内访问稳定性较差，如果地址失效可访问 https://yiso.eu.org，不注册/登录有搜索次数限制，需要注册/登录或者关注公众号获取激活码，版权敏感词无法搜索。",
+        "score": 2.14,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 3,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 1,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 1,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
+    },
+    {
+        "id": "alipanso_cc",
+        "title": "阿里搜搜",
+        "url": "https://www.alipanso.cc/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 4,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
+        ]
+    },
+    {
+        "id": "qkpanso_com",
+        "title": "夸克盘搜",
+        "url": "https://qkpanso.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark"
+        ]
+    },
+    {
+        "id": "duanjuku_top",
+        "title": "短剧库",
+        "url": "https://duanjuku.top/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark"
+        ]
+    },
+    {
+        "id": "esoua_com",
+        "title": "爱搜",
+        "url": "https://www.esoua.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu",
+            "quark",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "ecur_cn",
+        "title": "酷云盘搜",
+        "url": "https://www.ecur.cn/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "quark",
+            "uc",
+            "xunlei",
+            "baidu"
         ]
     }
 ]
