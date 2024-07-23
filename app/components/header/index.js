@@ -26,7 +26,7 @@ export default function () {
           </a> */}
           <a href="/rubric" title="盘搜VIP的网盘搜索工具评分标准">
             <span>
-              <b>🧾《评分标准》</b>
+              <b>《测试标准》</b>
             </span>
           </a>
           <a href="/forum" title="网盘资源分享论坛导航">
