@@ -49,6 +49,7 @@ export default function Home() {
             href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
             title="网盘搜索工具投稿问卷链接"
             target="_blank"
+            rel="nofollow"
           >
             投稿
           </a>{" "}

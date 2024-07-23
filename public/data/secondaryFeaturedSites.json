@@ -1,27 +1,78 @@
 [
     {
-        "id": "alipansou_com",
-        "title": "猫狸盘搜",
-        "url": "https://www.alipansou.com/",
-        "advantages": "服务响应速度快，资源丰富度高。",
-        "disadvantages": "广告较多，需要关注公众号获取激活码。",
-        "description": "激活码通常为 1024，服务比较稳定，影视资源较多，比较好用，注意版权敏感资源需要使用间接关键词。广告越来越多了，还有一些反爬虫措施，都说明这个网站发展不错。还有几个同源换皮网站。",
-        "score": 4.235,
-        "nofollow": false,
+        "id": "ed3000_com",
+        "title": "ED3000",
+        "url": "https://www.ed3000.com/",
+        "advantages": "无广告，无使用门槛限制，有人工维护资源。",
+        "disadvantages": "偶尔访问较慢，资源丰富度一般。",
+        "description": "有人工维护更新的热门影视资源（一般只提供夸克网盘）。",
+        "score": 3.48,
+        "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 5,
+                "score": 1,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 3.75,
+                "score": 5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
+                "score": 3,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
                 "score": 5,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "quark"
+        ]
+    },
+    {
+        "id": "pan_qianfan_app",
+        "title": "干帆搜索",
+        "url": "https://pan.qianfan.app/",
+        "advantages": "服务响应速度快，支持聚合多个云盘搜索，无广告。",
+        "disadvantages": "资源丰富度一般，需要关注公众号获取激活码。",
+        "description": "激活码通常为 666888，不定期更新，如果已经失效可反馈我更新。",
+        "score": 3.46,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 4,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 5,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
@@ -36,42 +87,104 @@
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 5,
+                "score": 3,
                 "weight": 0.08
             }
         },
         "platforms": [
-            "ali"
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei",
+            "lanzou",
+            "tianyi"
         ]
     },
     {
-        "id": "cuppaso_com",
-        "title": "咔帕搜索",
-        "url": "https://www.cuppaso.com/",
-        "advantages": "服务响应速度快，资源丰富度高，无广告，无使用门槛限制。",
-        "disadvantages": "搜索准确度较低，建议使用精准搜索。",
-        "description": "整体质量不错，移动端交互体验一般。",
-        "score": 4.92,
+        "id": "yunso_net",
+        "title": "小云搜索",
+        "url": "https://www.yunso.net/",
+        "advantages": "支持的平台多，资源丰富度高，无使用门槛限制。",
+        "disadvantages": "偶尔响应较慢，移动端交互体验一般。",
+        "description": "有账户系统，有预留付费访问资源能力（当前完全免费），有少量广告。",
+        "score": 3.85,
         "nofollow": false,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 5,
+                "score": 0,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 5,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
                 "score": 5,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 2,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei",
+            "lanzou",
+            "uc",
+            "tianyi",
+            "yidong"
+        ]
+    },
+    {
+        "id": "kpanso_com",
+        "title": "快盘搜",
+        "url": "https://www.kpanso.com/",
+        "advantages": "搜索响应速度较快，无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度一般。",
+        "description": "虽然支持多个平台，但是还是夸克网盘资源较多。",
+        "score": 3.53,
+        "nofollow": false,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 4,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 2.5,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
@@ -91,24 +204,25 @@
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 4,
+                "score": 3,
                 "weight": 0.08
             }
         },
         "platforms": [
             "ali",
+            "baidu",
             "quark",
             "xunlei"
         ]
     },
     {
-        "id": "aliso_cc",
-        "title": "阿里搜",
-        "url": "https://aliso.cc/",
-        "advantages": "服务响应速度快，资源丰富度高，无广告，无使用门槛限制。",
-        "disadvantages": "无明显劣势。",
-        "description": "搜索体验非常好，搜索结果会直接显示文件夹内容，版权管理比较严格，换关键词也不一定能搜索到版权敏感资源（取决于版权方力度）。",
-        "score": 4.9,
+        "id": "pikaso_top",
+        "title": "皮卡搜索",
+        "url": "https://www.pikaso.top/",
+        "advantages": "搜索影响速度较快，无使用门槛限制。",
+        "disadvantages": "资源丰富度一般，资源更新速度一般，部分版权敏感资源搜索不到。",
+        "description": "",
+        "score": 3.7,
         "nofollow": false,
         "factors": {
             "networkDetect": {
@@ -122,113 +236,13 @@
                 "weight": 0.10
             },
             "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali"
-        ]
-    },
-    {
-        "id": "aipanso_com",
-        "title": "爱盘搜",
-        "url": "https://aipanso.com/",
-        "advantages": "服务响应速度快，资源丰富度高。",
-        "disadvantages": "需要关注公众号获取激活码。",
-        "description": "激活码通常为 1314，有一定广告（适中），还有几个同源换皮网站。",
-        "score": 4.27,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 5,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 2.5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
                 "type": "manualTest",
                 "score": 3,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 2,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 4,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "quark"
-        ]
-    },
-    {
-        "id": "sousou_pro",
-        "title": "搜搜盘",
-        "url": "https://sousou.pro/",
-        "advantages": "无广告，无使用门槛限制，资源丰富度高。",
-        "disadvantages": "暂无。",
-        "description": "整体使用体验不错，资源丰富且更新迅速，搜索响应快且搜索筛选项目比较实用，搜索结果页中还有推荐相关资源。",
-        "score": 4.17,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 4,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 2.5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 5,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
@@ -243,16 +257,69 @@
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 4,
+                "score": 3,
                 "weight": 0.08
             }
         },
         "platforms": [
             "ali",
-            "quark",
             "baidu",
-            "xunlei",
-            "uc"
+            "quark",
+            "lanzou",
+            "tianyi"
+        ]
+    },
+    {
+        "id": "dashengpan_com",
+        "title": "大圣盘",
+        "url": "https://www.dashengpan.com/",
+        "advantages": "搜索模式丰富，速度较快",
+        "disadvantages": "需要注册/登录，免费用户限制搜索次数，查看资源链接需要付费（最低 29.9 元）。",
+        "description": "资源丰富度一般，如果实在有其他工具搜索不到的资源可以用一下，可以使用临时邮箱注册使用免费次数看看能不能找到目标资源，但是资源可用性不可知，不太推荐。能得到 3.3 分主要是因为资源丰富度测试下来还不错。",
+        "score": 3.3,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 1,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 5,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "baidu",
+            "quark",
+            "xunlei"
         ]
     }
 ]

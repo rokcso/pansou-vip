@@ -6,8 +6,8 @@ import AdBanner from "./components/fragments/adBanner";
 import { useState } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
-import userSubmittedSites from "../public/data/userSubmittedSites.json";
-import noFeaturedSites from "../public/data/noFeaturedSites.json";
+import secondaryFeaturedSites from "../public/data/secondaryFeaturedSites.json";
+import standbySites from "../public/data/standbySites.json";
 import blackSites from "../public/data/blackSites.json";
 import wastedSites from "../public/data/wastedSites.json";
 import forumSites from "../public/data/forumSites.json";
@@ -18,15 +18,15 @@ export default function Home() {
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
-  const userSubmittedSiteCount = userSubmittedSites.length;
-  const noFeaturedSiteCount = noFeaturedSites.length;
+  const secondaryFeaturedSiteCount = secondaryFeaturedSites.length;
+  const standbySiteCount = standbySites.length;
   const blackSiteCount = blackSites.length;
   const wastedSiteCount = wastedSites.length;
   const forumSiteCount = forumSites.length;
   const allSiteCount =
     featuredSiteCount +
-    userSubmittedSiteCount +
-    noFeaturedSiteCount +
+    secondaryFeaturedSiteCount +
+    standbySiteCount +
     blackSiteCount +
     wastedSiteCount +
     forumSiteCount;
@@ -34,10 +34,11 @@ export default function Home() {
   // 平台筛选，用户选择的平台的值，默认 all
   const [featuredSelectedPlatform, setFeaturedSelectedPlatform] =
     useState("all");
-  const [userSubmittedSelectedPlatform, setUserSubmittedSelectedPlatform] =
-    useState("all");
-  const [noFeaturedSelectedPlatform, setNoFeaturedSelectedPlatform] =
-    useState("all");
+  const [
+    secondaryFeaturedSelectedPlatform,
+    setSecondaryFeaturedSelectedPlatform,
+  ] = useState("all");
+  const [standbySelectedPlatform, setStandbySelectedPlatform] = useState("all");
   const [blackSelectedPlatform, setBlackSelectedPlatform] = useState("all");
   const [wastedSelectedPlatform, setWastedSelectedPlatform] = useState("all");
 
@@ -45,11 +46,11 @@ export default function Home() {
   const featuredPlatformOptions = Array.from(
     new Set(featuredSites.flatMap((site) => site.platforms))
   );
-  const userSubmittedSitePlatformOptions = Array.from(
-    new Set(userSubmittedSites.flatMap((site) => site.platforms))
+  const secondaryFeaturedSitePlatformOptions = Array.from(
+    new Set(secondaryFeaturedSites.flatMap((site) => site.platforms))
   );
-  const noFeaturedSitePlatformOptions = Array.from(
-    new Set(noFeaturedSites.flatMap((site) => site.platforms))
+  const standbySitePlatformOptions = Array.from(
+    new Set(standbySites.flatMap((site) => site.platforms))
   );
   const blackSitePlatformOptions = Array.from(
     new Set(blackSites.flatMap((site) => site.platforms))
@@ -90,11 +91,11 @@ export default function Home() {
   const featuredSortedPlatformOptions = platformOrder.filter((platform) =>
     featuredPlatformOptions.includes(platform)
   );
-  const userSubmittedSortedPlatformOptions = platformOrder.filter((platform) =>
-    userSubmittedSitePlatformOptions.includes(platform)
+  const secondaryFeaturedSortedPlatformOptions = platformOrder.filter(
+    (platform) => secondaryFeaturedSitePlatformOptions.includes(platform)
   );
-  const noFeaturedSortedPlatformOptions = platformOrder.filter((platform) =>
-    noFeaturedSitePlatformOptions.includes(platform)
+  const standbySortedPlatformOptions = platformOrder.filter((platform) =>
+    standbySitePlatformOptions.includes(platform)
   );
   const blackSortedPlatformOptions = platformOrder.filter((platform) =>
     blackSitePlatformOptions.includes(platform)
@@ -113,22 +114,21 @@ export default function Home() {
   const featuredFilteredSortedSites = featuredFilteredSites.sort(
     (a, b) => b.score - a.score
   );
-  const userSubmittedFilteredSites =
-    userSubmittedSelectedPlatform === "all"
-      ? userSubmittedSites
-      : userSubmittedSites.filter((site) =>
-          site.platforms.includes(userSubmittedSelectedPlatform)
+  const secondaryFeaturedFilteredSites =
+    secondaryFeaturedSelectedPlatform === "all"
+      ? secondaryFeaturedSites
+      : secondaryFeaturedSites.filter((site) =>
+          site.platforms.includes(secondaryFeaturedSelectedPlatform)
         );
-  const userSubmittedFilteredSortedSites = userSubmittedFilteredSites.sort(
-    (a, b) => b.score - a.score
-  );
-  const noFeaturedFilteredSites =
-    noFeaturedSelectedPlatform === "all"
-      ? noFeaturedSites
-      : noFeaturedSites.filter((site) =>
-          site.platforms.includes(noFeaturedSelectedPlatform)
+  const secondaryFeaturedFilteredSortedSites =
+    secondaryFeaturedFilteredSites.sort((a, b) => b.score - a.score);
+  const standbyFilteredSites =
+    standbySelectedPlatform === "all"
+      ? standbySites
+      : standbySites.filter((site) =>
+          site.platforms.includes(standbySelectedPlatform)
         );
-  const noFeaturedFilteredSortedSites = noFeaturedFilteredSites.sort(
+  const standbyFilteredSortedSites = standbyFilteredSites.sort(
     (a, b) => b.score - a.score
   );
   const blackFilteredSites =
@@ -186,7 +186,20 @@ export default function Home() {
             </select>
           </div>
           <p>
-            💯 以下工具均已完成全面人工测试，且得分（满分 5 分）较高，特别推荐！
+            💯 以下工具均已完成全面人工测试，且
+            <a href="/rubric" title="盘搜VIP 网盘搜索工具评分标准">
+              得分（满分 5 分）优秀
+            </a>
+            ，特别推荐！如果你也有好用的网盘搜索工具，欢迎 👉{" "}
+            <a
+              href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
+              title="网盘搜索工具投稿问卷链接"
+              target="_blank"
+              rel="nofollow"
+            >
+              投稿推荐
+            </a>
+            。
           </p>
           <div className={styles.siteList}>
             {featuredFilteredSortedSites.map((cardInfo, index) => (
@@ -197,16 +210,18 @@ export default function Home() {
         {/* 精选工具 End */}
         {/* 用户推荐 Start */}
         <div>
-          <h2>用户推荐</h2>
+          <h2>次要推荐</h2>
           {/* 筛选组件 */}
           <div className={styles.filterDiv}>
             <span>平台筛选 👉 </span>
             <select
-              value={userSubmittedSelectedPlatform}
-              onChange={(e) => setUserSubmittedSelectedPlatform(e.target.value)}
+              value={secondaryFeaturedSelectedPlatform}
+              onChange={(e) =>
+                setSecondaryFeaturedSelectedPlatform(e.target.value)
+              }
             >
               <option value={"all"}>全部</option>
-              {userSubmittedSortedPlatformOptions.map((platformKey) => {
+              {secondaryFeaturedSortedPlatformOptions.map((platformKey) => {
                 const platformName =
                   platformTranslation[platformKey] || platformKey;
                 return (
@@ -217,21 +232,9 @@ export default function Home() {
               })}
             </select>
           </div>
-          <p>
-            🥳
-            以下工具均来自用户推荐，且经过一定程度的人工测试筛选，较为好用。如果你也有好用的网盘搜索工具，欢迎
-            👉
-            <a
-              href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
-              title="网盘搜索工具投稿问卷链接"
-              target="_blank"
-            >
-              投稿
-            </a>
-            。
-          </p>
+          <p>🥳 以下工具均已完成全面人工测试，且得分及格，推荐使用！</p>
           <div className={styles.siteList}>
-            {userSubmittedFilteredSortedSites.map((cardInfo, index) => (
+            {secondaryFeaturedFilteredSortedSites.map((cardInfo, index) => (
               <Card key={index} cardInfo={cardInfo} />
             ))}
           </div>
@@ -244,11 +247,11 @@ export default function Home() {
           <div className={styles.filterDiv}>
             <span>平台筛选 👉 </span>
             <select
-              value={noFeaturedSelectedPlatform}
-              onChange={(e) => setNoFeaturedSelectedPlatform(e.target.value)}
+              value={standbySelectedPlatform}
+              onChange={(e) => setStandbySelectedPlatform(e.target.value)}
             >
               <option value={"all"}>全部</option>
-              {noFeaturedSortedPlatformOptions.map((platformKey) => {
+              {standbySortedPlatformOptions.map((platformKey) => {
                 const platformName =
                   platformTranslation[platformKey] || platformKey;
                 return (
@@ -261,10 +264,10 @@ export default function Home() {
           </div>
           <p>
             💢
-            以下工具经过人工测试得分较低，不作推荐，但在精选工具不满足需求时可自行选择使用。
+            以下部分工具均已完成全面人工测试（未测试完成工具将尽快测试完成），但得分较低，不作推荐，但在高分工具不满足需求时可自行选择使用。
           </p>
           <div className={styles.siteList}>
-            {noFeaturedFilteredSortedSites.map((cardInfo, index) => (
+            {standbyFilteredSortedSites.map((cardInfo, index) => (
               <Card key={index} cardInfo={cardInfo} />
             ))}
           </div>
@@ -293,7 +296,7 @@ export default function Home() {
             </select>
           </div>
           <p>
-            🤮 <b>以下工具经过人工测试难用至极，请酌情使用。</b>
+            🤮 <b>以下工具经过人工测试难用至极，请慎重使用。</b>
           </p>
           <div className={styles.siteList}>
             {blackFilteredSortedSites.map((cardInfo, index) => (
@@ -326,7 +329,7 @@ export default function Home() {
           </div>
           <p>
             🗑️
-            以下工具曾经收录，但最新测试已经不可用，暂存于此，万一恢复后再添加回上面正常分类。
+            以下工具曾经收录，但最新测试时已不可用，暂存于此，恢复后再添加回上面正常分类。
           </p>
           <div className={styles.siteList}>
             {wastedFilteredSortedSites.map((cardInfo, index) => (

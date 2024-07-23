@@ -25,6 +25,7 @@ export default function AdBanner() {
       href="https://simhaoka.com/phone/index?id=8AECBC4E09973D2C2C8C637A99B4AA58"
       title="氢刻舟小铺"
       className={styles.noteLink}
+      rel="nofollow"
     >
       <div className={styles.note}>
         🎁 <b>超大流量卡，超低价，去看看 {">>>"}</b>
