@@ -14,7 +14,7 @@ import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-07-23";
+  const lastUpdateDateStr = "2024-08-19";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
@@ -161,182 +161,192 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} siteCount={allSiteCount} />
-      <AdBanner />
+      {/* <AdBanner /> */}
       <div className={styles.main}>
         {/* 精选工具 Start */}
-        <div>
-          <h2>精选工具</h2>
-          {/* 筛选组件 */}
-          <div className={styles.filterDiv}>
-            <span>平台筛选 👉 </span>
-            <select
-              value={featuredSelectedPlatform}
-              onChange={(e) => setFeaturedSelectedPlatform(e.target.value)}
-            >
-              <option value={"all"}>全部</option>
-              {featuredSortedPlatformOptions.map((platformKey) => {
-                const platformName =
-                  platformTranslation[platformKey] || platformKey;
-                return (
-                  <option key={platformKey} value={platformKey}>
-                    {platformName}
-                  </option>
-                );
-              })}
-            </select>
+        {featuredFilteredSortedSites.length > 0 && (
+          <div>
+            <h2>精选工具</h2>
+            {/* 筛选组件 */}
+            <div className={styles.filterDiv}>
+              <span>平台筛选 👉 </span>
+              <select
+                value={featuredSelectedPlatform}
+                onChange={(e) => setFeaturedSelectedPlatform(e.target.value)}
+              >
+                <option value={"all"}>全部</option>
+                {featuredSortedPlatformOptions.map((platformKey) => {
+                  const platformName =
+                    platformTranslation[platformKey] || platformKey;
+                  return (
+                    <option key={platformKey} value={platformKey}>
+                      {platformName}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+            <p>
+              💯 以下工具均已完成全面人工测试，且
+              <a href="/rubric" title="盘搜VIP 网盘搜索工具评分标准">
+                得分（满分 5 分）优秀
+              </a>
+              ，特别推荐！如果你也有好用的网盘搜索工具，欢迎 👉{" "}
+              <a
+                href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
+                title="网盘搜索工具投稿问卷链接"
+                target="_blank"
+                rel="nofollow"
+              >
+                投稿推荐
+              </a>
+              。
+            </p>
+            <div className={styles.siteList}>
+              {featuredFilteredSortedSites.map((cardInfo, index) => (
+                <Card key={index} cardInfo={cardInfo} />
+              ))}
+            </div>
           </div>
-          <p>
-            💯 以下工具均已完成全面人工测试，且
-            <a href="/rubric" title="盘搜VIP 网盘搜索工具评分标准">
-              得分（满分 5 分）优秀
-            </a>
-            ，特别推荐！如果你也有好用的网盘搜索工具，欢迎 👉{" "}
-            <a
-              href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
-              title="网盘搜索工具投稿问卷链接"
-              target="_blank"
-              rel="nofollow"
-            >
-              投稿推荐
-            </a>
-            。
-          </p>
-          <div className={styles.siteList}>
-            {featuredFilteredSortedSites.map((cardInfo, index) => (
-              <Card key={index} cardInfo={cardInfo} />
-            ))}
-          </div>
-        </div>
+        )}
         {/* 精选工具 End */}
         {/* 用户推荐 Start */}
-        <div>
-          <h2>次要推荐</h2>
-          {/* 筛选组件 */}
-          <div className={styles.filterDiv}>
-            <span>平台筛选 👉 </span>
-            <select
-              value={secondaryFeaturedSelectedPlatform}
-              onChange={(e) =>
-                setSecondaryFeaturedSelectedPlatform(e.target.value)
-              }
-            >
-              <option value={"all"}>全部</option>
-              {secondaryFeaturedSortedPlatformOptions.map((platformKey) => {
-                const platformName =
-                  platformTranslation[platformKey] || platformKey;
-                return (
-                  <option key={platformKey} value={platformKey}>
-                    {platformName}
-                  </option>
-                );
-              })}
-            </select>
+        {secondaryFeaturedFilteredSortedSites.length > 0 && (
+          <div>
+            <h2>次要推荐</h2>
+            {/* 筛选组件 */}
+            <div className={styles.filterDiv}>
+              <span>平台筛选 👉 </span>
+              <select
+                value={secondaryFeaturedSelectedPlatform}
+                onChange={(e) =>
+                  setSecondaryFeaturedSelectedPlatform(e.target.value)
+                }
+              >
+                <option value={"all"}>全部</option>
+                {secondaryFeaturedSortedPlatformOptions.map((platformKey) => {
+                  const platformName =
+                    platformTranslation[platformKey] || platformKey;
+                  return (
+                    <option key={platformKey} value={platformKey}>
+                      {platformName}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+            <p>🥳 以下工具均已完成全面人工测试，且得分及格，推荐使用！</p>
+            <div className={styles.siteList}>
+              {secondaryFeaturedFilteredSortedSites.map((cardInfo, index) => (
+                <Card key={index} cardInfo={cardInfo} />
+              ))}
+            </div>
           </div>
-          <p>🥳 以下工具均已完成全面人工测试，且得分及格，推荐使用！</p>
-          <div className={styles.siteList}>
-            {secondaryFeaturedFilteredSortedSites.map((cardInfo, index) => (
-              <Card key={index} cardInfo={cardInfo} />
-            ))}
-          </div>
-        </div>
+        )}
         {/* 用户推荐 End */}
         {/* 备用工具 Start */}
-        <div>
-          <h2>备用工具</h2>
-          {/* 筛选组件 */}
-          <div className={styles.filterDiv}>
-            <span>平台筛选 👉 </span>
-            <select
-              value={standbySelectedPlatform}
-              onChange={(e) => setStandbySelectedPlatform(e.target.value)}
-            >
-              <option value={"all"}>全部</option>
-              {standbySortedPlatformOptions.map((platformKey) => {
-                const platformName =
-                  platformTranslation[platformKey] || platformKey;
-                return (
-                  <option key={platformKey} value={platformKey}>
-                    {platformName}
-                  </option>
-                );
-              })}
-            </select>
+        {standbyFilteredSortedSites.length > 0 && (
+          <div>
+            <h2>备用工具</h2>
+            {/* 筛选组件 */}
+            <div className={styles.filterDiv}>
+              <span>平台筛选 👉 </span>
+              <select
+                value={standbySelectedPlatform}
+                onChange={(e) => setStandbySelectedPlatform(e.target.value)}
+              >
+                <option value={"all"}>全部</option>
+                {standbySortedPlatformOptions.map((platformKey) => {
+                  const platformName =
+                    platformTranslation[platformKey] || platformKey;
+                  return (
+                    <option key={platformKey} value={platformKey}>
+                      {platformName}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+            <p>
+              💢
+              以下部分工具均已完成全面人工测试（未测试完成工具将尽快测试完成），但得分较低，不作推荐，但在高分工具不满足需求时可自行选择使用。
+            </p>
+            <div className={styles.siteList}>
+              {standbyFilteredSortedSites.map((cardInfo, index) => (
+                <Card key={index} cardInfo={cardInfo} />
+              ))}
+            </div>
           </div>
-          <p>
-            💢
-            以下部分工具均已完成全面人工测试（未测试完成工具将尽快测试完成），但得分较低，不作推荐，但在高分工具不满足需求时可自行选择使用。
-          </p>
-          <div className={styles.siteList}>
-            {standbyFilteredSortedSites.map((cardInfo, index) => (
-              <Card key={index} cardInfo={cardInfo} />
-            ))}
-          </div>
-        </div>
+        )}
         {/* 备用工具 End */}
         {/* 黑名单工具 Start */}
-        <div>
-          <h2>黑名单工具</h2>
-          {/* 筛选组件 */}
-          <div className={styles.filterDiv}>
-            <span>平台筛选 👉 </span>
-            <select
-              value={blackSelectedPlatform}
-              onChange={(e) => setBlackSelectedPlatform(e.target.value)}
-            >
-              <option value={"all"}>全部</option>
-              {blackSortedPlatformOptions.map((platformKey) => {
-                const platformName =
-                  platformTranslation[platformKey] || platformKey;
-                return (
-                  <option key={platformKey} value={platformKey}>
-                    {platformName}
-                  </option>
-                );
-              })}
-            </select>
+        {blackFilteredSortedSites.length > 0 && (
+          <div>
+            <h2>黑名单工具</h2>
+            {/* 筛选组件 */}
+            <div className={styles.filterDiv}>
+              <span>平台筛选 👉 </span>
+              <select
+                value={blackSelectedPlatform}
+                onChange={(e) => setBlackSelectedPlatform(e.target.value)}
+              >
+                <option value={"all"}>全部</option>
+                {blackSortedPlatformOptions.map((platformKey) => {
+                  const platformName =
+                    platformTranslation[platformKey] || platformKey;
+                  return (
+                    <option key={platformKey} value={platformKey}>
+                      {platformName}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+            <p>
+              🤮 <b>以下工具经过人工测试难用至极，请慎重使用。</b>
+            </p>
+            <div className={styles.siteList}>
+              {blackFilteredSortedSites.map((cardInfo, index) => (
+                <Card key={index} cardInfo={cardInfo} />
+              ))}
+            </div>
           </div>
-          <p>
-            🤮 <b>以下工具经过人工测试难用至极，请慎重使用。</b>
-          </p>
-          <div className={styles.siteList}>
-            {blackFilteredSortedSites.map((cardInfo, index) => (
-              <Card key={index} cardInfo={cardInfo} />
-            ))}
-          </div>
-        </div>
+        )}
         {/* 黑名单工具 End */}
         {/* 废弃工具 Start */}
-        <div>
-          <h2>废弃工具</h2>
-          {/* 筛选组件 */}
-          <div className={styles.filterDiv}>
-            <span>平台筛选 👉 </span>
-            <select
-              value={wastedSelectedPlatform}
-              onChange={(e) => setWastedSelectedPlatform(e.target.value)}
-            >
-              <option value={"all"}>全部</option>
-              {wastedSortedPlatformOptions.map((platformKey) => {
-                const platformName =
-                  platformTranslation[platformKey] || platformKey;
-                return (
-                  <option key={platformKey} value={platformKey}>
-                    {platformName}
-                  </option>
-                );
-              })}
-            </select>
+        {wastedFilteredSortedSites.length > 0 && (
+          <div>
+            <h2>废弃工具</h2>
+            {/* 筛选组件 */}
+            <div className={styles.filterDiv}>
+              <span>平台筛选 👉 </span>
+              <select
+                value={wastedSelectedPlatform}
+                onChange={(e) => setWastedSelectedPlatform(e.target.value)}
+              >
+                <option value={"all"}>全部</option>
+                {wastedSortedPlatformOptions.map((platformKey) => {
+                  const platformName =
+                    platformTranslation[platformKey] || platformKey;
+                  return (
+                    <option key={platformKey} value={platformKey}>
+                      {platformName}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+            <p>
+              🗑️
+              以下工具曾经收录，但最新测试时已不可用，暂存于此，恢复后再添加回上面正常分类。
+            </p>
+            <div className={styles.siteList}>
+              {wastedFilteredSortedSites.map((cardInfo, index) => (
+                <Card key={index} cardInfo={cardInfo} />
+              ))}
+            </div>
           </div>
-          <p>
-            🗑️
-            以下工具曾经收录，但最新测试时已不可用，暂存于此，恢复后再添加回上面正常分类。
-          </p>
-          <div className={styles.siteList}>
-            {wastedFilteredSortedSites.map((cardInfo, index) => (
-              <Card key={index} cardInfo={cardInfo} />
-            ))}
-          </div>
-        </div>
+        )}
         {/* 废弃工具 End */}
       </div>
       <AdBanner />

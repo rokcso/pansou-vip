@@ -51,6 +51,20 @@
         ]
     },
     {
+        "id": "qileso_com",
+        "title": "奇乐搜",
+        "url": "https://www.qileso.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "platforms": [
+            "ali",
+            "quark"
+        ]
+    },
+    {
         "id": "xuebapan_com",
         "title": "学霸盘",
         "url": "https://www.xuebapan.com/",
@@ -2082,6 +2096,320 @@
         "advantages": "",
         "disadvantages": "",
         "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "quark",
+            "uc",
+            "xunlei",
+            "baidu"
+        ]
+    },
+    {
+        "id": "xuebapans_com",
+        "title": "学霸盘",
+        "url": "https://www.xuebapans.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "跟另外一个学霸盘同名，这个为后发布的。",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu"
+        ]
+    },
+    {
+        "id": "wnsearch_top",
+        "title": "我能搜",
+        "url": "https://www.wnsearch.top/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark"
+        ]
+    },
+    {
+        "id": "haisou_cc",
+        "title": "海搜",
+        "url": "https://haisou.cc/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu",
+            "ali",
+            "quark"
+        ]
+    },
+    {
+        "id": "fulisou_com",
+        "title": "福利搜",
+        "url": "http://www.fulisou.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "quark",
+            "uc",
+            "xunlei",
+            "baidu"
+        ]
+    },
+    {
+        "id": "sobaozang_com",
+        "title": "搜宝藏",
+        "url": "http://sobaozang.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "上面这个福利搜换皮。",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "ali",
+            "quark",
+            "uc",
+            "xunlei",
+            "baidu"
+        ]
+    },
+    {
+        "id": "chigua_cloud",
+        "title": "吃瓜云",
+        "url": "http://chigua.cloud/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "上面这个福利搜换皮。",
         "score": 0,
         "nofollow": true,
         "factors": {
