@@ -42,7 +42,7 @@ export default function () {
           <p>其他作品</p>
           <br />
           <a
-            href="https://www.urlxcode.com/"
+            href="https://urlxcode.rokcso.com/"
             title="URLxcode 网址"
             target="_blank"
           >

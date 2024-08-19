@@ -30,7 +30,7 @@ export const metadata = {
       "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。",
     url: "https://www.pansou.vip/",
     siteName: "盘搜VIP",
-    images: "/img/preview.jpg",
+    images: "/img/preview-new.png",
     type: "website",
   },
   twitter: {
@@ -40,7 +40,7 @@ export const metadata = {
       "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。",
     site: "@rokcso",
     creator: "@rokcso",
-    images: "/img/preview.jpg",
+    images: "/img/preview-new.png",
   },
 };
 
