@@ -30,7 +30,7 @@ export default function Home() {
           <li>
             人工测试总分 <b>≥4.0</b> 将被归类到「精选工具」，并在本站获得{" "}
             <a
-              href="https://blog.rokcso.com/posts/dofollow-and-nofollow/"
+              href="https://rokcso.com/p/dofollow-and-nofollow/"
               title="dofollow & nofollow"
               target="_blank"
             >

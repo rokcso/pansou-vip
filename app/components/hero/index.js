@@ -44,7 +44,14 @@ export default function ({ lastUpdateDateStr, siteCount }) {
         👋 如果对你有所帮助，请收藏盘搜VIP，域名：pansou.vip，速记：
         <b>盘搜点VIP</b>
       </p>
-      <button onClick={handleDonateClick}>❤️ 点赞</button>
+      {/* <button onClick={handleDonateClick}>❤️ 点赞</button> */}
+      <a
+        href="https://lizhi.shop/index.php?cid=y39pjk8l"
+        title="正版软件售卖网站"
+        target="_blank"
+      >
+        <button>❤️ 正版软件</button>
+      </a>
     </div>
   );
 }
