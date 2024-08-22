@@ -10,7 +10,7 @@ export default function () {
           <p>人工亲测的网盘搜索工具精选导航</p>
           <br />
           <div>
-            <a
+            {/* <a
               href="https://x.com/rokcso/"
               title="rokcso 的社交媒体：Twitter"
               target="_blank"
@@ -27,14 +27,17 @@ export default function () {
               Jike
               <LinkArrow />
             </a>
-            &nbsp;&nbsp;
-            <a
+            &nbsp;&nbsp; */}
+            {/* <a
               href="https://github.com/rokcso/"
               title="rokcso 的 GitHub 主页"
               target="_blank"
             >
               GitHub
               <LinkArrow />
+            </a> */}
+            <a href="mailto:rokcsox@gmail.com">
+              Email <LinkArrow />
             </a>
           </div>
         </div>
@@ -54,7 +57,7 @@ export default function () {
           <p>友情链接</p>
           <br />
           <a href="https://lunarye.com/" title="Lunarye 网址" target="_blank">
-            Lunarye™ Nails
+            Lunarye™
             <LinkArrow />
           </a>
           <br />
@@ -73,10 +76,10 @@ export default function () {
       <hr className={styles.footerDivider} />
       <p className={styles.footerCopy}>
         盘搜VIP 💖 人工亲测的网盘搜索工具精选导航 Copyright &copy; 2023-2024{" "}
-        <a href="https://rokcso.com" title="rokcso 的个人网站" target="_blank">
+        {/* <a href="https://rokcso.com" title="rokcso 的个人网站" target="_blank">
           rokcso.com
           <LinkArrow />
-        </a>{" "}
+        </a> */}{" "}
         All rights reserved.
       </p>
     </div>
