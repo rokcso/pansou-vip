@@ -17,6 +17,8 @@ export default function Home() {
   return (
     <div>
       <h1>网盘资源分享论坛</h1>
+      <AdBanner />
+      <br />
       <p>
         整理了一些实用的网盘资源分享论坛，都经过人工测试筛选，但是尚没有针对资源论坛的评分标准，仅保证其能正常访问，暂时收录于此。
       </p>

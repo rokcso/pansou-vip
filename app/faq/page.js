@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <h1>盘搜VIP 使用指南</h1>
-      {/* <AdBanner /> */}
+      <AdBanner />
       <div>
         <h2>常见问题</h2>
         <div>
