@@ -52,6 +52,16 @@ export default function () {
             URL xcode
             <LinkArrow />
           </a>
+          <br />
+          <br />
+          <a
+            href="https://skillix.cc?utm_source=pansou.vip/"
+            title="Skillix 小报童精选专栏优惠"
+            target="_blank"
+          >
+            Skillix
+            <LinkArrow />
+          </a>
         </div>
         <div>
           <p>友情链接</p>
@@ -76,10 +86,9 @@ export default function () {
       <hr className={styles.footerDivider} />
       <p className={styles.footerCopy}>
         盘搜VIP 💖 人工亲测的网盘搜索工具精选导航 Copyright &copy; 2023-2024{" "}
-        {/* <a href="https://rokcso.com" title="rokcso 的个人网站" target="_blank">
-          rokcso.com
-          <LinkArrow />
-        </a> */}{" "}
+        <a href="/" title="首页">
+          pansou.vip
+        </a>{" "}
         All rights reserved.
       </p>
     </div>
