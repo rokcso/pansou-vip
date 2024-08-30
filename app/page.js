@@ -161,7 +161,7 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} siteCount={allSiteCount} />
-      {/* <AdBanner /> */}
+      <AdBanner />
       <div className={styles.main}>
         {/* 精选工具 Start */}
         {featuredFilteredSortedSites.length > 0 && (
