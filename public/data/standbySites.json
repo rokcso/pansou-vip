@@ -2509,5 +2509,105 @@
             "quark",
             "lanzou"
         ]
+    },
+    {
+        "id": "yun1sou_com",
+        "title": "云易搜",
+        "url": "https://www.yun1sou.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark"
+        ]
+    },
+    {
+        "id": "repanso_com",
+        "title": "热盘搜",
+        "url": "http://www.repanso.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "baidu"
+        ]
     }
 ]
