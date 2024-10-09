@@ -85,7 +85,7 @@ export default function () {
       </div>
       <hr className={styles.footerDivider} />
       <p className={styles.footerCopy}>
-        盘搜VIP 💖 人工亲测的网盘搜索工具精选导航 Copyright &copy; 2023-2024{" "}
+        盘搜VIP 💖 人工亲测精选的网盘搜索工具导航 Copyright &copy; 2023-2024{" "}
         <a href="/" title="首页">
           pansou.vip
         </a>{" "}

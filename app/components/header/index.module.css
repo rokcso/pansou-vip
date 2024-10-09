@@ -1,5 +1,5 @@
 .header {
-    padding: 20px 40px;
+    padding: 20px 0px;
   }
   
   .nav {
@@ -9,8 +9,8 @@
   
   .homeTab {
     margin-right: auto; /* 自动填充右边距，使其靠左 */
-    font-size: x-large;
-    font-weight: bolder; /* 加粗字体 */
+    /* font-size: x-large; */
+    font-weight: bolder;
   }
   
   .homeTab a {
@@ -41,3 +41,24 @@
     color: #000; /* 文字颜色 */
   }
   
+
+  @keyframes shakeAndZoom {
+    0%,
+    100% {
+      transform: rotate(-3deg) scale(1);
+    }
+    25% {
+      transform: rotate(3deg) scale(1.2);
+    }
+    50% {
+      transform: rotate(-3deg) scale(1);
+    }
+    75% {
+      transform: rotate(3deg) scale(1.2);
+    }
+  }
+  
+  .icon {
+    /* display: inline-block; */
+    animation: shakeAndZoom 2s infinite;
+  }

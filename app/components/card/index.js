@@ -57,7 +57,7 @@ export default function ({ cardInfo }) {
     tianyi: "天翼云盘",
     yidong: "移动云盘",
     weiyun: "腾讯微云",
-    115: "115网盘",
+    115: "115 网盘",
   };
   // 将传入的 platform 按照上面定义的顺序排序并且翻译成对应的中文名称
   const translatedSortedPlatforms = platformOrder

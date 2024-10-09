@@ -1,6 +1,8 @@
-html, body {
+
+
+body {
   padding: 0px;
-  margin: 0px;
+  margin: 0px 10%;
   background-color: #F4F2DE;
   color: #333;
 }
@@ -17,27 +19,27 @@ a {
 /* 移动设备 */
 @media (max-width: 767px) {
   main {
-    padding: 0px 20px;
+    padding: 0px;
   }
 }
 
 /* 平板 */
 @media (min-width: 768px) and (max-width: 1023px) {
   main {
-    padding: 0px 60px;
+    padding: 0px;
   }
 }
 
 /* 小桌面 */
 @media (min-width: 1024px) and (max-width: 1299px) {
   main {
-    padding: 0px 100px;
+    padding: 0px;
   }
 }
 
 /* 大桌面 */
 @media (min-width: 1300px) {
   main {
-    padding: 0px 140px;
+    padding: 0px;
   }
 }
