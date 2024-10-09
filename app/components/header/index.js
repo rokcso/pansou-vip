@@ -25,24 +25,16 @@ export default function () {
             </span>
           </a> */}
           <a href="/rubric" title="盘搜VIP的网盘搜索工具评分标准">
-            <span>
-              <b>《测试标准》</b>
-            </span>
+            <span>测试标准</span>
           </a>
           <a href="/forum" title="网盘资源分享论坛导航">
-            <span>
-              <b>资源论坛</b>
-            </span>
+            <span>资源论坛</span>
           </a>
           <a href="/faq" title="盘搜VIP的常见问题页面">
-            <span>
-              <b>常见问题</b>
-            </span>
+            <span>常见问题</span>
           </a>
           <a href="/about" title="盘搜VIP的关于页面">
-            <span>
-              <b>关于</b>
-            </span>
+            <span>关于</span>
           </a>
         </div>
       </nav>

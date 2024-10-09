@@ -37,7 +37,8 @@ export default function ({ lastUpdateDateStr, siteCount }) {
       <h1>人工亲测精选的网盘搜索工具导航</h1>
       <p>⭐ 坚持人工亲测精选，给你 VIP 一样的体验</p>
       <p>
-        💫 定期维护更新（已收录 {siteCount} 个实用网盘搜索工具），最近更新时间：
+        💫 定期维护更新（已收录 <b>{siteCount}</b>{" "}
+        个实用网盘搜索工具），最近更新时间：
         {lastUpdateDateStr}（{daysAgo} 天前）
       </p>
       <p>

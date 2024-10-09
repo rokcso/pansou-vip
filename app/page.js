@@ -14,7 +14,7 @@ import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-09-22";
+  const lastUpdateDateStr = "2024-10-09";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
@@ -70,7 +70,7 @@ export default function Home() {
     tianyi: "天翼云盘",
     yidong: "移动云盘",
     weiyun: "腾讯微云",
-    115: "115网盘",
+    115: "115 网盘",
   };
 
   // 平台值的顺序
