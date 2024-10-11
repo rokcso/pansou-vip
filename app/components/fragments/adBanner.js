@@ -18,6 +18,7 @@ export default function AdBanner() {
     <a
       href={nowAd.url}
       title={nowAd.title}
+      target="_blank"
       className={styles.noteLink}
       rel="nofollow"
     >
