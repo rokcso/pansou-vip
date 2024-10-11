@@ -1,30 +1,33 @@
 .hero {
-    display: flex;
-    flex-direction: column; /* 垂直排列子元素 */
-    align-items: center; /* 水平居中 */
-    justify-content: center; /* 垂直居中 */
-    text-align: center; /* 文本居中 */
-    min-height: 25vh; /* 至少为视口高度，确保有足够的空间 */
-    padding: 0px;
-    /* background-color: #f9f9f9; 浅灰色背景 */
-  }
+  display: flex;
+  flex-direction: column; /* 垂直排列子元素 */
+  align-items: center; /* 水平居中 */
+  justify-content: center; /* 垂直居中 */
+  text-align: center; /* 文本居中 */
+  min-height: 25vh; /* 至少为视口高度，确保有足够的空间 */
+  padding: 0px;
+  /* background-color: #f9f9f9; 浅灰色背景 */
+}
 
-  .hero p {
-    margin: 0;
+@media (max-width: 500px) {
+  .hero {
+    align-items: flex-start;
+    text-align: left;
   }
+}
 
-  .hero button {
-    margin: 20px 0px;
-    padding: 10px 24px;
-    font-size: medium;
-    background-color: #4AAFD1;
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* 圆角 */
-    cursor: pointer; /* 鼠标悬停时显示手形图标 */
-    transition: background-color 0.3s; /* 背景颜色变化的过渡效果 */
+.hero button {
+  margin: 20px 0px;
+  padding: 10px 24px;
+  font-size: medium;
+  background-color: #4aafd1;
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* 圆角 */
+  cursor: pointer; /* 鼠标悬停时显示手形图标 */
+  transition: background-color 0.3s; /* 背景颜色变化的过渡效果 */
 }
 
 .hero button:hover {
-    background-color: #8ECE51; /* 鼠标悬停时颜色变深 */
-  }
+  background-color: #8ece51; /* 鼠标悬停时颜色变深 */
+}
