@@ -6,14 +6,6 @@
   text-align: center; /* 文本居中 */
   min-height: 25vh; /* 至少为视口高度，确保有足够的空间 */
   padding: 0px;
-  /* background-color: #f9f9f9; 浅灰色背景 */
-}
-
-@media (max-width: 500px) {
-  .hero {
-    align-items: flex-start;
-    text-align: left;
-  }
 }
 
 .hero button {
@@ -30,4 +22,14 @@
 
 .hero button:hover {
   background-color: #8ece51; /* 鼠标悬停时颜色变深 */
+}
+
+@media (max-width: 500px) {
+  .hero {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .hero button {
+    margin: 20px auto;
+  }
 }
