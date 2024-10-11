@@ -146,6 +146,10 @@
   .gift {
     right: 10px;
   }
+
+  .showGift {
+    width: 300px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -160,6 +164,10 @@
 
   .gift {
     right: 20px;
+  }
+
+  .showGift {
+    width: 330px;
   }
 }
 
@@ -176,6 +184,10 @@
   .gift {
     right: 30px;
   }
+
+  .showGift {
+    width: 360px;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -190,5 +202,9 @@
 
   .gift {
     right: 40px;
+  }
+
+  .showGift {
+    width: 400px;
   }
 }
