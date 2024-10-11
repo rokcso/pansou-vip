@@ -15,13 +15,99 @@
   margin: 0px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #F4F2DE;
+  background-color: #f4f2de;
 }
 
 .filterDiv select:focus {
   /* 下拉菜单聚焦时的样式 */
   outline: none;
   border-color: #a1ccd1;
+}
+
+.gift {
+  position: fixed; /* 固定定位 */
+  bottom: 130px;
+  right: 40px;
+  z-index: 99; /* 确保按钮在页面内容之上 */
+  border: none; /* 无边框 */
+  outline: none; /* 点击时无轮廓 */
+  background-color: #4aafd1;
+  /* opacity: 0.5; */
+  color: white; /* 文字颜色 */
+  border-radius: 30px; /* 圆角 */
+  font-size: 30px; /* 字体大小 */
+  padding: 8px 12px; /* 内边距 */
+}
+
+.hideGift {
+  cursor: pointer;
+}
+
+.hideGift:hover {
+  background-color: #8ece51;
+}
+
+.showGift {
+  width: 400px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+}
+
+.giftContent {
+  display: flex;
+  width: 100%;
+}
+
+.textArea {
+  flex: 3;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+}
+
+.textArea b {
+  font-size: 1.2rem;
+}
+
+.textArea div {
+  margin-top: 4px;
+}
+
+.btnArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border-left: 1px solid #ccc;
+}
+
+.btnArea hr {
+  width: 100%;
+  margin: 0;
+  color: #ccc;
+}
+
+.btnArea button {
+  width: 100%;
+  height: 50%;
+  margin: auto 0px;
+  background-color: #4aafd1;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.upBtn {
+  border-radius: 0px 30px 0px 0px;
+}
+.downBtn {
+  border-radius: 0px 0px 30px 0px;
+}
+
+.btnArea button:hover {
+  background-color: #8ece51;
 }
 
 .backToTopBtn {
@@ -31,7 +117,7 @@
   z-index: 99; /* 确保按钮在页面内容之上 */
   border: none; /* 无边框 */
   outline: none; /* 点击时无轮廓 */
-  background-color: #4AAFD1;
+  background-color: #4aafd1;
   opacity: 0.5; /* 初始透明度 */
   color: white; /* 文字颜色 */
   cursor: pointer; /* 鼠标悬停时显示指针 */
@@ -42,7 +128,7 @@
 }
 
 .backToTopBtn:hover {
-  background-color: #8ECE51; /* 鼠标悬停时背景颜色变深 */
+  background-color: #8ece51; /* 鼠标悬停时背景颜色变深 */
   opacity: 1;
 }
 
@@ -56,6 +142,10 @@
     bottom: 60px;
     right: 10px;
   }
+
+  .gift {
+    right: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -65,6 +155,10 @@
 
   .backToTopBtn {
     bottom: 60px;
+    right: 20px;
+  }
+
+  .gift {
     right: 20px;
   }
 }
@@ -78,6 +172,10 @@
     bottom: 60px;
     right: 30px;
   }
+
+  .gift {
+    right: 30px;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -87,6 +185,10 @@
 
   .backToTopBtn {
     bottom: 60px;
+    right: 40px;
+  }
+
+  .gift {
     right: 40px;
   }
 }

@@ -13,6 +13,8 @@ import wastedSites from "../public/data/wastedSites.json";
 import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
+  const [showGift, setShowGift] = useState(true);
+
   // 全局常量，数据最新更新时间（字符串格式）
   const lastUpdateDateStr = "2024-10-09";
 
@@ -348,6 +350,47 @@ export default function Home() {
           </div>
         )}
         {/* 废弃工具 End */}
+      </div>
+      {/* 礼物 */}
+      <div
+        className={`${styles.gift} ${
+          showGift ? styles.showGift : styles.hideGift
+        }`}
+        onClick={() => {
+          showGift ? setShowGift(false) : setShowGift(true);
+        }}
+      >
+        {showGift ? (
+          <div className={styles.giftContent}>
+            <div className={styles.textArea}>
+              <b>💰 副业赚钱</b>
+              <div>
+                <p>搭建专属的网盘搜索工具，轻松赚取网盘分佣！更多副业...</p>
+              </div>
+            </div>
+            <div className={styles.btnArea}>
+              <button
+                className={styles.upBtn}
+                onClick={() => {
+                  setShowGift(false);
+                }}
+              >
+                我知道了
+              </button>
+              <hr />
+              <button
+                className={styles.downBtn}
+                onClick={() => {
+                  window.location.href = "/gift";
+                }}
+              >
+                我去看看
+              </button>
+            </div>
+          </div>
+        ) : (
+          "💰"
+        )}
       </div>
       {/* <AdBanner /> */}
       <button
