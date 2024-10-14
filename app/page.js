@@ -365,7 +365,9 @@ export default function Home() {
             <div className={styles.textArea}>
               <b>💰 副业赚钱</b>
               <div>
-                <p>搭建专属的网盘搜索工具，轻松赚取网盘分佣！更多副业...</p>
+                <p>
+                  搭建专属的网盘搜索工具，轻松赚取网盘分佣！还有更多副业项目...
+                </p>
               </div>
             </div>
             <div className={styles.btnArea}>
