@@ -31,8 +31,9 @@ export default function Home() {
         width={499}
         height={194}
       />
+      <p>内测中...</p>
       <p>
-        内测中... 你可以通过{" 👉 "}
+        你可以通过{" 👉 "}
         <a
           href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnHckduwGEEFk2Y3yR04K3Ic?prefill_反馈类型=副业赚钱"
           title="留言问卷链接"
@@ -41,7 +42,15 @@ export default function Home() {
           这个表单
         </a>
         {" 👈 "}
-        提交你的微信，我将尽快（24h 内）与你取得联系。
+        提交你的微信，我将尽快（24h 内）与你取得联系。或者点击{" 👉 "}
+        <a
+          href="https://www.moneysou.com/login?ref=i_kyp8v7sh9o"
+          title="元搜登录页"
+          target="_blank"
+        >
+          此链接
+        </a>
+        {" 👈 "}注册免费领取小报童分佣导航系统。
       </p>
       <h2>挖掘更多副业项目</h2>
       <p>
@@ -112,7 +121,6 @@ export default function Home() {
         </a>{" "}
         帮助职场人实现职场转型、IP打造，完成自由职业起步0-100w。包含：自由职业基本问题、商业模式篇、辞职转型篇、心力篇、定位及常见方式篇、流量自媒体篇、产品篇、转化篇、时间管理篇、常见问答。
       </p>
-
       <p>
         {"> "}
         <a
