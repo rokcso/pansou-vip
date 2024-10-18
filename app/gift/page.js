@@ -250,6 +250,20 @@ export default function Home() {
         </a>{" "}
         一个 AI 绘图武器库，也是一个图片壁纸库。
       </p>
+      <hr />
+      <p>
+        <b>
+          {"🌟 "}
+          <a
+            href="https://skillix.cc/?utm_source=pansou.vip/"
+            title="Skillix 首页"
+            target="_blank"
+          >
+            Skillix.cc
+          </a>{" "}
+          小报童专栏精选，带你发现更多高价值内容。
+        </b>
+      </p>
     </div>
   );
 }
