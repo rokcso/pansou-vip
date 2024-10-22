@@ -56,17 +56,6 @@ export default function Home() {
       <p>
         {"> "}
         <a
-          href="https://xiaobot.net/p/shengcaiyoushu?refer=de2d8b4b-c9eb-4e14-a62f-b398dc966044"
-          title="生财有术项目精选"
-          target="_blank"
-        >
-          生财有术项目精选
-        </a>{" "}
-        66 个赚到钱的人，分享他们已经跑通的项目。
-      </p>
-      <p>
-        {"> "}
-        <a
           href="https://xiaobot.net/p/mediabuy?refer=de2d8b4b-c9eb-4e14-a62f-b398dc966044"
           title="AI海外赚钱"
           target="_blank"
@@ -75,6 +64,17 @@ export default function Home() {
         </a>{" "}
         作者是雷军的师弟，如今投入 AI 领域，帮助大家利用 AI
         技术，个体出海赚美元。
+      </p>
+      <p>
+        {"> "}
+        <a
+          href="https://xiaobot.net/p/shengcaiyoushu?refer=de2d8b4b-c9eb-4e14-a62f-b398dc966044"
+          title="生财有术项目精选"
+          target="_blank"
+        >
+          生财有术项目精选
+        </a>{" "}
+        66 个赚到钱的人，分享他们已经跑通的项目。
       </p>
       <p>
         {"> "}

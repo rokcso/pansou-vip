@@ -7,7 +7,7 @@ export default function () {
         <div className={styles.homeTab}>
           <a href="/" title="盘搜VIP的首页">
             <span className={styles.icon}>⛅</span>&nbsp;
-            <span>盘搜VIP</span>
+            <span>首页</span>
           </a>
         </div>
         <div className={styles.headerLink}>
