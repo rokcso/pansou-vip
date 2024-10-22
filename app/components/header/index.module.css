@@ -6,6 +6,10 @@
     display: flex;
     align-items: center; /* 确保子元素垂直居中 */
   }
+
+  .nav a span {
+    font-size: 1.2rem;
+  }
   
   .homeTab {
     margin-right: auto; /* 自动填充右边距，使其靠左 */

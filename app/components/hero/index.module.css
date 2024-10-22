@@ -8,7 +8,7 @@
   padding: 0px;
 }
 
-.hero button {
+.donate {
   margin: 20px 0px;
   padding: 10px 24px;
   font-size: medium;
@@ -20,7 +20,7 @@
   transition: background-color 0.3s; /* 背景颜色变化的过渡效果 */
 }
 
-.hero button:hover {
+.donate:hover {
   background-color: #8ece51; /* 鼠标悬停时颜色变深 */
 }
 
@@ -29,7 +29,7 @@
     align-items: flex-start;
     text-align: left;
   }
-  .hero button {
+  .donate {
     margin: 20px auto;
   }
 }

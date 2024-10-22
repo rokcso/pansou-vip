@@ -12,6 +12,13 @@ export default function ({ lastUpdateDateStr, siteCount }) {
     const textToCopy =
       "推荐你一个人工亲测精选的网盘搜索工具导航网站：https://www.pansou.vip/?via=hero，真的挺好用的！";
 
+    // 判断用户系统是 windows 还是 macos
+    const isMac = navigator.userAgent.toLowerCase().indexOf("mac") > -1;
+    // console.log(isMac);
+    const bookmarkMsg = isMac
+      ? "请点击 Command + D 将 pansou.vip 添加到书签！🫰"
+      : "请点击 Ctrl + D 将 pansou.vip 添加到书签！🫰";
+
     // 检查 Clipboard API 可用性
     if (navigator.clipboard) {
       // 使用 Clipboard API 将文本写入剪贴板
@@ -19,16 +26,23 @@ export default function ({ lastUpdateDateStr, siteCount }) {
         .writeText(textToCopy)
         .then(() => {
           // 写入剪贴板成功后的回调
-          alert("推荐文本已复制到剪贴板，快去分享给你的朋友们吧！❤️");
+          alert(
+            bookmarkMsg + "\n推荐文本已复制到剪贴板，快去分享给你的朋友们吧~ ❤️"
+          );
         })
         .catch((err) => {
           // 写入剪贴板失败后的回调
           console.error("无法复制文本到剪贴板: ", err);
-          alert("将 pansou.vip 分享给你的朋友们就是对我最好的鼓励！❤️");
+          alert(
+            bookmarkMsg +
+              "\n将 pansou.vip 分享给你的朋友们就是对我最好的鼓励~ ❤️"
+          );
         });
     } else {
       // 如果 Clipboard API 不可用，使用传统的提示方式
-      alert("将 pansou.vip 分享给你的朋友们就是对我最好的鼓励！❤️");
+      alert(
+        bookmarkMsg + "\n将 pansou.vip 分享给你的朋友们就是对我最好的鼓励~ ❤️"
+      );
     }
   }
 
@@ -42,16 +56,20 @@ export default function ({ lastUpdateDateStr, siteCount }) {
         {lastUpdateDateStr}（{daysAgo} 天前）
       </p>
       <p>
-        👋 如果对你有所帮助，请收藏盘搜VIP，域名：pansou.vip，速记：
-        <b>盘搜点VIP</b>
+        👋 如果对你有所帮助，请收藏盘搜VIP，
+        <span onClick={handleDonateClick}>
+          域名：pansou.vip，速记：
+          <b>盘搜点VIP</b>
+        </span>
       </p>
       {/* <button onClick={handleDonateClick}>❤️ 点赞</button> */}
       <a
-        href="https://lizhi.shop/index.php?cid=y39pjk8l"
-        title="正版软件售卖网站"
-        target="_blank"
+        // href="https://lizhi.shop/index.php?cid=y39pjk8l"
+        href="/gift"
+        title="副业赚钱项目分享"
+        // target="_blank"
       >
-        <button>❤️ 正版软件</button>
+        <button className={styles.donate}>❤️ 副业赚钱</button>
       </a>
     </div>
   );
