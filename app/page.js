@@ -16,7 +16,7 @@ export default function Home() {
   const [showGift, setShowGift] = useState(true);
 
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-10-09";
+  const lastUpdateDateStr = "2024-10-31";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
