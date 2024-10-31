@@ -202,13 +202,13 @@
         ]
     },
     {
-        "id": "sousou_pro",
-        "title": "搜搜盘",
-        "url": "https://sousou.pro/",
+        "id": "panso_pro",
+        "title": "盘搜 Pro",
+        "url": "https://panso.pro/",
         "advantages": "无广告，无使用门槛限制，资源丰富度高。",
         "disadvantages": "暂无。",
         "description": "整体使用体验不错，资源丰富且更新迅速，搜索响应快且搜索筛选项目比较实用，搜索结果页中还有推荐相关资源。",
-        "score": 4.17,
+        "score": 4.59,
         "nofollow": false,
         "factors": {
             "networkDetect": {
@@ -243,7 +243,7 @@
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 4,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -252,7 +252,8 @@
             "quark",
             "baidu",
             "xunlei",
-            "uc"
+            "uc",
+            "115"
         ]
     }
 ]
