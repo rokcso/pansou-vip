@@ -66,19 +66,34 @@ export default function () {
         <div>
           <p>友情链接</p>
           <br />
-          <a href="https://lunarye.com/" title="Lunarye 网址" target="_blank">
+          <a
+            href="https://lunarye.com?utm_source=pansou.vip/"
+            title="Lunarye 网址"
+            target="_blank"
+          >
             Lunarye™
             <LinkArrow />
           </a>
           <br />
           <br />
           <a
-            href="https://www.ubrand.com/"
+            href="https://www.ubrand.com?utm_source=pansou.vip/"
             title="uBrand 官网"
             target="_blank"
             rel="nofollow"
           >
             uBrand
+            <LinkArrow />
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://tuostudy.upnb.top?utm_source=pansou.vip/"
+            title="图欧学习资源导航"
+            target="_blank"
+            rel="nofollow"
+          >
+            图欧学习资源导航
             <LinkArrow />
           </a>
         </div>
