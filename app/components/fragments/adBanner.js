@@ -12,8 +12,14 @@ export default function AdBanner() {
       description: "全新发布：小报童精选专栏特别优惠，最高 5 折！",
       url: "https://skillix.cc/?utm_source=pansou.vip",
     },
+    {
+      title: "正版软件双 11",
+      description: "双 11 正版大促 6 折起！160+ 热门软件无套路折扣直降！",
+      url: "https://lizhi.shop/site/discount/id/20241111?cid=y39pjk8l",
+    },
   ];
-  const nowAd = adInfo[Math.floor(Math.random() * adInfo.length)];
+  // const nowAd = adInfo[Math.floor(Math.random() * adInfo.length)];
+  const nowAd = adInfo[2];
   return (
     <a
       href={nowAd.url}
