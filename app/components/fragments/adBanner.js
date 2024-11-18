@@ -13,13 +13,12 @@ export default function AdBanner() {
       url: "https://skillix.cc/?utm_source=pansou.vip",
     },
     {
-      title: "正版软件双 11",
-      description: "双 11 正版大促 6 折起！160+ 热门软件无套路折扣直降！",
+      title: "正版软件",
+      description: "正版软件热销中！160+ 热门软件无套路折扣直降！",
       url: "https://lizhi.shop/site/discount/id/20241111?cid=y39pjk8l",
     },
   ];
-  // const nowAd = adInfo[Math.floor(Math.random() * adInfo.length)];
-  const nowAd = adInfo[2];
+  const nowAd = adInfo[Math.floor(Math.random() * adInfo.length)];
   return (
     <a
       href={nowAd.url}
