@@ -141,5 +141,16 @@
         "score": 0,
         "nofollow": true,
         "platforms": []
+    },
+    {
+        "id": "panpan_su",
+        "title": "盘盘社区",
+        "url": "https://www.panpan.su/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "platforms": []
     }
 ]
