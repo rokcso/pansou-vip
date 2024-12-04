@@ -2772,5 +2772,162 @@
         "platforms": [
             "quark"
         ]
+    },
+    {
+        "id": "xzso_net",
+        "title": "小站盘搜",
+        "url": "https://www.xzso.net/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark",
+            "baidu",
+            "ali",
+            "xunlei",
+            "uc"
+        ]
+    },
+    {
+        "id": "hunheso_cc",
+        "title": "混合搜",
+        "url": "https://hunheso.cc/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark",
+            "baidu",
+            "ali",
+            "xunlei"
+        ]
+    },
+    {
+        "id": "buyutu_com",
+        "title": "捕娱兔",
+        "url": "https://www.buyutu.com/",
+        "advantages": "",
+        "disadvantages": "",
+        "description": "",
+        "score": 0,
+        "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 0,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 0,
+                "weight": 0.08
+            }
+        },
+        "platforms": [
+            "quark"
+        ]
     }
 ]
