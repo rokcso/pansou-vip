@@ -16,7 +16,7 @@ export default function Home() {
   const [showGift, setShowGift] = useState(true);
 
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2024-11-25";
+  const lastUpdateDateStr = "2024-12-04";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;
@@ -352,7 +352,7 @@ export default function Home() {
         {/* 废弃工具 End */}
       </div>
       {/* 礼物 */}
-      <div
+      {/* <div
         className={`${styles.gift} ${
           showGift ? styles.showGift : styles.hideGift
         }`}
@@ -393,7 +393,7 @@ export default function Home() {
         ) : (
           "💰"
         )}
-      </div>
+      </div> */}
       {/* <AdBanner /> */}
       <button
         className={styles.backToTopBtn}

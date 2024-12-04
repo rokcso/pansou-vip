@@ -24,6 +24,9 @@ export default function () {
               <b>正版软件促销 🎉</b>
             </span>
           </a> */}
+          <a href="/gift" title="副业赚钱项目">
+            <span>副业赚钱</span>
+          </a>
           <a href="/rubric" title="盘搜VIP的网盘搜索工具评分标准">
             <span>测试标准</span>
           </a>
