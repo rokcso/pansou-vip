@@ -63,13 +63,21 @@ export default function ({ lastUpdateDateStr, siteCount }) {
         </span>
       </p>
       {/* <button onClick={handleDonateClick}>❤️ 点赞</button> */}
-      <a
+      {/* <a
         // href="https://lizhi.shop/index.php?cid=y39pjk8l"
         href="/gift"
         title="副业赚钱项目分享"
         // target="_blank"
       >
         <button className={styles.donate}>❤️ 副业赚钱</button>
+      </a> */}
+      <a
+        // href="https://lizhi.shop/index.php?cid=y39pjk8l"
+        href="https://panhunt.com?utm_source=pansou.vip"
+        title="Pan Hunt"
+        // target="_blank"
+      >
+        <button className={styles.donate}>❤️ 更优雅的网盘搜索工具导航</button>
       </a>
     </div>
   );
