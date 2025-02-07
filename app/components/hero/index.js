@@ -10,14 +10,14 @@ export default function ({ lastUpdateDateStr, siteCount }) {
   function handleDonateClick() {
     // 希望复制到剪贴板的文本
     const textToCopy =
-      "推荐你一个人工亲测精选的网盘搜索工具导航网站：https://www.pansou.vip/?via=hero，真的挺好用的！";
+      "推荐你一个人工亲测精选的网盘搜索工具导航网站：https://panhunt.com，真的挺好用的！";
 
     // 判断用户系统是 windows 还是 macos
     const isMac = navigator.userAgent.toLowerCase().indexOf("mac") > -1;
     // console.log(isMac);
     const bookmarkMsg = isMac
-      ? "请点击 Command + D 将 pansou.vip 添加到书签！🫰"
-      : "请点击 Ctrl + D 将 pansou.vip 添加到书签！🫰";
+      ? "请点击 Command + D 将 panhunt.com 添加到书签！🫰"
+      : "请点击 Ctrl + D 将 panhunt.com 添加到书签！🫰";
 
     // 检查 Clipboard API 可用性
     if (navigator.clipboard) {
@@ -35,13 +35,13 @@ export default function ({ lastUpdateDateStr, siteCount }) {
           console.error("无法复制文本到剪贴板: ", err);
           alert(
             bookmarkMsg +
-              "\n将 pansou.vip 分享给你的朋友们就是对我最好的鼓励~ ❤️"
+              "\n将 panhunt.com 分享给你的朋友们就是对我最好的鼓励~ ❤️"
           );
         });
     } else {
       // 如果 Clipboard API 不可用，使用传统的提示方式
       alert(
-        bookmarkMsg + "\n将 pansou.vip 分享给你的朋友们就是对我最好的鼓励~ ❤️"
+        bookmarkMsg + "\n将 panhunt.com 分享给你的朋友们就是对我最好的鼓励~ ❤️"
       );
     }
   }
@@ -58,9 +58,13 @@ export default function ({ lastUpdateDateStr, siteCount }) {
       <p>
         👋 如果对你有所帮助，请收藏盘搜VIP，
         <span onClick={handleDonateClick}>
+          域名：pansou.vip，备用：
+          <b>panhunt.com</b>
+        </span>
+        {/* <span onClick={handleDonateClick}>
           域名：pansou.vip，速记：
           <b>盘搜点VIP</b>
-        </span>
+        </span> */}
       </p>
       {/* <button onClick={handleDonateClick}>❤️ 点赞</button> */}
       {/* <a
@@ -77,7 +81,7 @@ export default function ({ lastUpdateDateStr, siteCount }) {
         title="Pan Hunt"
         // target="_blank"
       >
-        <button className={styles.donate}>❤️ 更优雅的网盘搜索工具导航</button>
+        <button className={styles.donate}>❤️ 访问全新升级版</button>
       </a>
     </div>
   );
