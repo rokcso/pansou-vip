@@ -17,6 +17,36 @@ export default function AdBanner() {
       description: "正版软件热销中！160+ 热门软件无套路折扣直降！",
       url: "https://lizhi.shop/site/discount/id/20241111?cid=y39pjk8l",
     },
+    {
+      title: "Pan Hunt",
+      description: "盘搜VIP 全新升级：Pan Hunt，云盘猎人，网罗全网资源！",
+      url: "https://panhunt.com?utm_source=pansou.vip",
+    },
+    {
+      title: "Pan Hunt",
+      description: "盘搜VIP 全新升级：Pan Hunt，云盘猎人，网罗全网资源！",
+      url: "https://panhunt.com?utm_source=pansou.vip",
+    },
+    {
+      title: "Pan Hunt",
+      description: "盘搜VIP 全新升级：Pan Hunt，云盘猎人，网罗全网资源！",
+      url: "https://panhunt.com?utm_source=pansou.vip",
+    },
+    {
+      title: "Pan Hunt",
+      description: "盘搜VIP 全新升级：Pan Hunt，云盘猎人，网罗全网资源！",
+      url: "https://panhunt.com?utm_source=pansou.vip",
+    },
+    {
+      title: "Pan Hunt",
+      description: "盘搜VIP 全新升级：Pan Hunt，云盘猎人，网罗全网资源！",
+      url: "https://panhunt.com?utm_source=pansou.vip",
+    },
+    {
+      title: "Pan Hunt",
+      description: "盘搜VIP 全新升级：Pan Hunt，云盘猎人，网罗全网资源！",
+      url: "https://panhunt.com?utm_source=pansou.vip",
+    },
   ];
   const nowAd = adInfo[Math.floor(Math.random() * adInfo.length)];
   return (
