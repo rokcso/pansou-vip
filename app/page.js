@@ -195,7 +195,7 @@ export default function Home() {
               </a>
               ，特别推荐！如果你也有好用的网盘搜索工具，欢迎 👉{" "}
               <a
-                href="https://cvlr2wiufrz.feishu.cn/share/base/form/shrcnAPSuz3I1DJ2z722woXjHnc"
+                href="https://lunaryestudio.feishu.cn/share/base/form/shrcnJtAzJpTxuqoo6AzR2aowrc"
                 title="网盘搜索工具投稿问卷链接"
                 target="_blank"
                 rel="nofollow"
