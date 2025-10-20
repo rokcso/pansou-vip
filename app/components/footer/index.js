@@ -36,7 +36,7 @@ export default function () {
               GitHub
               <LinkArrow />
             </a> */}
-            <a href="mailto:rokcsox@gmail.com">
+            <a href="mailto:panhunt@lunarye.com">
               Email <LinkArrow />
             </a>
           </div>
@@ -45,21 +45,21 @@ export default function () {
           <p>其他作品</p>
           <br />
           <a
-            href="https://urlxcode.rokcso.com/"
-            title="URLxcode 网址"
+            href="https://arcletcopier.com/zh/"
+            title="Arclet Copier - PanHunt 开发者最新作品"
             target="_blank"
           >
-            URL xcode
+            Arclet Copier
             <LinkArrow />
           </a>
           <br />
           <br />
           <a
-            href="https://skillix.cc?utm_source=pansou.vip/"
-            title="Skillix 小报童精选专栏优惠"
+            href="https://urlxcode.rokcso.com/"
+            title="URLxcode 网址"
             target="_blank"
           >
-            Skillix
+            URL xcode
             <LinkArrow />
           </a>
         </div>

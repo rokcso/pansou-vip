@@ -1,259 +1,301 @@
 [
-    {
-        "id": "alipansou_com",
-        "title": "猫狸盘搜",
-        "url": "https://www.alipansou.com/",
-        "advantages": "服务响应速度快，资源丰富度高。",
-        "disadvantages": "广告较多，需要关注公众号获取激活码。",
-        "description": "激活码为 4096（可能已过期），服务比较稳定，影视资源较多，比较好用，注意版权敏感资源需要使用间接关键词。广告越来越多了，还有一些反爬虫措施，都说明这个网站发展不错。还有几个同源换皮网站。",
-        "score": 4.235,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 5,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 3.75,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 2,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 0,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali"
-        ]
+  {
+    "id": "alipansou_com",
+    "title": "猫狸盘搜",
+    "url": "https://www.alipansou.com/",
+    "advantages": "服务响应速度快，资源丰富度高。",
+    "disadvantages": "广告较多，需要关注公众号获取激活码。",
+    "description": "激活码为 4096（可能已过期），服务比较稳定，影视资源较多，比较好用，注意版权敏感资源需要使用间接关键词。广告越来越多了，还有一些反爬虫措施，都说明这个网站发展不错。还有几个同源换皮网站。",
+    "score": 4.235,
+    "nofollow": false,
+    "factors": {
+      "networkDetect": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "googlePageSpeed": {
+        "type": "machineTest",
+        "score": 3.75,
+        "weight": 0.1
+      },
+      "resourceRichness": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.48
+      },
+      "adDensity": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "useCondition": {
+        "type": "manualTest",
+        "score": 2,
+        "weight": 0.08
+      },
+      "searchResponseSpeed": {
+        "type": "manualTest",
+        "score": 0,
+        "weight": 0.08
+      },
+      "subjective": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      }
     },
-    {
-        "id": "cuppaso_com",
-        "title": "咔帕搜索",
-        "url": "https://www.cuppaso.com/",
-        "advantages": "服务响应速度快，资源丰富度高，无广告，无使用门槛限制。",
-        "disadvantages": "搜索准确度较低，建议使用精准搜索。",
-        "description": "整体质量不错，移动端交互体验一般。",
-        "score": 4.92,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 5,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 4,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali",
-            "quark",
-            "xunlei"
-        ]
+    "platforms": ["ali"]
+  },
+  {
+    "id": "cuppaso_com",
+    "title": "咔帕搜索",
+    "url": "https://www.cuppaso.com/",
+    "advantages": "服务响应速度快，资源丰富度高，无广告，无使用门槛限制。",
+    "disadvantages": "搜索准确度较低，建议使用精准搜索。",
+    "description": "整体质量不错，移动端交互体验一般。",
+    "score": 4.92,
+    "nofollow": false,
+    "factors": {
+      "networkDetect": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "googlePageSpeed": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "resourceRichness": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.48
+      },
+      "adDensity": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "useCondition": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "searchResponseSpeed": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "subjective": {
+        "type": "manualTest",
+        "score": 4,
+        "weight": 0.08
+      }
     },
-    {
-        "id": "aliso_cc",
-        "title": "阿里搜",
-        "url": "https://aliso.cc/",
-        "advantages": "服务响应速度快，资源丰富度高，无广告，无使用门槛限制。",
-        "disadvantages": "无明显劣势。",
-        "description": "搜索体验非常好，搜索结果会直接显示文件夹内容，版权管理比较严格，换关键词也不一定能搜索到版权敏感资源（取决于版权方力度）。",
-        "score": 4.9,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 4,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali"
-        ]
+    "platforms": ["ali", "quark", "xunlei"]
+  },
+  {
+    "id": "aliso_cc",
+    "title": "阿里搜",
+    "url": "https://aliso.cc/",
+    "advantages": "服务响应速度快，资源丰富度高，无广告，无使用门槛限制。",
+    "disadvantages": "无明显劣势。",
+    "description": "搜索体验非常好，搜索结果会直接显示文件夹内容，版权管理比较严格，换关键词也不一定能搜索到版权敏感资源（取决于版权方力度）。",
+    "score": 4.9,
+    "nofollow": false,
+    "factors": {
+      "networkDetect": {
+        "type": "machineTest",
+        "score": 4,
+        "weight": 0.1
+      },
+      "googlePageSpeed": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "resourceRichness": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.48
+      },
+      "adDensity": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "useCondition": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "searchResponseSpeed": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "subjective": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      }
     },
-    {
-        "id": "aipanso_com",
-        "title": "爱盘搜",
-        "url": "https://aipanso.com/",
-        "advantages": "服务响应速度快，资源丰富度高。",
-        "disadvantages": "需要关注公众号获取激活码。",
-        "description": "激活码为 1314（可能已过期），有一定广告（适中），还有几个同源换皮网站。",
-        "score": 4.27,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 5,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 2.5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 3,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 2,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 4,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "quark"
-        ]
+    "platforms": ["ali"]
+  },
+  {
+    "id": "aipanso_com",
+    "title": "爱盘搜",
+    "url": "https://aipanso.com/",
+    "advantages": "服务响应速度快，资源丰富度高。",
+    "disadvantages": "需要关注公众号获取激活码。",
+    "description": "激活码为 1314（可能已过期），有一定广告（适中），还有几个同源换皮网站。",
+    "score": 4.27,
+    "nofollow": false,
+    "factors": {
+      "networkDetect": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "googlePageSpeed": {
+        "type": "machineTest",
+        "score": 2.5,
+        "weight": 0.1
+      },
+      "resourceRichness": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.48
+      },
+      "adDensity": {
+        "type": "manualTest",
+        "score": 3,
+        "weight": 0.08
+      },
+      "useCondition": {
+        "type": "manualTest",
+        "score": 2,
+        "weight": 0.08
+      },
+      "searchResponseSpeed": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "subjective": {
+        "type": "manualTest",
+        "score": 4,
+        "weight": 0.08
+      }
     },
-    {
-        "id": "panso_pro",
-        "title": "盘搜 Pro",
-        "url": "https://panso.pro/",
-        "advantages": "无广告，无使用门槛限制，资源丰富度高。",
-        "disadvantages": "暂无。",
-        "description": "整体使用体验不错，资源丰富且更新迅速，搜索响应快且搜索筛选项目比较实用，搜索结果页中还有推荐相关资源。",
-        "score": 4.59,
-        "nofollow": false,
-        "factors": {
-            "networkDetect": {
-                "type": "machineTest",
-                "score": 4,
-                "weight": 0.10
-            },
-            "googlePageSpeed": {
-                "type": "machineTest",
-                "score": 2.5,
-                "weight": 0.10
-            },
-            "resourceRichness": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.48
-            },
-            "adDensity": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "useCondition": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "searchResponseSpeed": {
-                "type": "manualTest",
-                "score": 5,
-                "weight": 0.08
-            },
-            "subjective": {
-                "type": "manualTest",
-                "score": 3,
-                "weight": 0.08
-            }
-        },
-        "platforms": [
-            "ali",
-            "quark",
-            "baidu",
-            "xunlei",
-            "uc",
-            "115"
-        ]
-    }
+    "platforms": ["quark"]
+  },
+  {
+    "id": "panso_pro",
+    "title": "盘搜 Pro",
+    "url": "https://panso.pro/",
+    "advantages": "无广告，无使用门槛限制，资源丰富度高。",
+    "disadvantages": "暂无。",
+    "description": "整体使用体验不错，资源丰富且更新迅速，搜索响应快且搜索筛选项目比较实用，搜索结果页中还有推荐相关资源。",
+    "score": 4.59,
+    "nofollow": false,
+    "factors": {
+      "networkDetect": {
+        "type": "machineTest",
+        "score": 4,
+        "weight": 0.1
+      },
+      "googlePageSpeed": {
+        "type": "machineTest",
+        "score": 2.5,
+        "weight": 0.1
+      },
+      "resourceRichness": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.48
+      },
+      "adDensity": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "useCondition": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "searchResponseSpeed": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "subjective": {
+        "type": "manualTest",
+        "score": 3,
+        "weight": 0.08
+      }
+    },
+    "platforms": ["ali", "quark", "baidu", "xunlei", "uc", "115"]
+  },
+  {
+    "id": "panhunt_official",
+    "title": "PanHunt 官方",
+    "url": "https://panhunt.com/tool/panhunt_official",
+    "advantages": "PanHunt 官方基于开源项目提供的聚合搜索服务，整合多个优质网盘搜索引擎，一站式搜索体验，无广告，响应快速，完全免费。",
+    "disadvantages": "稳定性未知，部署在一台很烂的服务器上。",
+    "description": "PanHunt 官方推出的聚合搜索工具，汇集多个优质搜索源，为用户提供最便捷的搜索体验。基于开源项目构建，持续更新维护。",
+    "score": 5,
+    "nofollow": false,
+    "factors": {
+      "networkDetect": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "googlePageSpeed": {
+        "type": "machineTest",
+        "score": 5,
+        "weight": 0.1
+      },
+      "resourceRichness": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.48
+      },
+      "adDensity": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "useCondition": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "searchResponseSpeed": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      },
+      "subjective": {
+        "type": "manualTest",
+        "score": 5,
+        "weight": 0.08
+      }
+    },
+    "platforms": [
+      "ali",
+      "baidu",
+      "quark",
+      "xunlei",
+      "lanzou",
+      "uc",
+      "tianyi",
+      "yidong",
+      "weiyun",
+      "115"
+    ]
+  }
 ]
