@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
 import { Inter } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+// import { SpeedInsights } from "@vercel/speed-insights/next"; // 已移除：Cloudflare 不支持
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
                     (function() {
                       var hm = document.createElement("script");
                       hm.src = "https://hm.baidu.com/hm.js?7b11ad50149dfb60bd4a4bdf67510106";
-                      var s = document.getElementsByTagName("script")[0]; 
+                      var s = document.getElementsByTagName("script")[0];
                       s.parentNode.insertBefore(hm, s);
                     })();`,
           }}
@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main>{children}</main>
         <Footer />
-        <SpeedInsights />
+        {/* <SpeedInsights /> */}
       </body>
     </html>
   );
