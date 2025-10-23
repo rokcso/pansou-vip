@@ -35,7 +35,7 @@ export default function Home() {
       <p>
         你可以通过{" 👉 "}
         <a
-          href="https://lunaryestudio.feishu.cn/share/base/form/shrcnhjf4MbsM96WIE6Y2KSQ1Nl?prefill_反馈类型=副业赚钱"
+          href="https://thecoryso.feishu.cn/share/base/form/shrcnHIZqXuqzWO8nM2uskBaK2f?prefill_反馈类型=副业赚钱"
           title="留言问卷链接"
           target="_blank"
         >

@@ -46,19 +46,19 @@ export default function Home() {
 
   // 用户可用来筛选平台的选项，从 Site 数据中获取 platforms 数据，将其声明为 Set 对象可以直接去重，再转换为数组
   const featuredPlatformOptions = Array.from(
-    new Set(featuredSites.flatMap((site) => site.platforms))
+    new Set(featuredSites.flatMap((site) => site.platforms)),
   );
   const secondaryFeaturedSitePlatformOptions = Array.from(
-    new Set(secondaryFeaturedSites.flatMap((site) => site.platforms))
+    new Set(secondaryFeaturedSites.flatMap((site) => site.platforms)),
   );
   const standbySitePlatformOptions = Array.from(
-    new Set(standbySites.flatMap((site) => site.platforms))
+    new Set(standbySites.flatMap((site) => site.platforms)),
   );
   const blackSitePlatformOptions = Array.from(
-    new Set(blackSites.flatMap((site) => site.platforms))
+    new Set(blackSites.flatMap((site) => site.platforms)),
   );
   const wastedSitePlatformOptions = Array.from(
-    new Set(wastedSites.flatMap((site) => site.platforms))
+    new Set(wastedSites.flatMap((site) => site.platforms)),
   );
 
   // 平台原始值标识对应的中文值
@@ -91,19 +91,19 @@ export default function Home() {
 
   // 排序之后的平台选项
   const featuredSortedPlatformOptions = platformOrder.filter((platform) =>
-    featuredPlatformOptions.includes(platform)
+    featuredPlatformOptions.includes(platform),
   );
   const secondaryFeaturedSortedPlatformOptions = platformOrder.filter(
-    (platform) => secondaryFeaturedSitePlatformOptions.includes(platform)
+    (platform) => secondaryFeaturedSitePlatformOptions.includes(platform),
   );
   const standbySortedPlatformOptions = platformOrder.filter((platform) =>
-    standbySitePlatformOptions.includes(platform)
+    standbySitePlatformOptions.includes(platform),
   );
   const blackSortedPlatformOptions = platformOrder.filter((platform) =>
-    blackSitePlatformOptions.includes(platform)
+    blackSitePlatformOptions.includes(platform),
   );
   const wastedSortedPlatformOptions = platformOrder.filter((platform) =>
-    wastedSitePlatformOptions.includes(platform)
+    wastedSitePlatformOptions.includes(platform),
   );
 
   // 根据用户选择的平台过滤要显示的 Site 数据
@@ -111,16 +111,16 @@ export default function Home() {
     featuredSelectedPlatform === "all"
       ? featuredSites
       : featuredSites.filter((site) =>
-          site.platforms.includes(featuredSelectedPlatform)
+          site.platforms.includes(featuredSelectedPlatform),
         );
   const featuredFilteredSortedSites = featuredFilteredSites.sort(
-    (a, b) => b.score - a.score
+    (a, b) => b.score - a.score,
   );
   const secondaryFeaturedFilteredSites =
     secondaryFeaturedSelectedPlatform === "all"
       ? secondaryFeaturedSites
       : secondaryFeaturedSites.filter((site) =>
-          site.platforms.includes(secondaryFeaturedSelectedPlatform)
+          site.platforms.includes(secondaryFeaturedSelectedPlatform),
         );
   const secondaryFeaturedFilteredSortedSites =
     secondaryFeaturedFilteredSites.sort((a, b) => b.score - a.score);
@@ -128,28 +128,28 @@ export default function Home() {
     standbySelectedPlatform === "all"
       ? standbySites
       : standbySites.filter((site) =>
-          site.platforms.includes(standbySelectedPlatform)
+          site.platforms.includes(standbySelectedPlatform),
         );
   const standbyFilteredSortedSites = standbyFilteredSites.sort(
-    (a, b) => b.score - a.score
+    (a, b) => b.score - a.score,
   );
   const blackFilteredSites =
     blackSelectedPlatform === "all"
       ? blackSites
       : blackSites.filter((site) =>
-          site.platforms.includes(blackSelectedPlatform)
+          site.platforms.includes(blackSelectedPlatform),
         );
   const blackFilteredSortedSites = blackFilteredSites.sort(
-    (a, b) => b.score - a.score
+    (a, b) => b.score - a.score,
   );
   const wastedFilteredSites =
     wastedSelectedPlatform === "all"
       ? wastedSites
       : wastedSites.filter((site) =>
-          site.platforms.includes(wastedSelectedPlatform)
+          site.platforms.includes(wastedSelectedPlatform),
         );
   const wastedFilteredSortedSites = wastedFilteredSites.sort(
-    (a, b) => b.score - a.score
+    (a, b) => b.score - a.score,
   );
 
   // 滚动到页面顶部的方法
@@ -195,7 +195,7 @@ export default function Home() {
               </a>
               ，特别推荐！如果你也有好用的网盘搜索工具，欢迎 👉{" "}
               <a
-                href="https://lunaryestudio.feishu.cn/share/base/form/shrcnJtAzJpTxuqoo6AzR2aowrc"
+                href="https://thecoryso.feishu.cn/share/base/form/shrcnpepJDSyqQv0rgCFgMcFGvf"
                 title="网盘搜索工具投稿问卷链接"
                 target="_blank"
                 rel="nofollow"
