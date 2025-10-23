@@ -36,7 +36,7 @@ export default function () {
               GitHub
               <LinkArrow />
             </a> */}
-            <a href="mailto:panhunt@lunarye.com">
+            <a href="mailto:panhunt@coryso.com">
               Email <LinkArrow />
             </a>
           </div>
@@ -67,11 +67,11 @@ export default function () {
           <p>友情链接</p>
           <br />
           <a
-            href="https://lunarye.com?utm_source=pansou.vip/"
-            title="Lunarye 网址"
+            href="https://coryso.com?utm_source=pansou.vip/"
+            title="Coryso 网址"
             target="_blank"
           >
-            Lunarye™
+            Coryso™ Studio
             <LinkArrow />
           </a>
           <br />
