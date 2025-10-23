@@ -53,7 +53,7 @@ export default function Home() {
         <p>
           如果你有任何问题咨询、建议反馈、点赞支持都可以 👉{" "}
           <a
-            href="https://lunaryestudio.feishu.cn/share/base/form/shrcnhjf4MbsM96WIE6Y2KSQ1Nl"
+            href="https://thecoryso.feishu.cn/share/base/form/shrcnHIZqXuqzWO8nM2uskBaK2f"
             title="留言问卷链接"
             target="_blank"
           >
