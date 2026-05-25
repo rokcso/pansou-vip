@@ -1,4 +1,3 @@
-import Image from "next/image";
 import AdBanner from "../components/fragments/adBanner";
 
 export const metadata = {
@@ -20,13 +19,6 @@ export default function Home() {
         <p>
           本站主要为个人自用，顺手将自己使用的工具整理发布，承诺所有工具绝对没有付费收录或推荐。
         </p>
-        <p>你还可以关注我的公众号，会不定期分享更多实用资源。👇</p>
-        <Image
-          src="/img/wxgzh.jpg"
-          alt="空字节 微信公众号 二维码"
-          width={300}
-          height={100}
-        />
       </div>
       <div>
         <h2>赞助</h2>
@@ -34,9 +26,8 @@ export default function Home() {
           盘搜VIP 暂时并没有提供任何付费服务，纯纯用爱发电。 如果你想对盘搜VIP
           提供支持或帮助，最简单的方式就是
           <b>将盘搜VIP 分享给任何有需要的人</b>
-          ，其次你还可以选择赞赏一下，赞赏收入将用于域名、服务器续费。👇
+          。
         </p>
-        <Image src="/img/wxzsm.jpg" alt="赞赏码" width={300} height={300} />
         <br />
         <br />
         <AdBanner />
