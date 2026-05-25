@@ -13,8 +13,6 @@ import wastedSites from "../public/data/wastedSites.json";
 import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
-  const [showGift, setShowGift] = useState(true);
-
   // 全局常量，数据最新更新时间（字符串格式）
   const lastUpdateDateStr = "2025-02-07";
 
