@@ -19,7 +19,7 @@ export const metadata = {
     "pansou",
     "云盘搜索",
   ],
-  authors: [{ name: "rokcso" }],
+  authors: [{ name: "PanHunt" }],
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/",
@@ -38,8 +38,8 @@ export const metadata = {
     title: "盘搜VIP - 网盘搜索工具精选导航，资源丰富，人工亲测",
     description:
       "精选各大人工亲测好用的网盘搜索工具，提供网盘搜索工具一站式导航，优质、免费，长期维护更新，给你 VIP 一样的体验。",
-    site: "@rokcso",
-    creator: "@rokcso",
+    site: "@panhunt",
+    creator: "@panhunt",
     images: "/img/preview-new.png",
   },
 };
