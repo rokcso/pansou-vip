@@ -1,4 +1,3 @@
-import LinkArrow from "../fragments/linkArrow";
 import styles from "./index.module.css";
 
 export default function () {
@@ -40,62 +39,6 @@ export default function () {
               Email <LinkArrow />
             </a>
           </div>
-        </div>
-        <div>
-          <p>其他作品</p>
-          <br />
-          <a
-            href="https://arcletcopier.com/zh/"
-            title="Arclet Copier - PanHunt 开发者最新作品"
-            target="_blank"
-          >
-            Arclet Copier
-            <LinkArrow />
-          </a>
-          <br />
-          <br />
-          <a
-            href="https://urlxcode.rokcso.com/"
-            title="URLxcode 网址"
-            target="_blank"
-          >
-            URL xcode
-            <LinkArrow />
-          </a>
-        </div>
-        <div>
-          <p>友情链接</p>
-          <br />
-          <a
-            href="https://coryso.com?utm_source=pansou.vip/"
-            title="Coryso 网址"
-            target="_blank"
-          >
-            Coryso™ Studio
-            <LinkArrow />
-          </a>
-          <br />
-          <br />
-          <a
-            href="https://www.ubrand.com?utm_source=pansou.vip/"
-            title="uBrand 官网"
-            target="_blank"
-            rel="nofollow"
-          >
-            uBrand
-            <LinkArrow />
-          </a>
-          <br />
-          <br />
-          <a
-            href="https://tuostudy.upnb.top?utm_source=pansou.vip/"
-            title="图欧学习资源导航"
-            target="_blank"
-            rel="nofollow"
-          >
-            图欧学习资源导航
-            <LinkArrow />
-          </a>
         </div>
       </div>
       <hr className={styles.footerDivider} />
