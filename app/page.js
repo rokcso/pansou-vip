@@ -351,49 +351,6 @@ export default function Home() {
         )}
         {/* 废弃工具 End */}
       </div>
-      {/* 礼物 */}
-      {/* <div
-        className={`${styles.gift} ${
-          showGift ? styles.showGift : styles.hideGift
-        }`}
-        onClick={() => {
-          showGift ? setShowGift(false) : setShowGift(true);
-        }}
-      >
-        {showGift ? (
-          <div className={styles.giftContent}>
-            <div className={styles.textArea}>
-              <b>💰 副业赚钱</b>
-              <div>
-                <p>
-                  搭建专属的网盘搜索工具，轻松赚取网盘分佣！还有更多副业项目...
-                </p>
-              </div>
-            </div>
-            <div className={styles.btnArea}>
-              <button
-                className={styles.upBtn}
-                onClick={() => {
-                  setShowGift(false);
-                }}
-              >
-                我知道了
-              </button>
-              <hr />
-              <button
-                className={styles.downBtn}
-                onClick={() => {
-                  window.location.href = "/gift";
-                }}
-              >
-                我去看看
-              </button>
-            </div>
-          </div>
-        ) : (
-          "💰"
-        )}
-      </div> */}
       {/* <AdBanner /> */}
       <button
         className={styles.backToTopBtn}
