@@ -19,7 +19,7 @@ export const metadata = {
     "pansou",
     "云盘搜索",
   ],
-  authors: [{ name: "rokcso", url: "https://rokcso.com/" }],
+  authors: [{ name: "rokcso" }],
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/",
