@@ -3,6 +3,7 @@
 import Hero from "./components/hero";
 import Card from "./components/card";
 import AdBanner from "./components/fragments/adBanner";
+import BrandTransition from "./components/brandTransition";
 import { useState } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
@@ -161,6 +162,7 @@ export default function Home() {
   return (
     <div>
       <Hero lastUpdateDateStr={lastUpdateDateStr} siteCount={allSiteCount} />
+      <BrandTransition />
       <AdBanner />
       <div className={styles.main}>
         {/* 精选工具 Start */}
