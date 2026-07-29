@@ -3,7 +3,7 @@ import Image from "next/image";
 export const metadata = {
   title: "盘搜VIP 使用指南 - 网盘搜索工具精选导航",
   description:
-    "关于盘搜VIP 使用过程中的一些常见问题和答案，以及欢迎任何反馈，我们都会及时处理。",
+    "盘搜VIP的使用指南、常见问题与品牌升级说明：了解网盘搜索工具导航的使用边界，以及盘搜VIP升级为PanHunt后的新版入口。",
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
     canonical: "/faq",
@@ -16,6 +16,26 @@ export default function Home() {
       <h1>盘搜VIP 使用指南</h1>
       <div>
         <h2>常见问题</h2>
+        <div>
+          <h3>Q：盘搜VIP 和 PanHunt 是什么关系？</h3>
+          <p>
+            A：PanHunt 是盘搜VIP面向下一阶段升级的新品牌。盘搜VIP会在过渡期间继续提供已有的工具导航；PanHunt则重点更新工具详情、公开评测和使用内容。
+          </p>
+          <p>
+            你不需要重新学习使用方式。需要查看新版工具和完整说明时，可以前往{" "}
+            <a
+              href="https://panhunt.com/pansou-vip-upgrade?utm_source=pansou.vip&utm_medium=faq"
+              title="查看盘搜VIP升级为PanHunt的完整说明"
+            >
+              PanHunt 品牌升级说明
+            </a>
+            ，也可以继续阅读本站的{" "}
+            <a href="/upgrade" title="盘搜VIP品牌升级说明">
+              品牌升级页面
+            </a>
+            。
+          </p>
+        </div>
         <div>
           <h3>搜索不到 xxxxx 影视剧？</h3>
           <p>
