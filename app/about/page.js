@@ -1,5 +1,3 @@
-import AdBanner from "../components/fragments/adBanner";
-
 export const metadata = {
   title: "什么是盘搜VIP？ - 网盘搜索工具精选导航",
   description:
@@ -30,7 +28,6 @@ export default function Home() {
         </p>
         <br />
         <br />
-        <AdBanner />
       </div>
       <div>
         <h2>投稿</h2>
