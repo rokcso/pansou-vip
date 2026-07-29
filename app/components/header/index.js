@@ -36,6 +36,9 @@ export default function () {
           <a href="/about" title="盘搜VIP的关于页面">
             <span>关于</span>
           </a>
+          <a href="/upgrade" title="盘搜VIP升级为PanHunt说明">
+            <span>品牌升级</span>
+          </a>
         </div>
       </nav>
     </header>

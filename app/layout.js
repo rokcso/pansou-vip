@@ -65,6 +65,19 @@ export default function RootLayout({ children }) {
                     gtag('config', 'G-X619Y8FDPE');`,
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "盘搜VIP",
+              alternateName: "PanHunt",
+              url: "https://www.pansou.vip/",
+              sameAs: ["https://panhunt.com/"],
+            }),
+          }}
+        />
         {/* 百度统计代码 */}
         <script
           dangerouslySetInnerHTML={{
