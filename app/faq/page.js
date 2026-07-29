@@ -19,10 +19,10 @@ export default function Home() {
         <div>
           <h3>Q：盘搜VIP 和 PanHunt 是什么关系？</h3>
           <p>
-            A：PanHunt 是盘搜VIP面向下一阶段升级的新品牌。盘搜VIP会在过渡期间继续提供已有的工具导航；PanHunt则重点更新工具详情、公开评测和使用内容。
+            A：PanHunt 是盘搜VIP升级后的新品牌。过渡期间，盘搜VIP会继续保留已有的工具导航；工具详情、公开评测和新的使用内容会优先更新在 PanHunt。
           </p>
           <p>
-            你不需要重新学习使用方式。需要查看新版工具和完整说明时，可以前往{" "}
+            不需要重新适应一套用法。想看新版工具和完整说明，可以前往{" "}
             <a
               href="https://panhunt.com/pansou-vip-upgrade?utm_source=pansou.vip&utm_medium=faq"
               title="查看盘搜VIP升级为PanHunt的完整说明"
