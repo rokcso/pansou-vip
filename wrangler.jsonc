@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "pansou-vip",
+  "main": "./worker.js",
+  "compatibility_date": "2026-07-29",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "html_handling": "none",
+    "not_found_handling": "404-page"
+  }
+}
