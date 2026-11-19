@@ -1,0 +1,233 @@
+/* 社区条目详情页（/forum/<id>）。
+   与 /tool/<id> 共用同一套视觉：面板底色 #a1ccd1、8px 圆角、投影，正文色
+   #333。这里按本页实际用到的类裁剪过，没有分数相关样式——社区条目没有
+   评分，留一个空的分数位只会让人以为「漏渲染了」。 */
+
+.page {
+  max-width: 46rem; /* 中文正文一行的舒适区间，约 35～45 字 */
+  margin: 0 auto;
+  padding: 16px 0 48px;
+}
+
+/* 面包屑 */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #5a6b6d;
+  margin-bottom: 12px;
+}
+
+.breadcrumb a {
+  color: #2f7b85;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumbSep {
+  color: #7d8f91;
+}
+
+.breadcrumbCurrent {
+  color: #5a6b6d;
+}
+
+/* 标题区 */
+.header {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  font-size: 1.6rem;
+  line-height: 1.35;
+  color: #22343a;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.kindBadge,
+.hostBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.kindBadge {
+  background-color: #a1ccd1;
+  color: #22343a;
+}
+
+.hostBadge {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #4a5f63;
+}
+
+/* 内容面板：与首页卡片同一套底色 / 圆角 / 投影 */
+.panel {
+  background-color: #a1ccd1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  margin: 0 0 12px 0;
+  font-size: 1.15rem;
+  color: #22343a;
+}
+
+.block + .block {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(34, 52, 58, 0.15);
+}
+
+.blockTitle {
+  margin: 0 0 6px 0;
+  font-size: 1rem;
+  color: #22343a;
+}
+
+.block p {
+  margin: 0;
+  line-height: 1.75;
+  color: #333;
+}
+
+/* 平台标签 */
+.platformList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.platformTag {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #333;
+  background-color: #8ece51;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* 访问按钮区 */
+.actions {
+  margin-bottom: 16px;
+}
+
+.visitBtn {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  background-color: #4aafd1;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.visitBtn:hover,
+.visitBtn:focus-visible {
+  background-color: #8ece51;
+}
+
+.rubricNote {
+  margin: 10px 0 0 0;
+  font-size: 13px;
+  color: #5a6b6d;
+}
+
+/* 其他社区 */
+.relatedList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.relatedCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.relatedCard:hover,
+.relatedCard:focus-visible {
+  background-color: #fff;
+}
+
+.relatedTitle {
+  color: #22343a;
+  font-weight: 600;
+}
+
+.relatedMeta {
+  font-size: 13px;
+  color: #4a5f63;
+}
+
+.backLink {
+  margin: 0;
+  font-size: 14px;
+}
+
+.backLink a {
+  color: #2f7b85;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* 更宽的视口：其他社区三列，留白放大 */
+@media (min-width: 768px) {
+  .page {
+    padding: 24px 0 64px;
+  }
+
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .panel {
+    padding: 20px 24px;
+  }
+
+  .relatedList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .visitBtn {
+    width: auto;
+    display: inline-block;
+    padding: 12px 28px;
+  }
+}
