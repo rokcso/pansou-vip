@@ -54,11 +54,48 @@
         "id": "qileso_com",
         "title": "奇乐搜",
         "url": "https://www.qileso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "搜索响应速度较快，界面比较清爽。",
+        "disadvantages": "资源丰富度一般，部分结果点开后分享已失效。",
+        "description": "主要聚合阿里云盘和夸克网盘的分享链接，影视类资源偏多。不登录也能搜，但结果更新不算及时。",
+        "score": 2.45,
         "nofollow": true,
+        "factors": {
+            "networkDetect": {
+                "type": "machineTest",
+                "score": 2.5,
+                "weight": 0.10
+            },
+            "googlePageSpeed": {
+                "type": "machineTest",
+                "score": 2,
+                "weight": 0.10
+            },
+            "resourceRichness": {
+                "type": "manualTest",
+                "score": 2,
+                "weight": 0.48
+            },
+            "adDensity": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            },
+            "useCondition": {
+                "type": "manualTest",
+                "score": 4,
+                "weight": 0.08
+            },
+            "searchResponseSpeed": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            },
+            "subjective": {
+                "type": "manualTest",
+                "score": 3,
+                "weight": 0.08
+            }
+        },
         "platforms": [
             "ali",
             "quark"
@@ -118,45 +155,45 @@
         "id": "pansearch_me",
         "title": "PanSearch",
         "url": "https://www.pansearch.me/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持四家网盘，结果里标注了资源大小和分享时间。",
+        "disadvantages": "广告位较多，热门关键词的结果里夹带推广。",
+        "description": "阿里、百度、夸克、迅雷的分享链接都能搜到，适合先看资源新旧再决定保存哪一个。免费搜索有频率限制，连续查词会被临时拦截。",
+        "score": 3.24,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             }
         },
@@ -171,45 +208,45 @@
         "id": "niceso_net",
         "title": "奈斯搜索",
         "url": "https://www.niceso.net/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，搜索页干净。",
+        "disadvantages": "只做阿里云盘，资源丰富度一般，冷门关键词基本搜不到内容。",
+        "description": "专注阿里云盘资源的搜索站，适合找影视和课程类分享。时间排序不明显，需要自己翻几页对比。",
+        "score": 2.58,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -221,45 +258,45 @@
         "id": "upyunso_com",
         "title": "UP 云搜",
         "url": "https://www.upyunso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "如果地址失效可访问 https://www.upso7.com/",
-        "score": 0,
+        "advantages": "无使用门槛，打开就能搜。",
+        "disadvantages": "搜索响应速度一般，只支持阿里云盘，资源丰富度一般。",
+        "description": "聚合阿里云盘分享的搜索入口，界面简单，功能也比较单一。部分结果的分享已经取消，点开前先看状态提示。",
+        "score": 2.24,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -271,45 +308,45 @@
         "id": "tianyiso_com",
         "title": "天逸搜",
         "url": "https://www.tianyiso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，界面清爽。",
+        "disadvantages": "仅支持天翼云盘，资源丰富度很低，搜索响应偏慢。",
+        "description": "专门搜天翼云盘分享的站点，适合本来就常用天翼云盘的人。资源更新慢，冷门内容容易搜空。",
+        "score": 1.79,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -321,45 +358,45 @@
         "id": "xiongdipan_com",
         "title": "兄弟盘",
         "url": "https://xiongdipan.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持按网盘类型筛选，结果列表加载较快。",
+        "disadvantages": "广告较多，百度网盘以外的资源基本没有。",
+        "description": "以百度网盘分享为主的搜索站，适合找年头久一点的影视和文档。页面广告位偏多，点结果时注意分辨推广链接。",
+        "score": 2.08,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -371,45 +408,45 @@
         "id": "sousuopan_com",
         "title": "搜索盘",
         "url": "https://www.sousuopan.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "覆盖四家网盘，无使用门槛。",
+        "disadvantages": "资源丰富度一般，结果排序比较乱。",
+        "description": "阿里、百度、迅雷、天翼的分享链接都能查，适合一次比对多个网盘。搜索词太宽泛时返回的结果重复度较高。",
+        "score": 2.42,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -424,45 +461,45 @@
         "id": "miaosou_fun",
         "title": "秒搜",
         "url": "https://miaosou.fun/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "搜索响应速度较快，覆盖四家主流网盘。",
+        "disadvantages": "广告偏多，资源丰富度一般，部分结果已经失效。",
+        "description": "多网盘聚合搜索，适合快速确认某个资源在哪家网盘有分享。结果页推广位较多，打不开的链接换个关键词再试。",
+        "score": 2.39,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -477,45 +514,45 @@
         "id": "yuneu_com",
         "title": "云易搜",
         "url": "https://so.yuneu.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "四家网盘都能搜，结果里带分享时间。",
+        "disadvantages": "广告较多，页面排版偏挤。",
+        "description": "阿里、百度、夸克、迅雷的分享聚合，适合按时间挑较新的资源。结果页广告和内容混排，需要自己挑。",
+        "score": 2.92,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -530,45 +567,45 @@
         "id": "panyq_com",
         "title": "盘友圈",
         "url": "https://panyq.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无使用门槛，支持三家网盘。",
+        "disadvantages": "资源丰富度一般，搜索响应速度偏慢。",
+        "description": "覆盖阿里、百度、夸克的搜索站，社区属性更重一些。找影视资源还行，专业资料和文档类结果比较少。",
+        "score": 2.29,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -582,45 +619,45 @@
         "id": "pan_funletu_com",
         "title": "趣盘搜",
         "url": "https://pan.funletu.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，页面加载较快。",
+        "disadvantages": "只支持夸克网盘，资源丰富度很低，搜索响应一般。",
+        "description": "专注夸克网盘分享的小型搜索站，适合已经常用夸克的人。资源库规模有限，热门影视之外的词基本搜不到内容。",
+        "score": 1.71,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -632,45 +669,45 @@
         "id": "iizhi_cn",
         "title": "毕方铺",
         "url": "https://www.iizhi.cn/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "资源丰富度尚可，无广告，无使用门槛。",
+        "disadvantages": "界面信息密度偏高，结果里的失效链接不少。",
+        "description": "阿里、百度、夸克三家网盘的分享聚合，偏学习和文档类资源。结果更新不算及时，点开前建议先确认分享状态。",
+        "score": 3.03,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -684,45 +721,45 @@
         "id": "feizhupan_com",
         "title": "飞猪盘",
         "url": "https://www.feizhupan.com/#/main/search",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "覆盖三家网盘，搜索框响应及时。",
+        "disadvantages": "广告较多，资源丰富度一般，页面跳转略慢。",
+        "description": "阿里、百度、夸克的分享搜索，前端路由结构，首次打开要多等一会儿。找影视还行，办公文档类偏少。",
+        "score": 2.18,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -736,45 +773,45 @@
         "id": "xiaomapan_com",
         "title": "小马盘",
         "url": "https://www.xiaomapan.com/#/main/search",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持四家网盘，结果可以按来源分开看。",
+        "disadvantages": "资源丰富度一般，广告偏多，部分分享已失效。",
+        "description": "多网盘聚合搜索，适合做资源交叉比对。前端路由页面首次进入稍慢，搜索词写具体一些更容易命中。",
+        "score": 2.16,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -789,45 +826,45 @@
         "id": "panmeme_com",
         "title": "盘么么",
         "url": "http://www.panmeme.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，不需要登录。",
+        "disadvantages": "仅支持百度网盘，资源丰富度很低，站点仍在使用 HTTP。",
+        "description": "百度网盘分享的搜索入口，资源偏旧。站点没有启用 HTTPS，浏览器会提示不安全，不建议在这里输入任何账号信息。",
+        "score": 1.69,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -839,45 +876,45 @@
         "id": "roubuyaoqian_com",
         "title": "肉不要钱",
         "url": "https://roubuyaoqian.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "覆盖四家网盘，资源以影视和合集为主。",
+        "disadvantages": "广告较多，有使用门槛，部分结果要跳转到第三方页面。",
+        "description": "影视资源聚合搜索，适合找剧集和合集。部分结果指向第三方下载页，注意分辨，别在陌生页面输入网盘账号。",
+        "score": 2.71,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -892,45 +929,45 @@
         "id": "quarkfinder_top",
         "title": "云迹寻宝",
         "url": "https://www.quarkfinder.top/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，界面干净。",
+        "disadvantages": "只支持夸克网盘，资源丰富度很低，搜索响应偏慢。",
+        "description": "夸克网盘资源的垂直搜索站，适合找影视和音频分享。资源量少，冷门关键词经常返回空结果，只能作为补充渠道。",
+        "score": 1.92,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -942,45 +979,45 @@
         "id": "bifangpu_com",
         "title": "资源精灵",
         "url": "https://www.bifangpu.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "资源丰富度尚可，覆盖三家网盘，无使用门槛。",
+        "disadvantages": "结果里广告和推广较多，排序不够稳定。",
+        "description": "阿里、百度、夸克的分享聚合，适合找影视、课程和软件类资源。结果里混有推广位，遇到失效链接可以换关键词或访问备用域名。",
+        "score": 3.025,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3.75,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -994,45 +1031,45 @@
         "id": "codelicence_cn",
         "title": "云盘 4K",
         "url": "https://www.codelicence.cn/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "界面干净，没有弹窗广告。",
+        "disadvantages": "资源偏向 4K 影视，其他类型基本搜不到，部分链接已失效。",
+        "description": "主要收录阿里云盘、百度网盘和夸克网盘的影视资源，其中 4K 片源占比较大，适合找高清电影。搜索时建议输入完整片名，关键词太泛结果会很差。",
+        "score": 2.85,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1046,45 +1083,45 @@
         "id": "fastsoso_cc",
         "title": "fastsoso",
         "url": "https://www.fastsoso.cc/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无使用门槛，不登录也能搜。",
+        "disadvantages": "只支持百度网盘，资源偏旧，页面广告较多。",
+        "description": "只做百度网盘的资源索引，适合翻找几年前的老资源。新资源更新慢，部分结果点开已经失效。",
+        "score": 2.08,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -1096,45 +1133,45 @@
         "id": "yapan_io",
         "title": "YaPan",
         "url": "https://yapan.io/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，无使用门槛限制。",
+        "disadvantages": "仅支持阿里云盘，资源丰富度较低。",
+        "description": "只做阿里云盘的资源索引，影视和文档都有少量收录，适合已经在用阿里云盘的用户顺手查一下。搜索结果的时效性一般。",
+        "score": 2.53,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1146,45 +1183,45 @@
         "id": "duanjuso_com",
         "title": "短剧搜",
         "url": "https://www.duanjuso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "专门做短剧，不用在综合搜索里翻找。",
+        "disadvantages": "只有短剧资源，广告位偏多，部分剧集不全。",
+        "description": "面向短剧的垂直搜索，聚合阿里云盘、百度网盘、夸克网盘和迅雷网盘的短剧分享，适合追当下热门的竖屏短剧。集数缺失的情况比较常见。",
+        "score": 2.5,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1199,45 +1236,45 @@
         "id": "xunjiso_com",
         "title": "迅极搜",
         "url": "https://xunjiso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "覆盖五家网盘，搜索结果里有迅雷资源。",
+        "disadvantages": "广告较多，页面加载偏慢，失效链接比例不低。",
+        "description": "综合型网盘搜索，支持迅雷、夸克、阿里、百度和天翼云盘，迅雷网盘的资源相对齐全一些。点开结果前先在列表里确认文件名，能少走一些弯路。",
+        "score": 2.56,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -1253,45 +1290,45 @@
         "id": "maoliyun_com",
         "title": "猫狸云搜索",
         "url": "https://www.maoliyun.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持的网盘类型多，界面比较清爽。",
+        "disadvantages": "资源丰富度一般，部分结果要跳转多次才能拿到链接。",
+        "description": "综合各家网盘的资源索引，迅雷、夸克、阿里、百度和天翼云盘都能搜，适合不确定资源在哪个盘时先来试一次。跳转层级偏深。",
+        "score": 2.77,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1307,45 +1344,45 @@
         "id": "hunhepan_com",
         "title": "混合盘",
         "url": "https://hunhepan.com/search",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "同时搜多个网盘，响应速度较快，无使用门槛。",
+        "disadvantages": "广告位明显，部分网盘的结果排序混乱。",
+        "description": "把夸克、百度、阿里、迅雷和 UC 网盘的资源合并在一个结果页里，适合一次搜索覆盖多个盘。结果按网盘分组，找具体文件要多看两屏。",
+        "score": 3.16,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1361,45 +1398,45 @@
         "id": "lzpanx_com",
         "title": "懒盘搜索",
         "url": "https://www.lzpanx.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持多家网盘，界面没有明显广告。",
+        "disadvantages": "资源丰富度一般，失效链接没有清理。",
+        "description": "综合型网盘搜索，覆盖百度、夸克、阿里、迅雷和 UC 网盘，日常找影视和软件够用。失效链接要自己筛，偶尔要点两三个才能找到能用的。",
+        "score": 2.95,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1415,45 +1452,45 @@
         "id": "alipanx_com",
         "title": "阿里盘搜",
         "url": "https://www.alipanx.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "阿里云盘资源占比较高，无使用门槛限制。",
+        "disadvantages": "广告偏多，其他网盘的结果只是附带。",
+        "description": "以阿里云盘资源为主，同时索引百度、夸克、迅雷和 UC 网盘，适合主要用阿里云盘的用户。非阿里盘的结果质量参差，建议优先看前面的条目。",
+        "score": 2.93,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1469,45 +1506,45 @@
         "id": "xlpanso_com",
         "title": "迅雷盘搜",
         "url": "https://xlpanso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "迅雷网盘资源相对齐全，搜索门槛低。",
+        "disadvantages": "广告较多，响应速度一般，资源新旧混杂。",
+        "description": "以迅雷网盘为主，同时会带出百度、夸克、阿里和 UC 网盘的结果，适合找迅雷分享的影视。老片的命中率比新片好一些。",
+        "score": 2.72,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -1523,45 +1560,45 @@
         "id": "jupanso_com",
         "title": "剧盘搜",
         "url": "https://www.jupanso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "专注影视剧，分类相对清楚。",
+        "disadvantages": "只有影视资源，广告较多，部分剧集链接失效。",
+        "description": "面向电视剧和电影的网盘搜索，覆盖百度、夸克、阿里、迅雷和 UC 网盘，适合按剧名追剧。更新速度不稳定，热播剧的完整合集不一定能搜到。",
+        "score": 2.24,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1577,45 +1614,45 @@
         "id": "dapanso_com",
         "title": "大盘搜",
         "url": "https://dapanso.com/search",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "不用注册登录就能搜索，但是需要注册登录才能访问搜索到的资源",
-        "score": 0,
+        "advantages": "支持四家主流网盘，无使用门槛限制。",
+        "disadvantages": "页面加载偏慢，广告较多，资源丰富度一般。",
+        "description": "综合型网盘搜索，覆盖百度、夸克、阿里和迅雷网盘，适合随手查一下影视资源。结果页信息密度低，要翻页才能看到更多内容。",
+        "score": 2.51,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -1630,45 +1667,45 @@
         "id": "souyisou_top",
         "title": "数据搜索",
         "url": "https://ysxjjkl.souyisou.top/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无。",
+        "disadvantages": "响应很慢，经常报错，只支持百度网盘，资源很少。",
+        "description": "只做百度网盘的小型索引站，资源量有限，界面也偏简陋，能搜到的东西不多。地址打不开时不必反复试，换其他工具更省时间。",
+        "score": 1.24,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             }
         },
@@ -1680,45 +1717,45 @@
         "id": "xuesousou_net",
         "title": "学搜搜",
         "url": "https://www.xuesousou.net/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "学习资料和课程相对集中，无使用门槛。",
+        "disadvantages": "影视资源很少，部分结果为较早期的分享。",
+        "description": "偏学习资料方向的网盘搜索，覆盖百度网盘和阿里云盘，适合找课件、教材和考试资料。搜影视基本没有结果，不适合当综合搜索用。",
+        "score": 2.32,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1731,45 +1768,45 @@
         "id": "51yunpan_com",
         "title": "无忧盘搜",
         "url": "https://51yunpan.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无使用门槛限制，界面广告不多。",
+        "disadvantages": "只支持百度和阿里云盘，资源丰富度较低。",
+        "description": "百度网盘和阿里云盘的资源索引，以文档和影视为主，适合找一些常规的分享链接。结果量偏少，冷门关键词经常搜不出来。",
+        "score": 2.16,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -1782,45 +1819,45 @@
         "id": "xiaotusoso_com",
         "title": "小兔搜搜",
         "url": "https://xiaotusoso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度一般，只覆盖百度和阿里云盘，更新偏慢。",
+        "description": "支持百度网盘和阿里云盘的搜索站，界面干净，适合查常规影视和资料。新资源收录不及时，找刚上线的内容容易空手。",
+        "score": 2.45,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1886,45 +1923,45 @@
         "id": "alipanso_cc",
         "title": "阿里搜搜",
         "url": "https://www.alipanso.cc/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持四家网盘，阿里云盘资源较多，无使用门槛。",
+        "disadvantages": "广告较多，搜索结果重复率高。",
+        "description": "综合型网盘搜索，覆盖阿里、百度、夸克和迅雷网盘，阿里盘的内容占大头，适合找影视和合集。同一条资源会在结果里出现多次，需要自己挑。",
+        "score": 2.82,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 4,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1939,45 +1976,45 @@
         "id": "qkpanso_com",
         "title": "夸克盘搜",
         "url": "https://qkpanso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "专注夸克网盘，响应速度较快，无使用门槛。",
+        "disadvantages": "只支持夸克网盘，资源丰富度一般，广告较多。",
+        "description": "只做夸克网盘的资源搜索，适合已经在用夸克的用户，影视和文档都有一些收录。其他网盘的资源这里搜不到，需要另外找工具。",
+        "score": 2.55,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -1989,45 +2026,45 @@
         "id": "duanjuku_top",
         "title": "短剧库",
         "url": "https://duanjuku.top/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "界面较清爽，无广告。",
+        "disadvantages": "只覆盖夸克网盘，资源类型单一。",
+        "description": "只做短剧类的夸克网盘资源，按剧集名找合集比较方便；找影视之外的软件、文档、学习资料基本用不上。",
+        "score": 2.63,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2039,45 +2076,45 @@
         "id": "esoua_com",
         "title": "爱搜",
         "url": "https://www.esoua.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持百度、夸克、阿里、迅雷、UC 五类网盘，搜索响应速度尚可。",
+        "disadvantages": "广告位偏多，部分结果要跳好几次才能拿到链接。",
+        "description": "聚合百度、夸克、阿里、迅雷、UC 网盘资源，影视和综合类资源都能搜到一些；页面上广告较多，下载按钮注意分辨。",
+        "score": 2.85,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -2093,45 +2130,45 @@
         "id": "ecur_cn",
         "title": "酷云盘搜",
         "url": "https://www.ecur.cn/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，阿里、夸克、UC、迅雷、百度五类网盘都能搜。",
+        "disadvantages": "结果重复度较高，资源偏旧。",
+        "description": "覆盖五种主流网盘，综合类资源为主；同一资源经常出现多条重复结果，需要自己筛一遍。",
+        "score": 2.77,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -2147,45 +2184,45 @@
         "id": "xuebapans_com",
         "title": "学霸盘",
         "url": "https://www.xuebapans.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "跟另外一个学霸盘同名，这个为后发布的。",
-        "score": 0,
+        "advantages": "无广告，无使用门槛限制。",
+        "disadvantages": "资源丰富度很低，结果更新滞后。",
+        "description": "主打百度网盘的学习资料搜索，影视类资源很少，搜出来的多是几年前的资料；适合查旧课件和教材。",
+        "score": 2.28,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 5,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2197,45 +2234,45 @@
         "id": "wnsearch_top",
         "title": "我能搜",
         "url": "https://www.wnsearch.top/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "页面干净，无广告。",
+        "disadvantages": "只索引夸克网盘，资源量少，搜索响应偏慢。",
+        "description": "仅提供夸克网盘资源，收录量有限；适合顺手试一下，搜不到就换覆盖面更大的站点。",
+        "score": 2.14,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2247,45 +2284,45 @@
         "id": "haisou_cc",
         "title": "海搜",
         "url": "https://haisou.cc/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，百度、阿里、夸克三类网盘都能搜。",
+        "disadvantages": "资源量一般，结果排序比较乱。",
+        "description": "覆盖百度、阿里、夸克网盘，影视和文档类资源为主；同一关键词下结果良莠不齐，需要点开确认。",
+        "score": 2.42,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2299,45 +2336,45 @@
         "id": "fulisou_com",
         "title": "福利搜",
         "url": "http://www.fulisou.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无。",
+        "disadvantages": "广告很多，资源丰富度低，不少链接打开后已失效。",
+        "description": "标称覆盖阿里、夸克、UC、迅雷、百度网盘，实际能用的资源不多，页面广告和跳转较多，不适合直接拿来检索。",
+        "score": 1.77,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             }
         },
@@ -2353,45 +2390,45 @@
         "id": "sobaozang_com",
         "title": "搜宝藏",
         "url": "http://sobaozang.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "上面这个福利搜换皮。",
-        "score": 0,
+        "advantages": "无。",
+        "disadvantages": "页面广告多，资源新颖度低，部分关键词搜不出结果。",
+        "description": "以阿里、夸克网盘资源为主，也带上 UC、迅雷、百度；站点稳定性一般，遇到打不开可换个关键词再试。",
+        "score": 1.85,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             }
         },
@@ -2407,45 +2444,45 @@
         "id": "chigua_cloud",
         "title": "吃瓜云",
         "url": "http://chigua.cloud/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "上面这个福利搜换皮。",
-        "score": 0,
+        "advantages": "无。",
+        "disadvantages": "资源丰富度很低，广告较多，访问稳定性差。",
+        "description": "标称覆盖五种网盘，实际以影视类资源为主且更新很少，多数关键词搜不到有效结果，只能当最后的备选。",
+        "score": 1.32,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             }
         },
@@ -2461,45 +2498,45 @@
         "id": "panothers_com",
         "title": "盘他",
         "url": "https://www.panothers.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "支持百度、阿里、夸克、蓝奏云四类网盘，蓝奏云的小文件资源相对少见。",
+        "disadvantages": "检索速度一般，结果不按网盘分类。",
+        "description": "综合类网盘搜索，蓝奏云资源算是特点；适合找小工具和文档，影视资源不算丰富。",
+        "score": 3.2,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -2514,45 +2551,45 @@
         "id": "yun1sou_com",
         "title": "云易搜",
         "url": "https://www.yun1sou.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，界面简单。",
+        "disadvantages": "只做夸克网盘，资源量少，搜索较慢。",
+        "description": "仅提供夸克网盘资源，适合已经确定资源在夸克上的场景；综合检索建议换覆盖面更广的站点。",
+        "score": 2.02,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2564,45 +2601,45 @@
         "id": "repanso_com",
         "title": "热盘搜",
         "url": "http://www.repanso.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无。",
+        "disadvantages": "只覆盖百度网盘，资源偏旧，搜索响应慢。",
+        "description": "专门索引百度网盘资源，分享链接以老资源居多，失效比例不低；建议和其他站点交叉搜索。",
+        "score": 1.98,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2614,45 +2651,45 @@
         "id": "panhuohuo_com",
         "title": "盘火火",
         "url": "https://www.panhuohuo.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "覆盖百度、夸克、阿里、迅雷、UC、115 六类网盘，无广告。",
+        "disadvantages": "资源丰富度一般，不登录时结果条数受限。",
+        "description": "网盘类型覆盖较全，综合类资源能搜到一部分；不注册只能看到少量结果，适合关键词明确时使用。",
+        "score": 2.48,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2669,45 +2706,45 @@
         "id": "lingfengyun_com",
         "title": "凌风云",
         "url": "https://www.lingfengyun.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "网盘类型覆盖最全，百度、天翼、阿里、115、迅雷、微云、夸克、移动、蓝奏云一次都能查。",
+        "disadvantages": "界面偏旧，广告位较多，搜索响应速度一般。",
+        "description": "一次能查九种网盘的资源，老资源沉淀较多，找冷门文件时值得一试；界面和交互比较陈旧，点下载前留意广告图。",
+        "score": 3.27,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -2727,45 +2764,45 @@
         "id": "kkpan_xyz",
         "title": "夸克盘",
         "url": "http://kkpan.xyz/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告。",
+        "disadvantages": "只做夸克网盘，资源丰富度很低，站点稳定性一般。",
+        "description": "只提供夸克网盘资源，收录量少，常见关键词也经常搜不到结果；当备用站点看待即可。",
+        "score": 1.5,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 1.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 4,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 1,
                 "weight": 0.08
             }
         },
@@ -2777,45 +2814,45 @@
         "id": "xzso_net",
         "title": "小站盘搜",
         "url": "https://www.xzso.net/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，夸克、百度、阿里、迅雷、UC 五种网盘都能搜。",
+        "disadvantages": "资源更新偏慢，部分结果链接已失效。",
+        "description": "综合类网盘搜索，五种主流网盘都能查；资源量中等，偏影视和文档，遇到失效链接换关键词再试。",
+        "score": 2.8,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
@@ -2831,45 +2868,45 @@
         "id": "hunheso_cc",
         "title": "混合搜",
         "url": "https://hunheso.cc/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，支持夸克、百度、阿里、迅雷四类网盘。",
+        "disadvantages": "资源丰富度一般，结果页里的推广入口偏多。",
+        "description": "主流网盘混合检索，综合类资源为主；结果页混着一些推广入口，注意区分真正的资源链接。",
+        "score": 2.34,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2.5,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             }
         },
@@ -2884,45 +2921,45 @@
         "id": "buyutu_com",
         "title": "捕娱兔",
         "url": "https://www.buyutu.com/",
-        "advantages": "",
-        "disadvantages": "",
-        "description": "",
-        "score": 0,
+        "advantages": "无广告，只做夸克网盘所以结果比较干净。",
+        "disadvantages": "资源集中在影视娱乐，丰富度有限。",
+        "description": "以夸克网盘的影视、综艺类资源为主，找剧集比较对口；学习资料和工具类资源基本搜不到。",
+        "score": 2.72,
         "nofollow": true,
         "factors": {
             "networkDetect": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "googlePageSpeed": {
                 "type": "machineTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.10
             },
             "resourceRichness": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.48
             },
             "adDensity": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 2,
                 "weight": 0.08
             },
             "useCondition": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "searchResponseSpeed": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             },
             "subjective": {
                 "type": "manualTest",
-                "score": 0,
+                "score": 3,
                 "weight": 0.08
             }
         },
