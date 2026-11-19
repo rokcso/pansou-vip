@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AdSlot from "../components/adSlot";
 
 export const metadata = {
   title: "盘搜VIP 使用指南 - 网盘搜索工具精选导航",
@@ -66,6 +67,9 @@ export default function Home() {
           有时候特定网络环境下可能无法访问部分网盘搜索工具，建议切换不同网络环境尝试一下。
         </p>
       </div>
+      {/* 正文中段：插在「用户提问」之后、留言反馈与免责声明之前，不打断
+          单个问答的阅读。 */}
+      <AdSlot slot="detail" />
       <div>
         <h2>留言反馈</h2>
         <p>

@@ -1,0 +1,42 @@
+/* 广告位外观的第一原则：不能长得像 app/components/card 的收录卡片。
+   本站整页都是同色同形的卡片（#a1ccd1 实底 + 8px 圆角 + 投影），广告一旦
+   看起来像一条收录结果，就属于「广告与内容无法区分」，是要被 AdSense 判
+   违规的。所以这里刻意反着来：无投影、2px 小圆角、虚线边框、纸白底，
+   再加上「广告」标识。 */
+
+.wrapper {
+  margin: 28px 0;
+  padding: 12px 14px 14px;
+  /* 虚线 + 小圆角，与卡片（实底、8px 圆角、投影）形成明显区分 */
+  border: 1px dashed #9a9a86;
+  border-radius: 2px;
+  background-color: #fbfaf2;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background-color: #e6e4d4;
+  color: #6f6f60;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+}
+
+.unit {
+  display: block;
+  width: 100%;
+  /* 关键：创意到达之前就把高度占住，避免广告填充时把页面往下顶（CLS）。
+     用 min-height 而不是固定 height，广告比预留更高时不会被裁切。 */
+  min-height: 280px;
+}
+
+/* 宽屏下移动端那种高瘦横幅会留太多空白，降到 250px 更贴近实际创意比例。 */
+@media (min-width: 768px) {
+  .unit {
+    min-height: 250px;
+  }
+}

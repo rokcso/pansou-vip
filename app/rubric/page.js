@@ -1,3 +1,5 @@
+import AdSlot from "../components/adSlot";
+
 export const metadata = {
   title: "盘搜VIP 网盘搜索工具评分标准 - 网盘搜索工具精选导航",
   description:
@@ -162,6 +164,10 @@ export default function Home() {
 
         <p>最终该项得分：(0 + 5 + 5 + 5) / 4 = 3.75 分。</p>
       </div>
+
+      {/* 正文中段：前面是机器测试（拨测 / PageSpeed），后面是人工测试的
+          四个项目。放在这个大标题之前，正好夹在两段长文中间。 */}
+      <AdSlot slot="detail" />
 
       <h2>人工测试（权重 80%）</h2>
 

@@ -3,6 +3,7 @@
 import Hero from "./components/hero";
 import Card from "./components/card";
 import BrandTransition from "./components/brandTransition";
+import AdSlot from "./components/adSlot";
 import { useState } from "react";
 import styles from "./page.module.css";
 import featuredSites from "../public/data/featuredSites.json";
@@ -210,6 +211,9 @@ export default function Home() {
           </div>
         )}
         {/* 精选工具 End */}
+        {/* 首页第一处广告：放在精选工具长列表之后。不放 hero 之上，也不插在
+            列表中间，避免打断读者对卡片的比较。 */}
+        <AdSlot slot="home" />
         {/* 用户推荐 Start */}
         {secondaryFeaturedFilteredSortedSites.length > 0 && (
           <div>
@@ -279,6 +283,10 @@ export default function Home() {
           </div>
         )}
         {/* 备用工具 End */}
+        {/* 首页第二处广告：放在备用工具之后，与上一个隔了「次要推荐」和
+            「备用工具」两个完整列表区块；下面还剩黑名单 / 废弃两个短列表，
+            所以它仍落在正文中段而不是页尾。 */}
+        <AdSlot slot="category" />
         {/* 黑名单工具 Start */}
         {blackFilteredSortedSites.length > 0 && (
           <div>
@@ -349,7 +357,6 @@ export default function Home() {
         )}
         {/* 废弃工具 End */}
       </div>
-      {/* <AdBanner /> */}
       <button
         className={styles.backToTopBtn}
         title="回到顶部"

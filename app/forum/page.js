@@ -1,4 +1,5 @@
 import Card from "../components/card";
+import AdSlot from "../components/adSlot";
 import forumSites from "../../public/data/forumSites.json";
 import styles from "./page.module.css";
 
@@ -25,6 +26,9 @@ export default function Home() {
           <Card key={index} cardInfo={cardInfo} />
         ))}
       </div>
+      {/* 论坛列表是本页唯一的实质性内容，广告只放在列表之后，不插在列表
+          中间，避免读者把广告当成一条收录。 */}
+      <AdSlot slot="detail" />
     </div>
   );
 }
