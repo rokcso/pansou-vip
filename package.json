@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sitemap": "node scripts/gen-sitemap.mjs"
   },
   "dependencies": {
     "@icon-park/react": "^1.4.2",
