@@ -1,0 +1,31 @@
+# Cloudflare Pages response headers.
+# Next.js static export copies public/ verbatim into out/, so this file is
+# deployed by `wrangler pages deploy out` alongside _redirects.
+# Syntax: https://developers.cloudflare.com/pages/configuration/headers/
+#
+# Scope note: Cache-Control here governs the *browser* cache. It does NOT put
+# HTML into the edge cache. Cloudflare omits .html from the default cached file
+# extensions, so HTML keeps reporting `cf-cache-status: DYNAMIC` no matter what
+# this file says. Edge-caching HTML needs a zone-level Cache Rule.
+#
+# `_redirects` wins over `_headers` (redirects are applied first), so nothing
+# here can disturb the /about -> panhunt.com 301s.
+
+# Fingerprinted build output (_next/static/**/name-<hash>.js). The hash changes
+# whenever the bytes change, so the URL is immutable: cache it for a year.
+#
+# Was `public, max-age=14400, must-revalidate` (4h) - the Pages default for
+# static assets, which re-downloaded ~470KB of unchanged JS every 4 hours.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Non-fingerprinted static assets: same filename may get new bytes on deploy,
+# so 7 days instead of a year.
+/img/*
+  Cache-Control: public, max-age=604800
+
+/logo.png
+  Cache-Control: public, max-age=604800
+
+/favicon.ico
+  Cache-Control: public, max-age=604800
