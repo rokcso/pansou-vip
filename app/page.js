@@ -15,7 +15,7 @@ import forumSites from "../public/data/forumSites.json";
 
 export default function Home() {
   // 全局常量，数据最新更新时间（字符串格式）
-  const lastUpdateDateStr = "2025-02-07";
+  const lastUpdateDateStr = "2026-11-19";
 
   // 统计已收录的网站的数量
   const featuredSiteCount = featuredSites.length;

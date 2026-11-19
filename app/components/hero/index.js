@@ -56,11 +56,7 @@ export default function ({ lastUpdateDateStr, siteCount }) {
         {lastUpdateDateStr}（{daysAgo} 天前）
       </p>
       <p>
-        👋 盘搜VIP正在升级为 PanHunt，
-        <span onClick={handleDonateClick}>
-          旧域名：pansou.vip，新品牌：
-          <b>panhunt.com</b>
-        </span>
+        👋 盘搜VIP正在升级为 PanHunt（<span onClick={handleDonateClick}><b>panhunt.com</b></span>）
         {/* <span onClick={handleDonateClick}>
           域名：pansou.vip，速记：
           <b>盘搜点VIP</b>
