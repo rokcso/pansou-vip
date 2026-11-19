@@ -1,19 +1,79 @@
 import AdSlot from "../components/adSlot";
+import JsonLd from "../components/seo/jsonLd";
 
+const SITE_URL = "https://www.pansou.vip";
+const PAGE_PATH = "/rubric";
+const PAGE_TITLE = "盘搜VIP 网盘搜索工具评分标准 - 网盘搜索工具精选导航";
+const PAGE_DESCRIPTION =
+  "盘搜VIP 首创的网盘搜索工具评分标准细则，对网盘搜索工具量化打分，提供更客观的标准定义是否好用。";
+const PAGE_HEADLINE = "盘搜VIP 网盘搜索工具测试评分标准";
+const PREVIEW_IMAGE = "/img/preview-new.png";
+
+// 评分标准最近一次修订时间。与首页的「数据最新更新时间」对齐，
+// 修订细则时两处一起改。
+const DATE_MODIFIED = "2026-11-19";
+
+/**
+ * openGraph / twitter 必须整块重写：Next 的 metadata 是浅合并，子页面只写
+ * title / description / alternates 时，layout.js 里那块 openGraph（含
+ * url: 首页地址）会被完整继承，og:url 就全都指向首页。
+ */
 export const metadata = {
-  title: "盘搜VIP 网盘搜索工具评分标准 - 网盘搜索工具精选导航",
-  description:
-    "盘搜VIP 首创的网盘搜索工具评分标准细则，对网盘搜索工具量化打分，提供更客观的标准定义是否好用。",
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
-    canonical: "/rubric",
+    canonical: PAGE_PATH,
+  },
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: `${SITE_URL}${PAGE_PATH}`,
+    siteName: "盘搜VIP",
+    images: [PREVIEW_IMAGE],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    // site / creator 与 layout.js 保持一致，整块重写时不能漏。
+    site: "@panhunt",
+    creator: "@panhunt",
+    images: [PREVIEW_IMAGE],
+  },
+};
+
+/**
+ * 评分标准是一篇"方法论文档"，不是列表页，所以用 Article 而不是 WebPage。
+ *
+ * 页面底部的 Organization（layout.js 那一个）说明"这个站点是谁"，这里的
+ * author / publisher 说明"这篇东西由谁发布"——两者不重复，也不冲突，
+ * 所以不再单独输出一份 Organization 节点。
+ */
+const rubricJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: PAGE_HEADLINE,
+  description: PAGE_DESCRIPTION,
+  dateModified: DATE_MODIFIED,
+  author: {
+    "@type": "Organization",
+    name: "盘搜VIP",
+    url: "https://www.pansou.vip/",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "盘搜VIP",
+    url: "https://www.pansou.vip/",
   },
 };
 
 export default function Home() {
   return (
     <div>
-      <h1>盘搜VIP 网盘搜索工具测试评分标准</h1>
+      <JsonLd data={rubricJsonLd} />
+      <h1>{PAGE_HEADLINE}</h1>
       <br />
       <div>
         <p>注：</p>

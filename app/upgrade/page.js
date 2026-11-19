@@ -1,12 +1,58 @@
 import BrandTransition from "../components/brandTransition";
+import JsonLd from "../components/seo/jsonLd";
 
+const SITE_URL = "https://www.pansou.vip";
+const PAGE_PATH = "/upgrade";
+const PAGE_TITLE = "盘搜VIP升级为PanHunt - 品牌升级说明";
+const PAGE_DESCRIPTION =
+  "盘搜VIP正在升级为PanHunt。了解两个品牌和域名的关系，以及工具导航、评分标准和资源论坛在新站的对应入口。";
+const PREVIEW_IMAGE = "/img/preview-new.png";
+
+/**
+ * openGraph / twitter 必须整块重写：Next 的 metadata 是浅合并，子页面只写
+ * title / description / alternates 时，layout.js 里那块 openGraph（含
+ * url: 首页地址）会被完整继承，og:url 就全都指向首页。
+ */
 export const metadata = {
-  title: "盘搜VIP升级为PanHunt - 品牌升级说明",
-  description:
-    "盘搜VIP正在升级为PanHunt。了解两个品牌和域名的关系，以及工具导航、评分标准和资源论坛在新站的对应入口。",
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
   metadataBase: new URL("https://www.pansou.vip/"),
   alternates: {
-    canonical: "/upgrade",
+    canonical: PAGE_PATH,
+  },
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: `${SITE_URL}${PAGE_PATH}`,
+    siteName: "盘搜VIP",
+    images: [PREVIEW_IMAGE],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    // site / creator 与 layout.js 保持一致，整块重写时不能漏。
+    site: "@panhunt",
+    creator: "@panhunt",
+    images: [PREVIEW_IMAGE],
+  },
+};
+
+/**
+ * 整页讲的是"盘搜VIP 变成 PanHunt 这件事"，所以是 AboutPage，mainEntity 是
+ * 升级后的品牌。这里的 Organization 节点描述的是"PanHunt 是谁"，和
+ * layout.js 里那个描述"本站是谁"的 Organization 不是一回事，所以不算重复
+ * 输出；layout.js 那份保留不动。
+ */
+const upgradeJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  mainEntity: {
+    "@type": "Organization",
+    name: "PanHunt",
+    alternateName: "盘搜VIP",
+    url: "https://panhunt.com/",
   },
 };
 
@@ -20,7 +66,12 @@ const migrationEntries = [
 export default function UpgradePage() {
   return (
     <div>
-      <h1>盘搜VIP正在升级为 PanHunt</h1>
+      <JsonLd data={upgradeJsonLd} />
+      {/* H1 曾经写成「盘搜VIP正在升级为 PanHunt」，和紧接着的品牌升级公告
+          横幅（BrandTransition 自带的 <h2>，首页也在用同一份）一字不差，
+          等于同一句话连着当标题用了两遍。这里把 H1 改成说明本文的标题，
+          由横幅的 <h2> 去讲那句公告。 */}
+      <h1>盘搜VIP 品牌升级说明</h1>
       <BrandTransition />
       <section>
         <h2>为什么升级</h2>
